@@ -21,9 +21,15 @@
       border-radius: 4px;
       background: #f0f0f0;
       cursor: pointer;
+      transition: background 0.2s, color 0.2s;
     }
     #filter-buttons button:hover {
       background: #e0e0e0;
+    }
+    #filter-buttons button.active {
+      background: #0073e6;
+      color: white;
+      border-color: #0073e6;
     }
 
     /* Grid */
@@ -49,11 +55,10 @@
     .image-wrapper img {
       width: 100%;
       height: 100%;
-      object-fit: contain;
+      object-fit: contain; /* changed from cover to contain */
       display: block;
     }
 
-    /* Hide images with CSS when filtered out */
     .hidden {
       display: none !important;
     }
@@ -61,10 +66,10 @@
 </head>
 <body>
   <div id="filter-buttons">
-    <button data-filter="gif">Show GIFs</button>
-    <button data-filter="jpg">Show JPGs</button>
-    <button data-filter="png">Show PNGs</button>
-    <button data-filter="all">Show All</button>
+    <button data-filter="gif">GIF</button>
+    <button data-filter="jpg">JPG</button>
+    <button data-filter="png">PNG</button>
+    <button data-filter="all" class="active">All</button>
   </div>
 
   <div id="image-container"></div>
@@ -78,17 +83,17 @@
         const container = document.getElementById('image-container');
 
         imageUrls.forEach(url => {
-          // Figure out file extension
+          // Get file extension
           const extMatch = url.match(/\.([a-zA-Z0-9]+)(?:\?|#|$)/);
           let ext = extMatch ? extMatch[1].toLowerCase() : '';
           if (ext === 'jpeg') ext = 'jpg';
 
-          // Create wrapper
+          // Wrapper
           const wrapper = document.createElement('div');
           wrapper.className = 'image-wrapper';
           wrapper.dataset.ext = ext;
 
-          // Create image
+          // Image
           const img = document.createElement('img');
           img.src = url;
           img.alt = '';
@@ -97,9 +102,14 @@
           container.appendChild(wrapper);
         });
 
-        // Filtering
-        document.querySelectorAll('#filter-buttons button').forEach(button => {
+        // Filter logic
+        const buttons = document.querySelectorAll('#filter-buttons button');
+        buttons.forEach(button => {
           button.addEventListener('click', () => {
+            // Update active state
+            buttons.forEach(b => b.classList.remove('active'));
+            button.classList.add('active');
+
             const filter = button.dataset.filter;
             document.querySelectorAll('.image-wrapper').forEach(wrapper => {
               if (filter === 'all' || wrapper.dataset.ext === filter) {
