@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+	<script>
+	// Example array of image URLs
+	const imageUrls = [
+	'https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/ad88ce38-f500-4c92-b839-293b2625970e.png',
+	'https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/4268b668-5630-443d-aabb-eab0d05b6b5e.png',
+	'https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/41731c43-5a9d-49bc-9fe0-83f7b147e4ac.png',
+	'https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/6892b9e7-06d0-4203-bbcb-efdb73e63cba.png',
+	'https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/63ef5cf5-f9bf-4cb2-a146-c441b7ff31de.png',
+	'https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/82e13347-5739-4d2b-b515-32619df254a8.png',
+	'https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/c55b1eb8-4009-4ed0-993f-ce6fed7ce634.png',
+	'https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/7a4e85c8-fb38-4e30-8176-6f1579c6621b.png'
+	];
+
+	// Loop through the array and create <img> elements
+	imageUrls.forEach(url => {
+		const img = document.createElement('img'); // create an <img> element
+		img.src = url;                             // set the src attribute
+		img.alt = '';                              // optional: set alt text
+		img.style.maxWidth = '200px';             // optional: style it
+		img.style.margin = '5px';
+
+		// Append the <img> to the body (or another container)
+		document.body.appendChild(img);
+	});
+	</script>
+</head>
+<body>
+
+	
+</body>
+</html>
