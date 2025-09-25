@@ -4,14 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Load Images from JSON</title>
+  <style>
+    /* Optional styling */
+    .image-wrapper {
+      display: inline-block;
+      margin: 10px;
+      padding: 5px;
+      border: 1px solid #ccc;
+    }
+    .image-wrapper img {
+      max-width: 200px;
+      display: block;
+    }
+  </style>
 </head>
 <body>
-  <h1>Google Fiber Imagery</h1>
   <div id="image-container"></div>
 
   <script>
     // URL of your JSON file on GitHub (raw URL)
     const jsonUrl = 'https://raw.githubusercontent.com/jkupczak/google-fiber-imagery/refs/heads/main/images.json';
+
 
     // Fetch the JSON
     fetch(jsonUrl)
@@ -19,11 +32,18 @@
       .then(imageUrls => {
         const container = document.getElementById('image-container');
         imageUrls.forEach(url => {
+          // Create wrapper div
+          const wrapper = document.createElement('div');
+          wrapper.className = 'image-wrapper';
+
+          // Create image
           const img = document.createElement('img');
           img.src = url;
-          img.style.maxWidth = '200px';
-          img.style.margin = '5px';
-          container.appendChild(img);
+          img.alt = '';
+
+          // Append image to wrapper, then wrapper to container
+          wrapper.appendChild(img);
+          container.appendChild(wrapper);
         });
       })
       .catch(error => console.error('Error loading JSON:', error));
