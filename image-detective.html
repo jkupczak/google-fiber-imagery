@@ -92,9 +92,14 @@
   <script>
   const CORS_PROXY = "https://cors-anywhere.herokuapp.com/";
 
-  const referenceColors = [
-    "#4285f4", "#34a853", "#ea4435", "#fbbc04", "#5f6469", "#000000"
-  ];
+  const themeColors = {
+    green: ["#E6F4Ea", "#CEEAD6", "#81C995", "#34A853", "#188038", "#137333", "#0D652D"],
+    blue: ["#E8F0FE", "#D2E3FC", "#8AB4F8", "#4285F4", "#1a73e8", "#185ABC", "#174EA6"],
+    yellow: ["#FEF7E0", "#FEEFC3", "#FDD663", "#FBBC04", "#F29900", "#EA8600", "#E37400"],
+    red: ["#FCE8E6", "#FAD2CF", "#F28B82", "#EA4335", "#d93025", "#B31412", "#A50E0E"],
+    gray: ["#5f6469"],
+    black: ["#000000"]
+  };
 
   function rgbToHex(r, g, b) {
     return "#" + [r, g, b].map(x => x.toString(16).padStart(2, '0')).join('');
@@ -119,17 +124,20 @@
     );
   }
 
-  function findClosestReferenceColor(hex) {
-    let closest = null;
+  function findTheme(hex) {
+    let closestTheme = null;
     let minDist = Infinity;
-    for (const ref of referenceColors) {
-      const dist = colorDistance(hex, ref);
-      if (dist < minDist) {
-        minDist = dist;
-        closest = ref;
+
+    for (const [theme, colors] of Object.entries(themeColors)) {
+      for (const ref of colors) {
+        const dist = colorDistance(hex, ref);
+        if (dist < minDist) {
+          minDist = dist;
+          closestTheme = theme;
+        }
       }
     }
-    return closest;
+    return closestTheme;
   }
 
   async function analyzeImage(url) {
@@ -173,7 +181,7 @@
           }
         }
 
-        const theme = most_frequent_hex ? findClosestReferenceColor(most_frequent_hex) : null;
+        const theme = most_frequent_hex ? findTheme(most_frequent_hex) : null;
 
         resolve({
           url,
