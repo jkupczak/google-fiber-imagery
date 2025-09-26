@@ -59,32 +59,22 @@
     const decreaseBtn = document.getElementById('decrease');
     const increaseBtn = document.getElementById('increase');
 
-    // Active filters
     let activeFile = 'all';
     let activeColor = 'all';
     let activeAlpha = 'all';
 
-    // Update grid size
-    function updateGridSize(value) {
-      document.documentElement.style.setProperty('--cell-size', value + 'px');
-    }
+    function updateGridSize(value) { document.documentElement.style.setProperty('--cell-size', value + 'px'); }
     updateGridSize(sizeSlider.value);
     sizeSlider.addEventListener('input', () => updateGridSize(sizeSlider.value));
-    decreaseBtn.addEventListener('click', () => {
-      let val = Math.max(sizeSlider.min, sizeSlider.value - 10);
-      sizeSlider.value = val; updateGridSize(val);
-    });
-    increaseBtn.addEventListener('click', () => {
-      let val = Math.min(sizeSlider.max, parseInt(sizeSlider.value) + 10);
-      sizeSlider.value = val; updateGridSize(val);
-    });
+    decreaseBtn.addEventListener('click', () => { let val = Math.max(sizeSlider.min, sizeSlider.value - 10); sizeSlider.value = val; updateGridSize(val); });
+    increaseBtn.addEventListener('click', () => { let val = Math.min(sizeSlider.max, parseInt(sizeSlider.value) + 10); sizeSlider.value = val; updateGridSize(val); });
 
-    // Load JSON
     fetch(jsonUrl)
       .then(res => res.json())
       .then(data => {
         const colors = new Set();
 
+        // Create image wrappers
         data.forEach(item => {
           const url = item.url;
           const extMatch = url.match(/\.([a-zA-Z0-9]+)(?:\?|#|$)/);
@@ -97,17 +87,29 @@
           wrapper.dataset.color = item.dominant_color.toLowerCase();
           wrapper.dataset.alpha = item.has_alpha.toString();
 
-          const img = document.createElement('img');
-          img.src = url; img.alt = '';
-
+          const img = document.createElement('img'); img.src = url; img.alt = '';
           wrapper.appendChild(img);
           container.appendChild(wrapper);
 
           colors.add(item.dominant_color.toLowerCase());
         });
 
-        // Create color buttons
+        // Always include #000000
+        colors.add('#000000');
+
+        // Add color buttons
         const colorContainer = document.getElementById('color-buttons');
+
+        // Clear color filter button
+        const clearBtn = document.createElement('button');
+        clearBtn.textContent = 'Clear';
+        clearBtn.addEventListener('click', () => {
+          colorContainer.querySelectorAll('button').forEach(b => b.classList.remove('active'));
+          activeColor = 'all';
+          filterImages();
+        });
+        colorContainer.appendChild(clearBtn);
+
         colors.forEach(color => {
           const btn = document.createElement('button');
           btn.style.backgroundColor = color;
@@ -141,17 +143,12 @@
           });
         });
 
-        // Filter logic
         function filterImages() {
           document.querySelectorAll('.image-wrapper').forEach(wrapper => {
             const matchFile = activeFile === 'all' || wrapper.dataset.ext === activeFile;
             const matchColor = activeColor === 'all' || wrapper.dataset.color === activeColor;
             const matchAlpha = activeAlpha === 'all' || wrapper.dataset.alpha === activeAlpha;
-            if (matchFile && matchColor && matchAlpha) {
-              wrapper.classList.remove('hidden');
-            } else {
-              wrapper.classList.add('hidden');
-            }
+            wrapper.classList.toggle('hidden', !(matchFile && matchColor && matchAlpha));
           });
         }
       })
