@@ -1,4 +1,24 @@
-[
+[ 
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_1025_jd-power_pc-mag_hsi_ookla_dsktp_v2.gif",
+    "width": 1100,
+    "height": 620,
+    "has_alpha": true,
+    "most_frequent_hex": "#ffffff",
+    "theme": "white",
+    "total_unique_colors": 69,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_1025_jd-power_pc-mag_hsi_ookla_mbl_v2.gif",
+    "width": 620,
+    "height": 820,
+    "has_alpha": true,
+    "most_frequent_hex": "#ffffff",
+    "theme": "white",
+    "total_unique_colors": 80,
+    "complex": false
+  },
   {
     "url": "https://i.imgur.com/pfDnyD4.png?https://services.google.com/fh/files/emails/gf_0425_blue700-500_bkgrnd.png",
     "width": 1200,
