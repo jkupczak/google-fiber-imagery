@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Image Dominant Color Analyzer (Weighted Reference)</title>
+  <title>Image Dominant Color Analyzer (Opacity-Weighted)</title>
 </head>
 <body>
   <h1>Image Dominant Color Analyzer</h1>
@@ -72,7 +72,8 @@
           if (a < 255) hasAlpha = true;
           if (a === 0) continue; // ignore fully transparent pixels
 
-          const pixel = normalizeColor(r,g,b);
+          const weight = a / 255; // opacity-weighted vote
+          const pixel = normalizeColor(r, g, b);
 
           // Find closest reference color for this pixel
           let minDist = Infinity;
@@ -85,10 +86,10 @@
               closestHex = hex;
             }
           }
-          scores[closestHex]++;
+          scores[closestHex] += weight;
         }
 
-        // Pick reference color with highest score
+        // Pick reference color with highest weighted score
         let dominant_color = REFERENCE_COLORS[0];
         let maxScore = -1;
         for (const hex of REFERENCE_COLORS) {
