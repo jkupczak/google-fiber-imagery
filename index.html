@@ -3,83 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Image Grid with Filter & Resize</title>
+  <title>Image Grid with Multi-Filters & Resize</title>
   <style>
-    body {
-      font-family: sans-serif;
-      margin: 20px;
+    body { font-family: sans-serif; margin: 20px; }
+    #controls { display: flex; flex-direction: column; gap: 15px; margin-bottom: 20px; }
+    
+    /* Buttons */
+    .filter-group button { 
+      margin-right: 10px; padding: 8px 14px; border: 1px solid #ccc; border-radius: 4px; 
+      background: #f0f0f0; cursor: pointer; transition: 0.2s; 
     }
+    .filter-group button:hover { transform: scale(1.05); }
+    .filter-group button.active { border: 2px solid #0073e6; }
 
-    /* Controls */
-    #controls {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-      margin-bottom: 20px;
-    }
-
-    #filter-buttons button {
-      margin-right: 10px;
-      padding: 8px 14px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      background: #f0f0f0;
-      cursor: pointer;
-      transition: background 0.2s, color 0.2s;
-    }
-    #filter-buttons button:hover {
-      background: #e0e0e0;
-    }
-    #filter-buttons button.active {
-      background: #0073e6;
-      color: white;
-      border-color: #0073e6;
-    }
+    /* Color buttons */
+    #color-buttons button { width: 30px; height: 30px; padding: 0; border-radius: 50%; border: 2px solid #ccc; }
 
     /* Grid */
-    #image-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(var(--cell-size, 160px), 1fr));
-      gap: 15px;
-      padding: 15px 0;
-    }
-
-    .image-wrapper {
-      width: 100%;
-      aspect-ratio: 1 / 1;
-      overflow: hidden;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: #f9f9f9;
-    }
-
-    .image-wrapper img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      display: block;
-    }
-
-    .hidden {
-      display: none !important;
-    }
+    #image-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(var(--cell-size, 160px), 1fr)); gap: 15px; padding: 15px 0; }
+    .image-wrapper { width: 100%; aspect-ratio: 1/1; overflow: hidden; border: 1px solid #ccc; border-radius: 6px; display: flex; align-items: center; justify-content: center; background: #f9f9f9; }
+    .image-wrapper img { width: 100%; height: 100%; object-fit: contain; display: block; }
+    .hidden { display: none !important; }
 
     /* Slider */
-    input[type="range"] {
-      width: 200px;
-    }
+    input[type="range"] { width: 200px; }
   </style>
 </head>
 <body>
   <div id="controls">
-    <div id="filter-buttons">
+    <div id="file-type-buttons" class="filter-group">
       <button data-filter="gif">GIF</button>
       <button data-filter="jpg">JPG</button>
       <button data-filter="png">PNG</button>
       <button data-filter="all" class="active">All</button>
+    </div>
+    <div id="color-buttons" class="filter-group"></div>
+    <div id="alpha-buttons" class="filter-group">
+      <button data-alpha="true">Alpha</button>
+      <button data-alpha="false">No Alpha</button>
+      <button data-alpha="all" class="active">All</button>
     </div>
     <div id="size-controls">
       <button id="decrease">-</button>
@@ -97,36 +59,34 @@
     const decreaseBtn = document.getElementById('decrease');
     const increaseBtn = document.getElementById('increase');
 
-    // Function to update grid size
+    // Active filters
+    let activeFile = 'all';
+    let activeColor = 'all';
+    let activeAlpha = 'all';
+
+    // Update grid size
     function updateGridSize(value) {
       document.documentElement.style.setProperty('--cell-size', value + 'px');
     }
-
-    // Slider control
-    sizeSlider.addEventListener('input', () => {
-      updateGridSize(sizeSlider.value);
-    });
-
-    // +/- buttons
+    updateGridSize(sizeSlider.value);
+    sizeSlider.addEventListener('input', () => updateGridSize(sizeSlider.value));
     decreaseBtn.addEventListener('click', () => {
       let val = Math.max(sizeSlider.min, sizeSlider.value - 10);
-      sizeSlider.value = val;
-      updateGridSize(val);
+      sizeSlider.value = val; updateGridSize(val);
     });
     increaseBtn.addEventListener('click', () => {
       let val = Math.min(sizeSlider.max, parseInt(sizeSlider.value) + 10);
-      sizeSlider.value = val;
-      updateGridSize(val);
+      sizeSlider.value = val; updateGridSize(val);
     });
 
-    // Initial size
-    updateGridSize(sizeSlider.value);
-
-    // Load images
+    // Load JSON
     fetch(jsonUrl)
-      .then(response => response.json())
-      .then(imageUrls => {
-        imageUrls.forEach(url => {
+      .then(res => res.json())
+      .then(data => {
+        const colors = new Set();
+
+        data.forEach(item => {
+          const url = item.url;
           const extMatch = url.match(/\.([a-zA-Z0-9]+)(?:\?|#|$)/);
           let ext = extMatch ? extMatch[1].toLowerCase() : '';
           if (ext === 'jpeg') ext = 'jpg';
@@ -134,34 +94,68 @@
           const wrapper = document.createElement('div');
           wrapper.className = 'image-wrapper';
           wrapper.dataset.ext = ext;
+          wrapper.dataset.color = item.dominant_color.toLowerCase();
+          wrapper.dataset.alpha = item.has_alpha.toString();
 
           const img = document.createElement('img');
-          img.src = url;
-          img.alt = '';
+          img.src = url; img.alt = '';
 
           wrapper.appendChild(img);
           container.appendChild(wrapper);
+
+          colors.add(item.dominant_color.toLowerCase());
         });
 
-        // Filtering
-        const buttons = document.querySelectorAll('#filter-buttons button');
-        buttons.forEach(button => {
-          button.addEventListener('click', () => {
-            buttons.forEach(b => b.classList.remove('active'));
-            button.classList.add('active');
-
-            const filter = button.dataset.filter;
-            document.querySelectorAll('.image-wrapper').forEach(wrapper => {
-              if (filter === 'all' || wrapper.dataset.ext === filter) {
-                wrapper.classList.remove('hidden');
-              } else {
-                wrapper.classList.add('hidden');
-              }
-            });
+        // Create color buttons
+        const colorContainer = document.getElementById('color-buttons');
+        colors.forEach(color => {
+          const btn = document.createElement('button');
+          btn.style.backgroundColor = color;
+          btn.dataset.color = color;
+          colorContainer.appendChild(btn);
+          btn.addEventListener('click', () => {
+            colorContainer.querySelectorAll('button').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            activeColor = color;
+            filterImages();
           });
         });
+
+        // File type buttons
+        document.querySelectorAll('#file-type-buttons button').forEach(button => {
+          button.addEventListener('click', () => {
+            document.querySelectorAll('#file-type-buttons button').forEach(b => b.classList.remove('active'));
+            button.classList.add('active');
+            activeFile = button.dataset.filter;
+            filterImages();
+          });
+        });
+
+        // Alpha buttons
+        document.querySelectorAll('#alpha-buttons button').forEach(button => {
+          button.addEventListener('click', () => {
+            document.querySelectorAll('#alpha-buttons button').forEach(b => b.classList.remove('active'));
+            button.classList.add('active');
+            activeAlpha = button.dataset.alpha;
+            filterImages();
+          });
+        });
+
+        // Filter logic
+        function filterImages() {
+          document.querySelectorAll('.image-wrapper').forEach(wrapper => {
+            const matchFile = activeFile === 'all' || wrapper.dataset.ext === activeFile;
+            const matchColor = activeColor === 'all' || wrapper.dataset.color === activeColor;
+            const matchAlpha = activeAlpha === 'all' || wrapper.dataset.alpha === activeAlpha;
+            if (matchFile && matchColor && matchAlpha) {
+              wrapper.classList.remove('hidden');
+            } else {
+              wrapper.classList.add('hidden');
+            }
+          });
+        }
       })
-      .catch(error => console.error('Error loading JSON:', error));
+      .catch(err => console.error('Error loading JSON:', err));
   </script>
 </body>
 </html>
