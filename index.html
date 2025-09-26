@@ -26,10 +26,37 @@
     }
     .color-filter.active { outline: 3px solid #000; outline-offset: 2px; }
     .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 10px; }
-    .image-wrapper { position: relative; display: flex; flex-direction: column; justify-content: center; align-items: center; background: #f0f0f0; border: 1px solid #ddd; overflow: hidden; }
-    .image-wrapper img { width: 160px; height: 160px; object-fit: contain; }
-    .button-container { position: absolute; top: 5px; display: flex; flex-direction: column; gap: 4px; opacity: 0; transition: opacity 0.2s; align-items: center; }
-    .image-wrapper:hover .button-container { opacity: 1; }
+    .image-wrapper {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start; /* buttons above image */
+      align-items: center;
+      background: #f0f0f0;
+      border: 1px solid #ddd;
+      overflow: hidden;
+      transition: width 0.2s, height 0.2s;
+    }
+    .image-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+    }
+    .button-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      opacity: 0;
+      transition: opacity 0.2s;
+      align-items: center;
+      pointer-events: none;
+    }
+    .image-wrapper:hover .button-container { opacity: 1; pointer-events: auto; }
     .copy-btn { padding: 2px 6px; font-size: 0.8em; cursor: pointer; border: 1px solid #ccc; border-radius: 3px; background: #f9f9f9; }
     .size-controls { margin-bottom: 20px; }
     .size-controls button { margin: 0 5px; padding: 6px 10px; border: 2px solid #ccc; background: #f9f9f9; cursor: pointer; border-radius: 4px; }
@@ -72,7 +99,7 @@
 
 <div class="grid" id="imageGrid"></div>
 
-<div id="versionInfo">Version 5 | 09/26/25, 14:36:00</div>
+<div id="versionInfo">Version 6 | 09/26/25, 14:52:00</div>
 
 <script>
 const themeColors = {
@@ -144,6 +171,8 @@ function renderImages() {
   filtered.forEach(img => {
     const wrapper = document.createElement("div");
     wrapper.className = "image-wrapper";
+    wrapper.style.width = currentSize + "px";
+    wrapper.style.height = currentSize + "px";
 
     const buttonContainer = document.createElement("div");
     buttonContainer.className = "button-container";
@@ -176,8 +205,6 @@ function renderImages() {
 
     const image = document.createElement("img");
     image.src = img.url;
-    image.style.width = currentSize + "px";
-    image.style.height = currentSize + "px";
     wrapper.appendChild(image);
 
     grid.appendChild(wrapper);
@@ -218,7 +245,7 @@ document.querySelector(".clear-colors").addEventListener("click", e => {
   renderImages();
 });
 
-// Image size controls
+// Image size controls (update parent container size)
 document.getElementById("increase").addEventListener("click", () => { currentSize += 20; renderImages(); });
 document.getElementById("decrease").addEventListener("click", () => { if (currentSize > 40) { currentSize -= 20; renderImages(); } });
 
