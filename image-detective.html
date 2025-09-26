@@ -55,6 +55,19 @@
       border-radius: 3px;
     }
 
+    #versionInfo {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      background-color: rgba(0,0,0,0.6);
+      color: #fff;
+      font-size: 12px;
+      padding: 5px 8px;
+      border-radius: 5px;
+      font-family: monospace;
+      z-index: 9999;
+    }
+
     @media (prefers-color-scheme: dark) {
       body {
         background-color: #121212;
@@ -76,6 +89,10 @@
       .color-swatch {
         border: 1px solid #aaa;
       }
+      #versionInfo {
+        background-color: rgba(255,255,255,0.2);
+        color: #e0e0e0;
+      }
     }
   </style>
 </head>
@@ -88,175 +105,183 @@
   <p>Results:</p>
   <div id="results"></div>
   <textarea id="jsonOutput" rows="15"></textarea>
+  <div id="versionInfo"></div>
 
   <script>
-  const CORS_PROXY = "https://cors-anywhere.herokuapp.com/";
+    const CORS_PROXY = "https://cors-anywhere.herokuapp.com/";
 
-  const themeColors = {
-    green: ["#CEEAD6", "#81C995", "#34A853", "#188038", "#137333", "#0D652D"],
-    blue: ["#D2E3FC", "#8AB4F8", "#4285F4", "#1a73e8", "#185ABC", "#174EA6"],
-    yellow: ["#FEEFC3", "#FDD663", "#FBBC04", "#F29900", "#EA8600", "#E37400"],
-    red: ["#FAD2CF", "#F28B82", "#EA4335", "#d93025", "#B31412", "#A50E0E"],
-    gray: ["#5f6469"],
-    black: ["#000000"],
-    white: ["#ffffff"]
-  };
-
-  function rgbToHex(r, g, b) {
-    return "#" + [r, g, b].map(x => x.toString(16).padStart(2, '0')).join('');
-  }
-
-  function hexToRgb(hex) {
-    const bigint = parseInt(hex.slice(1), 16);
-    return {
-      r: (bigint >> 16) & 255,
-      g: (bigint >> 8) & 255,
-      b: bigint & 255
+    const themeColors = {
+      green: ["#CEEAD6", "#81C995", "#34A853", "#188038", "#137333", "#0D652D"],
+      blue: ["#D2E3FC", "#8AB4F8", "#4285F4", "#1a73e8", "#185ABC", "#174EA6"],
+      yellow: ["#FEEFC3", "#FDD663", "#FBBC04", "#F29900", "#EA8600", "#E37400"],
+      red: ["#FAD2CF", "#F28B82", "#EA4335", "#d93025", "#B31412", "#A50E0E"],
+      gray: ["#5f6469"],
+      black: ["#000000"],
+      white: ["#ffffff"]
     };
-  }
 
-  function colorDistance(hex1, hex2) {
-    const c1 = hexToRgb(hex1);
-    const c2 = hexToRgb(hex2);
-    return Math.sqrt(
-      Math.pow(c1.r - c2.r, 2) +
-      Math.pow(c1.g - c2.g, 2) +
-      Math.pow(c1.b - c2.b, 2)
-    );
-  }
-
-  function findTheme(hex) {
-    const rgb = hexToRgb(hex);
-
-    // Grayscale rule: if all RGB values equal, match only to white or black
-    if (rgb.r === rgb.g && rgb.g === rgb.b) {
-      const distWhite = colorDistance(hex, "#ffffff");
-      const distBlack = colorDistance(hex, "#000000");
-      return distWhite < distBlack ? "white" : "black";
+    function rgbToHex(r, g, b) {
+      return "#" + [r, g, b].map(x => x.toString(16).padStart(2, '0')).join('');
     }
 
-    // Otherwise, find closest theme hex
-    let closestTheme = null;
-    let minDist = Infinity;
-
-    for (const [theme, colors] of Object.entries(themeColors)) {
-      for (const ref of colors) {
-        const dist = colorDistance(hex, ref);
-        if (dist < minDist) {
-          minDist = dist;
-          closestTheme = theme;
-        }
-      }
-    }
-
-    return closestTheme;
-  }
-
-  async function analyzeImage(url) {
-    return new Promise((resolve, reject) => {
-      const img = new Image();
-      img.crossOrigin = "Anonymous";
-      img.onload = () => {
-        const canvas = document.createElement("canvas");
-        canvas.width = img.width;
-        canvas.height = img.height;
-        const ctx = canvas.getContext("2d");
-        ctx.drawImage(img, 0, 0);
-
-        const data = ctx.getImageData(0, 0, img.width, img.height).data;
-        const colorCounts = {};
-        let hasAlpha = false;
-
-        for (let i = 0; i < data.length; i += 4) {
-          const r = data[i];
-          const g = data[i+1];
-          const b = data[i+2];
-          const a = data[i+3];
-
-          if (a < 255) {
-            hasAlpha = true;
-            continue; // ignore transparent pixels
-          }
-
-          const hex = rgbToHex(r, g, b);
-          colorCounts[hex] = (colorCounts[hex] || 0) + 1;
-        }
-
-        let most_frequent_hex = null;
-        let maxCount = 0;
-        for (const [hex, count] of Object.entries(colorCounts)) {
-          if (count > maxCount) {
-            maxCount = count;
-            most_frequent_hex = hex;
-          }
-        }
-
-        const theme = most_frequent_hex ? findTheme(most_frequent_hex) : null;
-
-        resolve({
-          url,
-          width: img.width,
-          height: img.height,
-          has_alpha: hasAlpha,
-          most_frequent_hex,
-          theme
-        });
+    function hexToRgb(hex) {
+      const bigint = parseInt(hex.slice(1), 16);
+      return {
+        r: (bigint >> 16) & 255,
+        g: (bigint >> 8) & 255,
+        b: bigint & 255
       };
-      img.onerror = () => reject(new Error(`Failed to load image: ${url}`));
-      img.src = CORS_PROXY + url;
-    });
-  }
+    }
 
-  async function analyzeImages(urls) {
-    const results = [];
-    const status = document.getElementById("status");
-    for (let i = 0; i < urls.length; i++) {
-      const url = urls[i].trim();
-      if (!url) continue;
-      status.textContent = `Processing ${i+1} of ${urls.length}: ${url}`;
+    function colorDistance(hex1, hex2) {
+      const c1 = hexToRgb(hex1);
+      const c2 = hexToRgb(hex2);
+      return Math.sqrt(
+        Math.pow(c1.r - c2.r, 2) +
+        Math.pow(c1.g - c2.g, 2) +
+        Math.pow(c1.b - c2.b, 2)
+      );
+    }
+
+    function findTheme(hex) {
+      const rgb = hexToRgb(hex);
+
+      // Grayscale rule: if all RGB values equal, match only to white or black
+      if (rgb.r === rgb.g && rgb.g === rgb.b) {
+        const distWhite = colorDistance(hex, "#ffffff");
+        const distBlack = colorDistance(hex, "#000000");
+        return distWhite < distBlack ? "white" : "black";
+      }
+
+      // Otherwise, find closest theme hex
+      let closestTheme = null;
+      let minDist = Infinity;
+
+      for (const [theme, colors] of Object.entries(themeColors)) {
+        for (const ref of colors) {
+          const dist = colorDistance(hex, ref);
+          if (dist < minDist) {
+            minDist = dist;
+            closestTheme = theme;
+          }
+        }
+      }
+
+      return closestTheme;
+    }
+
+    async function analyzeImage(url) {
+      return new Promise((resolve, reject) => {
+        const img = new Image();
+        img.crossOrigin = "Anonymous";
+        img.onload = () => {
+          const canvas = document.createElement("canvas");
+          canvas.width = img.width;
+          canvas.height = img.height;
+          const ctx = canvas.getContext("2d");
+          ctx.drawImage(img, 0, 0);
+
+          const data = ctx.getImageData(0, 0, img.width, img.height).data;
+          const colorCounts = {};
+          let hasAlpha = false;
+
+          for (let i = 0; i < data.length; i += 4) {
+            const r = data[i];
+            const g = data[i+1];
+            const b = data[i+2];
+            const a = data[i+3];
+
+            if (a < 255) {
+              hasAlpha = true;
+              continue;
+            }
+
+            const hex = rgbToHex(r, g, b);
+            colorCounts[hex] = (colorCounts[hex] || 0) + 1;
+          }
+
+          let most_frequent_hex = null;
+          let maxCount = 0;
+          for (const [hex, count] of Object.entries(colorCounts)) {
+            if (count > maxCount) {
+              maxCount = count;
+              most_frequent_hex = hex;
+            }
+          }
+
+          const theme = most_frequent_hex ? findTheme(most_frequent_hex) : null;
+
+          resolve({
+            url,
+            width: img.width,
+            height: img.height,
+            has_alpha: hasAlpha,
+            most_frequent_hex,
+            theme
+          });
+        };
+        img.onerror = () => reject(new Error(`Failed to load image: ${url}`));
+        img.src = CORS_PROXY + url;
+      });
+    }
+
+    async function analyzeImages(urls) {
+      const results = [];
+      const status = document.getElementById("status");
+      for (let i = 0; i < urls.length; i++) {
+        const url = urls[i].trim();
+        if (!url) continue;
+        status.textContent = `Processing ${i+1} of ${urls.length}: ${url}`;
+        try {
+          const result = await analyzeImage(url);
+          results.push(result);
+        } catch (err) {
+          console.error("Error processing:", url, err);
+        }
+      }
+      status.textContent = `Processing complete. ${results.length} images analyzed.`;
+      return results;
+    }
+
+    function displayResults(results) {
+      const container = document.getElementById("results");
+      container.innerHTML = "";
+      results.forEach(item => {
+        const div = document.createElement("div");
+        div.className = "result-item";
+        div.textContent = `${item.url} → ${item.most_frequent_hex || 'N/A'} (theme: ${item.theme || 'N/A'})`;
+        if (item.most_frequent_hex) {
+          const swatch = document.createElement("div");
+          swatch.className = "color-swatch";
+          swatch.style.backgroundColor = item.most_frequent_hex;
+          div.appendChild(swatch);
+        }
+        container.appendChild(div);
+      });
+    }
+
+    document.getElementById("analyzeBtn").addEventListener("click", async () => {
+      const textarea = document.getElementById("urlInput");
+      const urls = textarea.value.split("\n");
+      const results = await analyzeImages(urls);
+      displayResults(results);
+
+      const output = document.getElementById("jsonOutput");
+      output.value = JSON.stringify(results, null, 2);
+
       try {
-        const result = await analyzeImage(url);
-        results.push(result);
+        await navigator.clipboard.writeText(JSON.stringify(results, null, 2));
       } catch (err) {
-        console.error("Error processing:", url, err);
+        console.error("Failed to copy JSON to clipboard:", err);
       }
-    }
-    status.textContent = `Processing complete. ${results.length} images analyzed.`;
-    return results;
-  }
-
-  function displayResults(results) {
-    const container = document.getElementById("results");
-    container.innerHTML = "";
-    results.forEach(item => {
-      const div = document.createElement("div");
-      div.className = "result-item";
-      div.textContent = `${item.url} → ${item.most_frequent_hex || 'N/A'} (theme: ${item.theme || 'N/A'})`;
-      if (item.most_frequent_hex) {
-        const swatch = document.createElement("div");
-        swatch.className = "color-swatch";
-        swatch.style.backgroundColor = item.most_frequent_hex;
-        div.appendChild(swatch);
-      }
-      container.appendChild(div);
     });
-  }
 
-  document.getElementById("analyzeBtn").addEventListener("click", async () => {
-    const textarea = document.getElementById("urlInput");
-    const urls = textarea.value.split("\n");
-    const results = await analyzeImages(urls);
-    displayResults(results);
-
-    const output = document.getElementById("jsonOutput");
-    output.value = JSON.stringify(results, null, 2);
-
-    try {
-      await navigator.clipboard.writeText(JSON.stringify(results, null, 2));
-    } catch (err) {
-      console.error("Failed to copy JSON to clipboard:", err);
-    }
-  });
+    // Version info
+    const versionNumber = 1; // Increment with each update
+    const now = new Date();
+    const pad = (n) => n.toString().padStart(2,'0');
+    const timestamp = `${pad(now.getMonth()+1)}/${pad(now.getDate())}/${now.getFullYear().toString().slice(2)} ${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())}`;
+    document.getElementById('versionInfo').textContent = `v${versionNumber} - ${timestamp}`;
   </script>
 </body>
 </html>
