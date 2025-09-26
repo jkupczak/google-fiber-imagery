@@ -3,15 +3,74 @@
 <head>
   <meta charset="UTF-8">
   <title>Image Most Frequent Color Analyzer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #000000;
+      margin: 20px;
+    }
+
+    textarea {
+      width: 100%;
+      font-family: monospace;
+      font-size: 14px;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+      background-color: #ffffff;
+      color: #000000;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 1px solid #888;
+      cursor: pointer;
+      background-color: #f0f0f0;
+      color: #000;
+    }
+
+    button:hover {
+      background-color: #e0e0e0;
+    }
+
+    p {
+      margin-top: 15px;
+    }
+
+    /* Dark mode styles */
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #121212;
+        color: #e0e0e0;
+      }
+      textarea {
+        background-color: #1e1e1e;
+        color: #e0e0e0;
+        border: 1px solid #555;
+      }
+      button {
+        background-color: #2c2c2c;
+        color: #e0e0e0;
+        border: 1px solid #666;
+      }
+      button:hover {
+        background-color: #3a3a3a;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>Image Most Frequent Color Analyzer!</h1>
+  <h1>Image Most Frequent Color Analyzer</h1>
   <p>Paste a list of image URLs (one per line):</p>
-  <textarea id="urlInput" rows="10" cols="80"></textarea><br><br>
+  <textarea id="urlInput" rows="10"></textarea><br><br>
   <button id="analyzeBtn">Analyze Images</button>
   <p id="status"></p>
   <p>Results:</p>
-  <textarea id="jsonOutput" rows="15" cols="80"></textarea>
+  <textarea id="jsonOutput" rows="15"></textarea>
 
   <script>
   const CORS_PROXY = "https://cors-anywhere.herokuapp.com/";
@@ -43,14 +102,13 @@
 
           if (a < 255) {
             hasAlpha = true;
-            continue; // ignore non-opaque pixels
+            continue;
           }
 
           const hex = rgbToHex(r, g, b);
           colorCounts[hex] = (colorCounts[hex] || 0) + 1;
         }
 
-        // Find the most frequent hex
         let most_frequent_hex = null;
         let maxCount = 0;
         for (const [hex, count] of Object.entries(colorCounts)) {
