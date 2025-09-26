@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Image Color Analyzer</title>
+  <title>Image Color Analyzer with Dominant Color</title>
 </head>
 <body>
   <h1>Image Color Analyzer</h1>
@@ -13,45 +13,106 @@
 
   <script>
   const CORS_PROXY = "https://cors-anywhere.herokuapp.com/";
+  const REFERENCE_COLORS = [
+    "#4285f4", // blue
+    "#34a853", // green
+    "#ea4435", // red
+    "#fbbc04", // yellow
+    "#5f6469"  // gray
+  ];
+
+  function hexToRgb(hex) {
+    const m = hex.match(/^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i);
+    return m ? [parseInt(m[1],16), parseInt(m[2],16), parseInt(m[3],16)] : [0,0,0];
+  }
+
+  function colorDistance(c1, c2) {
+    // Euclidean distance in RGB space
+    return Math.sqrt(
+      Math.pow(c1[0]-c2[0],2) +
+      Math.pow(c1[1]-c2[1],2) +
+      Math.pow(c1[2]-c2[2],2)
+    );
+  }
+
+  function normalizeColor(r, g, b) {
+    const round = x => Math.round(x / 5) * 5;
+    return `${round(r)},${round(g)},${round(b)}`;
+  }
+
+  function findClosestReferenceColor(rgb) {
+    let minDist = Infinity;
+    let closestHex = null;
+    for (const hex of REFERENCE_COLORS) {
+      const refRgb = hexToRgb(hex);
+      const dist = colorDistance(rgb, refRgb);
+      if (dist < minDist) {
+        minDist = dist;
+        closestHex = hex;
+      }
+    }
+    return closestHex;
+  }
 
   async function analyzeImage(url) {
     return new Promise((resolve, reject) => {
       const img = new Image();
       img.crossOrigin = "Anonymous";
       img.onload = () => {
-        const canvas = document.createElement("canvas");
-        canvas.width = img.width;
-        canvas.height = img.height;
-        const ctx = canvas.getContext("2d");
-        ctx.drawImage(img, 0, 0);
+        const scale = 50;
+        const w = Math.min(img.width, scale);
+        const h = Math.min(img.height, scale);
 
-        const imageData = ctx.getImageData(0, 0, img.width, img.height).data;
-        const colors = new Set();
+        const canvas = document.createElement("canvas");
+        canvas.width = w;
+        canvas.height = h;
+        const ctx = canvas.getContext("2d");
+        ctx.drawImage(img, 0, 0, w, h);
+
+        const data = ctx.getImageData(0, 0, w, h).data;
+        const colors = new Map(); // track frequency
         let hasAlpha = false;
 
-        for (let i = 0; i < imageData.length; i += 4) {
-          const r = imageData[i];
-          const g = imageData[i + 1];
-          const b = imageData[i + 2];
-          const a = imageData[i + 3];
+        for (let i = 0; i < data.length; i += 4) {
+          const r = data[i];
+          const g = data[i+1];
+          const b = data[i+2];
+          const a = data[i+3];
+
           if (a < 255) hasAlpha = true;
-          const key = `${r},${g},${b}`;
-          colors.add(key);
-          if (colors.size > 10) break;
+          if (a === 0) continue; // skip fully transparent
+
+          const key = normalizeColor(r, g, b);
+          colors.set(key, (colors.get(key) || 0) + 1);
+          if (colors.size > 100) break; // avoid huge maps
         }
 
+        // Determine color count bucket
         let bucket;
-        if (colors.size === 1) bucket = "1";
-        else if (colors.size === 2) bucket = "2";
-        else if (colors.size <= 10) bucket = "3-10";
+        const uniqueColors = colors.size;
+        if (uniqueColors === 1) bucket = "1";
+        else if (uniqueColors === 2) bucket = "2";
+        else if (uniqueColors <= 10) bucket = "3-10";
         else bucket = "10+";
+
+        // Find most dominant color
+        let dominantRgb = [0,0,0], maxCount = 0;
+        for (const [key, count] of colors.entries()) {
+          if (count > maxCount) {
+            maxCount = count;
+            dominantRgb = key.split(",").map(Number);
+          }
+        }
+
+        const dominant_color = findClosestReferenceColor(dominantRgb);
 
         resolve({
           url,
           width: img.width,
           height: img.height,
           color_count_bucket: bucket,
-          has_alpha: hasAlpha
+          has_alpha: hasAlpha,
+          dominant_color
         });
       };
       img.onerror = () => reject(new Error(`Failed to load image: ${url}`));
@@ -65,7 +126,7 @@
     for (let i = 0; i < urls.length; i++) {
       const url = urls[i].trim();
       if (!url) continue;
-      status.textContent = `Processing ${i + 1} of ${urls.length}: ${url}`;
+      status.textContent = `Processing ${i+1} of ${urls.length}: ${url}`;
       try {
         const result = await analyzeImage(url);
         results.push(result);
@@ -77,8 +138,8 @@
     return results;
   }
 
-  function downloadJSON(data, filename = "results.json") {
-    const blob = new Blob([JSON.stringify(data, null, 2)], {type: "application/json"});
+  function downloadJSON(data, filename="results.json") {
+    const blob = new Blob([JSON.stringify(data, null, 2)], {type:"application/json"});
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
