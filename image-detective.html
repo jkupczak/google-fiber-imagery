@@ -105,10 +105,9 @@
   <p>Results:</p>
   <div id="results"></div>
   <textarea id="jsonOutput" rows="15"></textarea>
-  <div id="versionInfo">v1.1 - 09/26/25 17:25:00</div>
+  <div id="versionInfo">v2 - 09/26/25 17:50:00</div>
 
   <script>
-    // Use local Node.js CORS proxy
     const CORS_PROXY = "http://localhost:8080/";
 
     const themeColors = {
@@ -148,14 +147,12 @@
       const rgb = hexToRgb(hex);
       const r = rgb.r, g = rgb.g, b = rgb.b;
 
-      // Grayscale rule: if all RGB values equal, match only to white or black
       if (r === g && g === b) {
         const distWhite = colorDistance(hex, "#ffffff");
         const distBlack = colorDistance(hex, "#000000");
         return distWhite < distBlack ? "white" : "black";
       }
 
-      // Desaturation check: near-gray colors assigned to gray
       const max = Math.max(r, g, b);
       const min = Math.min(r, g, b);
       const saturation = max === 0 ? 0 : (max - min) / max; 
@@ -163,7 +160,6 @@
         return "gray";
       }
 
-      // Otherwise, find closest theme hex
       let closestTheme = null;
       let minDist = Infinity;
 
@@ -219,6 +215,9 @@
             }
           }
 
+          const total_unique_colors = Object.keys(colorCounts).length;
+          const complex = total_unique_colors > 50000;
+
           const theme = most_frequent_hex ? findTheme(most_frequent_hex) : null;
 
           resolve({
@@ -227,7 +226,9 @@
             height: img.height,
             has_alpha: hasAlpha,
             most_frequent_hex,
-            theme
+            theme,
+            total_unique_colors,
+            complex
           });
         };
         img.onerror = () => reject(new Error(`Failed to load image: ${url}`));
@@ -259,7 +260,7 @@
       results.forEach(item => {
         const div = document.createElement("div");
         div.className = "result-item";
-        div.textContent = `${item.url} → ${item.most_frequent_hex || 'N/A'} (theme: ${item.theme || 'N/A'})`;
+        div.textContent = `${item.url} → ${item.most_frequent_hex || 'N/A'} (theme: ${item.theme || 'N/A'}, colors: ${item.total_unique_colors}, complex: ${item.complex})`;
         if (item.most_frequent_hex) {
           const swatch = document.createElement("div");
           swatch.className = "color-swatch";
