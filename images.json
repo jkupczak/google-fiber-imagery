@@ -1,163 +1,59 @@
 [
   {
-    "url": "https://services.google.com/fh/files/emails/gf_4-30_offer_hero_dsktp.jpg",
-    "width": 1200,
-    "height": 592,
-    "has_alpha": false,
-    "most_frequent_hex": "#4385f5",
-    "theme": "#4285f4"
+    "url": "https://services.google.com/fh/files/emails/gf_0425_7x-icon-blue.png",
+    "width": 490,
+    "height": 490,
+    "has_alpha": true,
+    "most_frequent_hex": "#1a73e8",
+    "theme": "blue"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/gf_4-30_offer_hero_mbl.jpg",
-    "width": 720,
+    "url": "https://services.google.com/fh/files/emails/gf_0425_7x-icon-white.png",
+    "width": 490,
+    "height": 490,
+    "has_alpha": true,
+    "most_frequent_hex": null,
+    "theme": null
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0425_icon_uplds-dwnlds.png",
+    "width": 400,
     "height": 480,
+    "has_alpha": true,
+    "most_frequent_hex": "#000000",
+    "theme": "black"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0525_5-21_hero_dsktp.gif",
+    "width": 1200,
+    "height": 680,
     "has_alpha": false,
     "most_frequent_hex": "#4385f5",
-    "theme": "#4285f4"
+    "theme": "blue"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/gf_4-5_bkgrnd_blue100.png",
-    "width": 1200,
-    "height": 980,
+    "url": "https://services.google.com/fh/files/emails/gf_0525_5-21_hero_mbl.gif",
+    "width": 720,
+    "height": 448,
+    "has_alpha": false,
+    "most_frequent_hex": "#4385f5",
+    "theme": "blue"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0525_5-21_hero_phone.png",
+    "width": 1000,
+    "height": 1424,
     "has_alpha": true,
-    "most_frequent_hex": "#d2e3fc",
-    "theme": "#4285f4"
+    "most_frequent_hex": "#ceead6",
+    "theme": "green"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/gf_4-5_bottom_speed.png",
+    "url": "https://services.google.com/fh/files/emails/gf_0525_5-21_hero_taps_v2.png",
     "width": 1080,
-    "height": 228,
+    "height": 210,
     "has_alpha": true,
-    "most_frequent_hex": "#4285f4",
-    "theme": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_4-5_boy_laptop.jpg",
-    "width": 810,
-    "height": 810,
-    "has_alpha": false,
-    "most_frequent_hex": "#fcfcfc",
-    "theme": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_4-5_family_laptop.jpg",
-    "width": 810,
-    "height": 810,
-    "has_alpha": false,
-    "most_frequent_hex": "#4b3a32",
-    "theme": "#5f6469"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_4-5_gal_flute.jpg",
-    "width": 810,
-    "height": 810,
-    "has_alpha": false,
-    "most_frequent_hex": "#cac9ce",
-    "theme": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_4-5_top_puck.png",
-    "width": 1080,
-    "height": 390,
-    "has_alpha": true,
-    "most_frequent_hex": "#4285f4",
-    "theme": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_4-5_top_puck_offer.png",
-    "width": 1080,
-    "height": 390,
-    "has_alpha": true,
-    "most_frequent_hex": "#4285f4",
-    "theme": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_5-22_bkgrnd_curve.png",
-    "width": 1200,
-    "height": 904,
-    "has_alpha": true,
-    "most_frequent_hex": "#1a73e8",
-    "theme": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_5-22_chevron500.png",
-    "width": 1400,
-    "height": 130,
-    "has_alpha": true,
-    "most_frequent_hex": "#fbbc04",
-    "theme": "#fbbc04"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_5-22_jdpower_half-circle.png",
-    "width": 1200,
-    "height": 416,
-    "has_alpha": true,
-    "most_frequent_hex": "#1a73e8",
-    "theme": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_5-29_hero_red500.png",
-    "width": 1200,
-    "height": 856,
-    "has_alpha": false,
     "most_frequent_hex": "#ea4335",
-    "theme": "#ea4435"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_5-3_headset_dsktp.png",
-    "width": 720,
-    "height": 528,
-    "has_alpha": false,
-    "most_frequent_hex": "#1a73e8",
-    "theme": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_5-3_headset_mbl.png",
-    "width": 720,
-    "height": 450,
-    "has_alpha": false,
-    "most_frequent_hex": "#1a73e8",
-    "theme": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_5-3_hero_dsktp_3.png",
-    "width": 1200,
-    "height": 628,
-    "has_alpha": true,
-    "most_frequent_hex": "#1a73e8",
-    "theme": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_1124_icon_battery_black-outline.png",
-    "width": 540,
-    "height": 720,
-    "has_alpha": true,
-    "most_frequent_hex": "#000000",
-    "theme": "#000000"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_1124_icon_cloud-upload_black-outline.png",
-    "width": 840,
-    "height": 620,
-    "has_alpha": true,
-    "most_frequent_hex": "#000000",
-    "theme": "#000000"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_1124_icon_cstmr-srvc_black-outline.png",
-    "width": 800,
-    "height": 720,
-    "has_alpha": true,
-    "most_frequent_hex": "#000000",
-    "theme": "#000000"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_1124_icon_room-settings_black-outline.png",
-    "width": 760,
-    "height": 720,
-    "has_alpha": true,
-    "most_frequent_hex": "#000000",
-    "theme": "#000000"
+    "theme": "red"
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_1124_icon_wifi_black-outline.png",
@@ -165,7 +61,7 @@
     "height": 720,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "#000000"
+    "theme": "black"
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_1124_shapes_blue_1200.png",
@@ -173,7 +69,7 @@
     "height": 972,
     "has_alpha": false,
     "most_frequent_hex": "#1a73e8",
-    "theme": "#4285f4"
+    "theme": "blue"
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_11823_hero_dsktp4.png",
@@ -181,7 +77,7 @@
     "height": 838,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "#4285f4"
+    "theme": "blue"
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_11823_hero_mbl4.png",
@@ -189,7 +85,7 @@
     "height": 600,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "#4285f4"
+    "theme": "blue"
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_12-14_dsktp_blue.gif",
@@ -197,7 +93,7 @@
     "height": 600,
     "has_alpha": false,
     "most_frequent_hex": "#4285f4",
-    "theme": "#4285f4"
+    "theme": "blue"
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_12-14_mbl_blue.gif",
@@ -205,7 +101,7 @@
     "height": 852,
     "has_alpha": false,
     "most_frequent_hex": "#4285f4",
-    "theme": "#4285f4"
+    "theme": "blue"
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_12-21_laptop_icon.png",
@@ -213,94 +109,294 @@
     "height": 240,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "#000000"
+    "theme": "black"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/gf-2025-09-05--single-puck.png",
-    "width": 472,
-    "height": 456,
+    "url": "https://services.google.com/fh/files/emails/gf_12-21_phone_icon.png",
+    "width": 240,
+    "height": 240,
     "has_alpha": true,
-    "most_frequent_hex": "#e8eff8",
-    "theme": "#4285f4"
+    "most_frequent_hex": "#000000",
+    "theme": "black"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/gf-3x-image.png",
-    "width": 490,
-    "height": 490,
-    "has_alpha": true,
-    "most_frequent_hex": "#1a73e8",
-    "theme": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf-6-2-wifi-6e.png",
-    "width": 870,
-    "height": 990,
-    "has_alpha": true,
-    "most_frequent_hex": "#dadada",
-    "theme": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0125_1-19_wmn-ktchn_dsktp.png",
-    "width": 420,
-    "height": 640,
-    "has_alpha": true,
-    "most_frequent_hex": "#f7f7f8",
-    "theme": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0125_1-19_wmn-ktchn_mbl.png",
-    "width": 720,
-    "height": 500,
-    "has_alpha": true,
-    "most_frequent_hex": "#f7f7f8",
-    "theme": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0125_1-19_wmn-ktchn_mbl3.png",
-    "width": 233,
-    "height": 563,
-    "has_alpha": true,
-    "most_frequent_hex": "#f7f7f8",
-    "theme": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0125_1-22_bllt-pnts_mbl3.png",
-    "width": 720,
-    "height": 320,
-    "has_alpha": true,
-    "most_frequent_hex": "#ceead6",
-    "theme": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0125_1-22_lrg-bllt-pnts_dsktp3.png",
+    "url": "https://services.google.com/fh/files/emails/gf_12-21_upg_dsktp_red.gif",
     "width": 1200,
-    "height": 500,
-    "has_alpha": true,
-    "most_frequent_hex": "#2a9a45",
-    "theme": "#34a853"
+    "height": 488,
+    "has_alpha": false,
+    "most_frequent_hex": "#ea4335",
+    "theme": "red"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/gf_0125_1-23_gfiber_app_screens.gif",
+    "url": "https://services.google.com/fh/files/emails/gf_gals_couch_tall.jpg",
+    "width": 600,
+    "height": 800,
+    "has_alpha": false,
+    "most_frequent_hex": "#ddd6cc",
+    "theme": "green"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_game_dsktp.png",
+    "width": 480,
+    "height": 352,
+    "has_alpha": true,
+    "most_frequent_hex": "#fefefe",
+    "theme": "blue"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_game_mobile.jpg",
+    "width": 640,
+    "height": 400,
+    "has_alpha": false,
+    "most_frequent_hex": "#fefefe",
+    "theme": "blue"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_home_3.jpg",
+    "width": 1200,
+    "height": 480,
+    "has_alpha": false,
+    "most_frequent_hex": "#fdfdfd",
+    "theme": "blue"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_home_icon_white-with-border_70x62.png",
+    "width": 248,
+    "height": 280,
+    "has_alpha": true,
+    "most_frequent_hex": "#000000",
+    "theme": "black"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_hsi_badge_fall2023.png",
+    "width": 1500,
+    "height": 1500,
+    "has_alpha": true,
+    "most_frequent_hex": "#235dfb",
+    "theme": "blue"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_hsi_badge_mbl.png",
+    "width": 960,
+    "height": 570,
+    "has_alpha": true,
+    "most_frequent_hex": "#e6e6e5",
+    "theme": "green"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_hsi_wide_dsktp.png",
+    "width": 1200,
+    "height": 312,
+    "has_alpha": true,
+    "most_frequent_hex": "#235dfb",
+    "theme": "blue"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_icon_house_white.png",
     "width": 500,
-    "height": 1020,
+    "height": 500,
     "has_alpha": true,
-    "most_frequent_hex": "#5290f7",
-    "theme": "#4285f4"
+    "most_frequent_hex": null,
+    "theme": null
   },
   {
-    "url": "https://services.google.com/fh/files/emails/gf_0125_app_green500.png",
-    "width": 1200,
-    "height": 336,
+    "url": "https://services.google.com/fh/files/emails/gf_icon_laptop_white.png",
+    "width": 672,
+    "height": 480,
+    "has_alpha": true,
+    "most_frequent_hex": null,
+    "theme": null
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_icon_phone_white.png",
+    "width": 504,
+    "height": 480,
+    "has_alpha": true,
+    "most_frequent_hex": null,
+    "theme": null
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/green_checkmark.png",
+    "width": 72,
+    "height": 53,
+    "has_alpha": true,
+    "most_frequent_hex": "#34a853",
+    "theme": "green"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/green_phone_icon.png",
+    "width": 70,
+    "height": 70,
+    "has_alpha": true,
+    "most_frequent_hex": "#34a853",
+    "theme": "green"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/grey_pucks_up.png",
+    "width": 780,
+    "height": 720,
+    "has_alpha": true,
+    "most_frequent_hex": "#9aa0a6",
+    "theme": "green"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/hsi_logo_2024.png",
+    "width": 1080,
+    "height": 1160,
+    "has_alpha": true,
+    "most_frequent_hex": "#0a0a46",
+    "theme": "black"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/hsi_logo_2025.png",
+    "width": 1080,
+    "height": 1170,
+    "has_alpha": true,
+    "most_frequent_hex": "#162b64",
+    "theme": "blue"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/icon--business--white--20x20.png",
+    "width": 80,
+    "height": 80,
+    "has_alpha": true,
+    "most_frequent_hex": "#feffff",
+    "theme": "blue"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/icon--calendar--2023-01-22.png",
+    "width": 100,
+    "height": 100,
+    "has_alpha": true,
+    "most_frequent_hex": "#000000",
+    "theme": "black"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/icon--calendar--black-inside--white-outside--2023-01-15.png",
+    "width": 180,
+    "height": 196,
+    "has_alpha": true,
+    "most_frequent_hex": "#000000",
+    "theme": "black"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/icon--cloud-upload--black-inside--white-outside--2023-01-15.png",
+    "width": 132,
+    "height": 132,
+    "has_alpha": true,
+    "most_frequent_hex": "#000000",
+    "theme": "black"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/icon--laptop--black--32x28.png",
+    "width": 128,
+    "height": 110,
+    "has_alpha": true,
+    "most_frequent_hex": "#000000",
+    "theme": "black"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/icon--loop--black-inside--white-outside--2023-01-15.png",
+    "width": 132,
+    "height": 132,
+    "has_alpha": true,
+    "most_frequent_hex": "#000000",
+    "theme": "black"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/icon--pcmag--2024--3xwinner--darkmode.png",
+    "width": 280,
+    "height": 482,
+    "has_alpha": true,
+    "most_frequent_hex": "#eb002e",
+    "theme": "red"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/icon--pcmag--2024--3xwinner--horizontal--darkmode.png",
+    "width": 840,
+    "height": 406,
+    "has_alpha": true,
+    "most_frequent_hex": "#eb002e",
+    "theme": "red"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/icon--pcmag--2024--3xwinner--horizontal.png",
+    "width": 800,
+    "height": 366,
+    "has_alpha": true,
+    "most_frequent_hex": "#eb002e",
+    "theme": "red"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/icon--pcmag--2024--3xwinner.png",
+    "width": 240,
+    "height": 442,
+    "has_alpha": true,
+    "most_frequent_hex": "#eb002e",
+    "theme": "red"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/icon--phone--black--32x28.png",
+    "width": 128,
+    "height": 110,
+    "has_alpha": true,
+    "most_frequent_hex": "#000000",
+    "theme": "black"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/pucks.png",
+    "width": 452,
+    "height": 268,
+    "has_alpha": true,
+    "most_frequent_hex": "#efefef",
+    "theme": "green"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/pucks_green.png",
+    "width": 960,
+    "height": 684,
     "has_alpha": false,
     "most_frequent_hex": "#34a853",
-    "theme": "#34a853"
+    "theme": "green"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/gf_0125_router_shadow_800px.png",
-    "width": 800,
-    "height": 1200,
+    "url": "https://services.google.com/fh/files/emails/pucks_grey.png",
+    "width": 780,
+    "height": 720,
     "has_alpha": true,
-    "most_frequent_hex": "#b7b4b6",
-    "theme": "#4285f4"
+    "most_frequent_hex": "#9aa0a6",
+    "theme": "green"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/pucks_grey_23.png",
+    "width": 780,
+    "height": 720,
+    "has_alpha": true,
+    "most_frequent_hex": "#9aa0a6",
+    "theme": "green"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/pucks_red_dsktp.png",
+    "width": 1200,
+    "height": 1136,
+    "has_alpha": true,
+    "most_frequent_hex": "#d93025",
+    "theme": "red"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/pucks_red_mbl.png",
+    "width": 960,
+    "height": 600,
+    "has_alpha": true,
+    "most_frequent_hex": "#d93025",
+    "theme": "red"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/red_check.png",
+    "width": 71,
+    "height": 56,
+    "has_alpha": true,
+    "most_frequent_hex": "#ff0000",
+    "theme": "red"
   }
 ]
