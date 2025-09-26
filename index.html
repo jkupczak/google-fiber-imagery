@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Image Grid with Multi-Filters & Resize</title>
+<title>Image Grid with Multi-Filters, Resize, Sort</title>
 <style>
 body { font-family: Arial, sans-serif; padding: 20px; }
-.filters { margin-bottom: 20px; }
+.filters { margin-bottom: 20px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
 .filter-button { padding: 8px 12px; margin: 5px; border: 2px solid #ccc; cursor: pointer; border-radius: 4px; background: #f9f9f9; }
 .filter-button.active { outline: 3px solid #000; outline-offset: 2px; }
 .color-filter { width: 30px; height: 30px; border-radius: 50%; border: 2px solid #ccc; margin: 5px; cursor: pointer; display: inline-block; }
@@ -19,6 +19,7 @@ body { font-family: Arial, sans-serif; padding: 20px; }
 .copy-btn { padding: 2px 6px; font-size: 0.8em; cursor: pointer; border: 1px solid #ccc; border-radius: 3px; background: #f9f9f9; }
 .size-controls { margin-bottom: 20px; }
 .size-controls button { margin: 0 5px; padding: 6px 10px; border: 2px solid #ccc; background: #f9f9f9; cursor: pointer; border-radius: 4px; }
+.sort-controls { margin-bottom: 20px; display: flex; gap: 10px; align-items: center; }
 #versionInfo { position: fixed; top: 10px; right: 10px; font-size: 0.9em; color: #555; background: rgba(255,255,255,0.9); padding: 5px 10px; border: 1px solid #ccc; border-radius: 4px; z-index: 1000; }
 </style>
 </head>
@@ -32,11 +33,21 @@ body { font-family: Arial, sans-serif; padding: 20px; }
   </div>
   <div>
     <button class="filter-button" data-alpha="true">Has Alpha</button>
+    <button class="filter-button" data-complex="true">Complex</button>
   </div>
   <div>
     <button class="filter-button clear-colors">Clear Colors</button>
     <div class="color-filters"></div>
   </div>
+</div>
+
+<div class="sort-controls">
+  <label for="sortSelect">Sort by total_unique_colors:</label>
+  <select id="sortSelect">
+    <option value="">--None--</option>
+    <option value="asc">Ascending</option>
+    <option value="desc">Descending</option>
+  </select>
 </div>
 
 <div class="size-controls">
@@ -47,7 +58,7 @@ body { font-family: Arial, sans-serif; padding: 20px; }
 
 <div class="grid" id="imageGrid"></div>
 
-<div id="versionInfo">Version 7 | 09/26/25, 15:12:00</div>
+<div id="versionInfo">Version 8 | 09/26/25, 15:40:00</div>
 
 <script>
 const themeColors = {
@@ -65,6 +76,8 @@ let allImages = [];
 let activeFileFilters = new Set();
 let activeAlphaFilter = null;
 let activeThemeFilter = null;
+let activeComplexFilter = null;
+let sortOrder = "";
 
 async function loadImages() {
   const res = await fetch("https://raw.githubusercontent.com/jkupczak/google-fiber-imagery/refs/heads/main/images.json");
@@ -79,10 +92,9 @@ function renderThemeFilters(data) {
   container.innerHTML = "";
 
   const themes = [...new Set(data.map(img => img.theme && img.theme.toLowerCase()))]
-    .filter(theme => theme && themeColors[theme]);
+    .filter(theme => theme && themeColors[theme] && theme !== "black" && theme !== "white");
 
   themes.forEach(theme => {
-    if (theme === "black" || theme === "white") return; // skip individual B/W
     const btn = document.createElement("div");
     btn.className = "color-filter";
     btn.style.backgroundColor = themeColors[theme];
@@ -131,6 +143,7 @@ function renderImages() {
     if (ext === "jpeg") ext = "jpg";
     if (activeFileFilters.size && !activeFileFilters.has(ext)) return false;
     if (activeAlphaFilter !== null && img.has_alpha !== activeAlphaFilter) return false;
+    if (activeComplexFilter !== null && img.complex !== activeComplexFilter) return false;
     if (activeThemeFilter) {
       if (activeThemeFilter === "bw") {
         if (!["black","white"].includes(img.theme.toLowerCase())) return false;
@@ -139,10 +152,14 @@ function renderImages() {
     return true;
   });
 
+  // Sorting
+  if(sortOrder==="asc") filtered.sort((a,b)=>a.total_unique_colors - b.total_unique_colors);
+  else if(sortOrder==="desc") filtered.sort((a,b)=>b.total_unique_colors - a.total_unique_colors);
+
   filtered.forEach(img => {
     const wrapper = document.createElement("div");
     wrapper.className = "image-wrapper";
-    wrapper.style.height = currentSize + "px"; // width handled by grid
+    wrapper.style.height = currentSize + "px";
 
     const buttonContainer = document.createElement("div");
     buttonContainer.className = "button-container";
@@ -190,6 +207,13 @@ document.querySelector(".filter-button[data-alpha]").addEventListener("click",e=
   renderImages();
 });
 
+// Complex filter
+document.querySelector(".filter-button[data-complex]").addEventListener("click",e=>{
+  if(activeComplexFilter){ activeComplexFilter=null; e.target.classList.remove("active");}
+  else{ activeComplexFilter=true; e.target.classList.add("active");}
+  renderImages();
+});
+
 // Clear color
 document.querySelector(".clear-colors").addEventListener("click",()=>{
   activeThemeFilter=null;
@@ -200,6 +224,12 @@ document.querySelector(".clear-colors").addEventListener("click",()=>{
 // Size controls
 document.getElementById("increase").addEventListener("click",()=>{currentSize+=20; renderImages();});
 document.getElementById("decrease").addEventListener("click",()=>{if(currentSize>40){currentSize-=20; renderImages();}});
+
+// Sorting select
+document.getElementById("sortSelect").addEventListener("change",e=>{
+  sortOrder = e.target.value;
+  renderImages();
+});
 
 loadImages();
 </script>
