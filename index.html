@@ -2,180 +2,184 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Image Grid with Multi-Filters & Resize</title>
   <style>
-    body { font-family: sans-serif; margin: 20px; }
-    #controls { display: flex; flex-direction: column; gap: 15px; margin-bottom: 20px; }
-    
-    /* Buttons */
-    .filter-group button { 
-      margin-right: 10px; padding: 8px 14px; border: 1px solid #ccc; border-radius: 4px; 
-      background: #f0f0f0; cursor: pointer; transition: 0.2s; 
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    .filters { margin-bottom: 20px; }
+    .filter-button {
+      padding: 8px 12px;
+      margin: 5px;
+      border: 2px solid #ccc; /* Light gray outline */
+      cursor: pointer;
+      border-radius: 4px;
+      background: #f9f9f9;
     }
-    .filter-group button:hover { transform: scale(1.05); }
-    .filter-group button.active { border: 2px solid #0073e6; }
-
-    /* Color buttons */
-    #color-buttons button.color-btn { 
-      width: 30px; height: 30px; padding: 0; border-radius: 50%; border: 2px solid #ccc; 
+    .filter-button.active { outline: 3px solid #000; outline-offset: 2px; }
+    .color-filter {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: 2px solid #ccc; /* Light gray outline */
+      margin: 5px;
+      cursor: pointer;
+      display: inline-block;
     }
-
-    /* Grid */
-    #image-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(var(--cell-size, 160px), 1fr)); gap: 15px; padding: 15px 0; }
-    .image-wrapper { width: 100%; aspect-ratio: 1/1; overflow: hidden; border: 1px solid #ccc; border-radius: 6px; display: flex; align-items: center; justify-content: center; background: #f9f9f9; }
-    .image-wrapper img { width: 100%; height: 100%; object-fit: contain; display: block; }
-    .hidden { display: none !important; }
-
-    /* Slider */
-    input[type="range"] { width: 200px; }
+    .color-filter.active { outline: 3px solid #000; outline-offset: 2px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 10px; }
+    .grid div { display: flex; justify-content: center; align-items: center; background: #f0f0f0; border: 1px solid #ddd; overflow: hidden; }
+    .grid img { width: 100%; height: 100%; object-fit: contain; }
+    .size-controls { margin-bottom: 20px; }
+    .size-controls button { margin: 0 5px; padding: 6px 10px; border: 2px solid #ccc; background: #f9f9f9; cursor: pointer; border-radius: 4px; }
   </style>
 </head>
 <body>
-  <div id="controls">
-    <div id="file-type-buttons" class="filter-group">
-      <button data-filter="gif">GIF</button>
-      <button data-filter="jpg">JPG</button>
-      <button data-filter="png">PNG</button>
-      <button data-filter="all" class="active">All</button>
-    </div>
-    <div id="color-buttons" class="filter-group"></div>
-    <div id="alpha-buttons" class="filter-group">
-      <button data-alpha="true">Alpha</button>
-      <button data-alpha="false">No Alpha</button>
-      <button data-alpha="all" class="active">All</button>
-    </div>
-    <div id="size-controls">
-      <button id="decrease">-</button>
-      <input type="range" id="size-slider" min="80" max="300" value="160">
-      <button id="increase">+</button>
-    </div>
+
+<div class="filters">
+  <div>
+    <button class="filter-button" data-type="gif">.gif</button>
+    <button class="filter-button" data-type="jpg">.jpg/.jpeg</button>
+    <button class="filter-button" data-type="png">.png</button>
   </div>
+  <div>
+    <button class="filter-button" data-alpha="true">Has Alpha</button>
+  </div>
+  <div>
+    <button class="filter-button clear-colors">Clear Colors</button>
+    <div class="color-filters"></div>
+  </div>
+</div>
 
-  <div id="image-container"></div>
+<div class="size-controls">
+  <button id="decrease">-</button>
+  <span>Adjust Image Size</span>
+  <button id="increase">+</button>
+</div>
 
-  <script>
-    const jsonUrl = 'https://raw.githubusercontent.com/jkupczak/google-fiber-imagery/refs/heads/main/images.json';
-    const container = document.getElementById('image-container');
-    const sizeSlider = document.getElementById('size-slider');
-    const decreaseBtn = document.getElementById('decrease');
-    const increaseBtn = document.getElementById('increase');
+<div class="grid" id="imageGrid"></div>
 
-    let activeFile = 'all';
-    let activeColor = 'all';
-    let activeAlpha = 'all';
+<script>
+const themeColors = {
+  green: "#34A853",
+  blue: "#4285F4",
+  yellow: "#FBBC04",
+  red: "#EA4335",
+  gray: "#5f6469",
+  black: "#000000",
+  white: "#ffffff"
+};
 
-    // Theme → Hex mapping
-    const themeColors = {
-      green: "#34A853",
-      blue: "#4285F4",
-      yellow: "#FBBC04",
-      red: "#EA4335",
-      gray: "#5f6469",
-      black: "#000000"
-    };
+let currentSize = 160;
+let allImages = [];
+let activeFileFilters = new Set();
+let activeAlphaFilter = null;
+let activeThemeFilter = null;
 
-    function updateGridSize(value) { 
-      document.documentElement.style.setProperty('--cell-size', value + 'px'); 
+async function loadImages() {
+  const res = await fetch("https://raw.githubusercontent.com/jkupczak/google-fiber-imagery/refs/heads/main/images.json");
+  const data = await res.json();
+  allImages = data;
+  renderThemeFilters(data);
+  renderImages();
+}
+
+function renderThemeFilters(data) {
+  const container = document.querySelector(".color-filters");
+  container.innerHTML = "";
+
+  const themes = [...new Set(data.map(img => img.theme && img.theme.toLowerCase()))]
+    .filter(theme => theme && themeColors[theme]);
+
+  themes.forEach(theme => {
+    const btn = document.createElement("div");
+    btn.className = "color-filter";
+    btn.style.backgroundColor = themeColors[theme];
+    btn.dataset.theme = theme;
+    btn.addEventListener("click", () => {
+      if (activeThemeFilter === theme) {
+        activeThemeFilter = null;
+        btn.classList.remove("active");
+      } else {
+        activeThemeFilter = theme;
+        document.querySelectorAll(".color-filter").forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+      }
+      renderImages();
+    });
+    container.appendChild(btn);
+  });
+}
+
+function renderImages() {
+  const grid = document.getElementById("imageGrid");
+  grid.innerHTML = "";
+
+  let filtered = allImages.filter(img => {
+    if (img.theme === null || img.theme === "null") return false;
+
+    // File filter
+    let ext = img.url.split(".").pop().toLowerCase();
+    if (ext === "jpeg") ext = "jpg";
+    if (activeFileFilters.size && !activeFileFilters.has(ext)) return false;
+
+    // Alpha filter
+    if (activeAlphaFilter !== null && img.has_alpha !== activeAlphaFilter) return false;
+
+    // Theme filter
+    if (activeThemeFilter && img.theme.toLowerCase() !== activeThemeFilter) return false;
+
+    return true;
+  });
+
+  filtered.forEach(img => {
+    const wrapper = document.createElement("div");
+    const image = document.createElement("img");
+    image.src = img.url;
+    wrapper.style.width = wrapper.style.height = currentSize + "px";
+    image.style.width = image.style.height = "100%";
+    wrapper.appendChild(image);
+    grid.appendChild(wrapper);
+  });
+}
+
+// File type filters
+document.querySelectorAll(".filter-button[data-type]").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const type = btn.dataset.type;
+    if (activeFileFilters.has(type)) {
+      activeFileFilters.delete(type);
+      btn.classList.remove("active");
+    } else {
+      activeFileFilters.add(type);
+      btn.classList.add("active");
     }
-    updateGridSize(sizeSlider.value);
-    sizeSlider.addEventListener('input', () => updateGridSize(sizeSlider.value));
-    decreaseBtn.addEventListener('click', () => { 
-      let val = Math.max(sizeSlider.min, sizeSlider.value - 10); 
-      sizeSlider.value = val; updateGridSize(val); 
-    });
-    increaseBtn.addEventListener('click', () => { 
-      let val = Math.min(sizeSlider.max, parseInt(sizeSlider.value) + 10); 
-      sizeSlider.value = val; updateGridSize(val); 
-    });
+    renderImages();
+  });
+});
 
-    fetch(jsonUrl)
-      .then(res => res.json())
-      .then(data => {
-        const themes = new Set();
+// Alpha filter
+document.querySelector(".filter-button[data-alpha]").addEventListener("click", e => {
+  if (activeAlphaFilter) {
+    activeAlphaFilter = null;
+    e.target.classList.remove("active");
+  } else {
+    activeAlphaFilter = true;
+    e.target.classList.add("active");
+  }
+  renderImages();
+});
 
-        // Create image wrappers
-        data.forEach(item => {
-          const url = item.url;
-          const extMatch = url.match(/\.([a-zA-Z0-9]+)(?:\?|#|$)/);
-          let ext = extMatch ? extMatch[1].toLowerCase() : '';
-          if (ext === 'jpeg') ext = 'jpg';
+// Clear color button
+document.querySelector(".clear-colors").addEventListener("click", e => {
+  activeThemeFilter = null;
+  document.querySelectorAll(".color-filter").forEach(b => b.classList.remove("active"));
+  renderImages();
+});
 
-          const wrapper = document.createElement('div');
-          wrapper.className = 'image-wrapper';
-          wrapper.dataset.ext = ext;
-          wrapper.dataset.color = item.theme.toLowerCase(); // normalize
-          wrapper.dataset.alpha = item.has_alpha.toString();
+// Image size controls
+document.getElementById("increase").addEventListener("click", () => { currentSize += 20; renderImages(); });
+document.getElementById("decrease").addEventListener("click", () => { if (currentSize > 40) { currentSize -= 20; renderImages(); } });
 
-          const img = document.createElement('img'); 
-          img.src = url; 
-          img.alt = '';
-          wrapper.appendChild(img);
-          container.appendChild(wrapper);
-
-          themes.add(item.theme.toLowerCase());
-        });
-
-        // Add color buttons
-        const colorContainer = document.getElementById('color-buttons');
-
-        // Clear color filter button
-        const clearBtn = document.createElement('button');
-        clearBtn.textContent = 'Clear';
-        clearBtn.addEventListener('click', () => {
-          colorContainer.querySelectorAll('button').forEach(b => b.classList.remove('active'));
-          activeColor = 'all';
-          filterImages();
-        });
-        colorContainer.appendChild(clearBtn);
-
-        themes.forEach(theme => {
-          if (!themeColors[theme]) return; // skip if theme is unexpected
-          const btn = document.createElement('button');
-          btn.className = "color-btn";
-          btn.style.backgroundColor = themeColors[theme];
-          btn.title = theme; // tooltip
-          btn.dataset.color = theme;
-          colorContainer.appendChild(btn);
-
-          btn.addEventListener('click', () => {
-            colorContainer.querySelectorAll('button').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            activeColor = theme;
-            filterImages();
-          });
-        });
-
-        // File type buttons
-        document.querySelectorAll('#file-type-buttons button').forEach(button => {
-          button.addEventListener('click', () => {
-            document.querySelectorAll('#file-type-buttons button').forEach(b => b.classList.remove('active'));
-            button.classList.add('active');
-            activeFile = button.dataset.filter;
-            filterImages();
-          });
-        });
-
-        // Alpha buttons
-        document.querySelectorAll('#alpha-buttons button').forEach(button => {
-          button.addEventListener('click', () => {
-            document.querySelectorAll('#alpha-buttons button').forEach(b => b.classList.remove('active'));
-            button.classList.add('active');
-            activeAlpha = button.dataset.alpha;
-            filterImages();
-          });
-        });
-
-        function filterImages() {
-          document.querySelectorAll('.image-wrapper').forEach(wrapper => {
-            const matchFile = activeFile === 'all' || wrapper.dataset.ext === activeFile;
-            const matchColor = activeColor === 'all' || wrapper.dataset.color === activeColor;
-            const matchAlpha = activeAlpha === 'all' || wrapper.dataset.alpha === activeAlpha;
-            wrapper.classList.toggle('hidden', !(matchFile && matchColor && matchAlpha));
-          });
-        }
-      })
-      .catch(err => console.error('Error loading JSON:', err));
-  </script>
+loadImages();
+</script>
 </body>
 </html>
