@@ -5,7 +5,9 @@
     "height": 760,
     "has_alpha": false,
     "most_frequent_hex": "#174ea6",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://i.imgur.com/VrQWYOY.png?https://services.google.com/fh/files/emails/icon--loop--black-inside--white-outside--2023-01-15.png",
@@ -13,7 +15,9 @@
     "height": 468,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/cmptr_icon.png",
@@ -21,7 +25,9 @@
     "height": 200,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gf_0825_jd-power_pc-mag_hsi_ookla_dsktp_v2.gif",
@@ -29,7 +35,9 @@
     "height": 620,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 67,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gf_background_blue700.png",
@@ -37,7 +45,9 @@
     "height": 1340,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gf_map_pin_700_green.png",
@@ -45,7 +55,9 @@
     "height": 954,
     "has_alpha": false,
     "most_frequent_hex": "#e8e8de",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 681,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gf_nest_dec2023_single.png",
@@ -53,7 +65,9 @@
     "height": 870,
     "has_alpha": true,
     "most_frequent_hex": "#f3f3f3",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 1010,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gf_nest_single_shadow.png",
@@ -61,7 +75,9 @@
     "height": 939,
     "has_alpha": true,
     "most_frequent_hex": "#f3f3f3",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 1045,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gf_shapes_green_1200.png",
@@ -69,7 +85,9 @@
     "height": 720,
     "has_alpha": false,
     "most_frequent_hex": "#188038",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 16,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gf_speed_icon.png",
@@ -77,7 +95,9 @@
     "height": 480,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gfiber_logo_1300_v2.png",
@@ -85,7 +105,9 @@
     "height": 312,
     "has_alpha": true,
     "most_frequent_hex": "#5f6469",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 5,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/icon__loop__black_inside__white_outside__2023_01_15.png",
@@ -93,7 +115,9 @@
     "height": 132,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 100,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/icon__piggy_bank__black_inside__white_outside__2023_12_28.png",
@@ -101,7 +125,9 @@
     "height": 532,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/icon__support_upload__black_inside__white_outside__2023_01_15.png",
@@ -109,7 +135,9 @@
     "height": 132,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 110,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/icon__wifi__black_inside__white_outside__2023_01_15.png",
@@ -117,7 +145,9 @@
     "height": 132,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 94,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/icon__wrench__black_inside__white_outside__2023_01_15.png",
@@ -125,7 +155,9 @@
     "height": 132,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 103,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/icon_calendar_black_inside_white_outside_0123.png",
@@ -133,7 +165,9 @@
     "height": 196,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 99,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/phone_icon2.png",
@@ -141,7 +175,9 @@
     "height": 200,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/sporting_kc_footer.png",
@@ -149,7 +185,9 @@
     "height": 525,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 166,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/0109347d-8cba-4c94-a7dc-81e80673f912.png",
@@ -157,7 +195,9 @@
     "height": 260,
     "has_alpha": true,
     "most_frequent_hex": "#202124",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/02cbfe23-3fa7-49a0-aeca-6e8f2b5b1895.png",
@@ -165,7 +205,9 @@
     "height": 260,
     "has_alpha": true,
     "most_frequent_hex": "#48ab36",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 82,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/081590e2-1aba-4fb1-80ab-82c069ca0a75.png",
@@ -173,7 +215,9 @@
     "height": 312,
     "has_alpha": true,
     "most_frequent_hex": "#5f6469",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 5,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/08ce6280-fe8f-4ce7-b594-f183b96655a1.png",
@@ -181,7 +225,9 @@
     "height": 74,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/0f4492f8-2665-4ea7-a400-3b5c538e51ee.gif",
@@ -189,7 +235,9 @@
     "height": 96,
     "has_alpha": false,
     "most_frequent_hex": "#202124",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 246,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/1400f06f-1d51-4dac-822b-d2e448063313.png",
@@ -197,7 +245,9 @@
     "height": 939,
     "has_alpha": true,
     "most_frequent_hex": "#f3f3f3",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 1045,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/19b622b7-98ab-4b97-a3d9-3c8520ac6a0c.png",
@@ -205,7 +255,9 @@
     "height": 62,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 4,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/1fb7465b-5090-42c2-961c-411ab5acad7e.png",
@@ -213,7 +265,9 @@
     "height": 70,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/2f7fe7af-b05e-4dc5-ab1d-81cb02b92c35.png",
@@ -221,7 +275,9 @@
     "height": 132,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 110,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/350e049f-1ebf-4939-8cba-d9a93d6e9ee3.jpg",
@@ -229,7 +285,9 @@
     "height": 800,
     "has_alpha": false,
     "most_frequent_hex": "#c7c5c6",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 74875,
+    "complex": true
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/3b1c2966-c602-41cb-bd78-6e84367d4879.png",
@@ -237,7 +295,9 @@
     "height": 225,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/4696219c-d36d-4e5a-bc15-9db3e538e32d.png",
@@ -245,7 +305,9 @@
     "height": 220,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/4a0996b0-9289-46e3-ad64-635c2611b973.png",
@@ -253,7 +315,9 @@
     "height": 60,
     "has_alpha": true,
     "most_frequent_hex": "#202124",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/50d4ca21-a508-4dc1-bf42-8bc4e9dab50b.png",
@@ -261,7 +325,9 @@
     "height": 525,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 166,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/58bbf42e-c1e3-44f7-8ef8-3ee845eeea7a.png",
@@ -269,7 +335,9 @@
     "height": 260,
     "has_alpha": true,
     "most_frequent_hex": "#202124",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/5c7990b3-ba25-43f9-9cf6-13c2d8590ec8.png",
@@ -277,7 +345,9 @@
     "height": 300,
     "has_alpha": true,
     "most_frequent_hex": "#aecbfa",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/5ebc4df8-5a9b-4e47-9ff0-28060932761c.png",
@@ -285,7 +355,9 @@
     "height": 260,
     "has_alpha": true,
     "most_frequent_hex": "#202124",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 32,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/650146ac-bca0-47e1-9f18-ceb1dd6a7b42.png",
@@ -293,7 +365,9 @@
     "height": 196,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 99,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/6a4bd8fa-dadb-4309-84f5-3fb04cd0b8c5.gif",
@@ -301,7 +375,9 @@
     "height": 80,
     "has_alpha": false,
     "most_frequent_hex": "#202124",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 16,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/75cce2d2-27c6-45a4-b063-13392a847dbc.png",
@@ -309,7 +385,9 @@
     "height": 400,
     "has_alpha": false,
     "most_frequent_hex": "#d93025",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 49,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/77e00489-8a91-429d-a4b9-4327f4eb3dfa.png",
@@ -317,7 +395,9 @@
     "height": 260,
     "has_alpha": true,
     "most_frequent_hex": "#48ab36",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 78,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/8d9351e1-f285-4555-8842-acdf1ad2ca81.gif",
@@ -325,7 +405,9 @@
     "height": 461,
     "has_alpha": true,
     "most_frequent_hex": "#5f6368",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 255,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/92d626a8-2e47-4162-9409-b56c8eab8939.png",
@@ -333,7 +415,9 @@
     "height": 132,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 94,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/97f7797d-7d4a-4db3-899a-5fa3cef6d98a.png",
@@ -341,7 +425,9 @@
     "height": 132,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 103,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/a6cf6054-8a7b-42aa-81e3-43d6fbeb450a.png",
@@ -349,7 +435,9 @@
     "height": 220,
     "has_alpha": true,
     "most_frequent_hex": "#34a853",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/b1f8e375-d267-4d68-9af1-1a105606a5e0.png",
@@ -357,7 +445,9 @@
     "height": 480,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/bdd751e2-869f-497c-8774-f2505c677209.gif",
@@ -365,7 +455,9 @@
     "height": 448,
     "has_alpha": false,
     "most_frequent_hex": "#4385f5",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 253,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/c064dc4a-ad3c-403e-bdce-340b2d0d0d26.png",
@@ -373,7 +465,9 @@
     "height": 42,
     "has_alpha": true,
     "most_frequent_hex": "#202124",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/c0e1e941-df13-408c-abbb-6e4189fcc292.png",
@@ -381,7 +475,9 @@
     "height": 312,
     "has_alpha": true,
     "most_frequent_hex": "#5f6469",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 5,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/c350e448-4ddb-4c15-98bc-8b7303b149df.png",
@@ -389,7 +485,9 @@
     "height": 260,
     "has_alpha": true,
     "most_frequent_hex": "#202124",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/d55cb2b3-f155-4cc1-96bc-0a021c199425.png",
@@ -397,7 +495,9 @@
     "height": 260,
     "has_alpha": true,
     "most_frequent_hex": "#202124",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/e22d4b65-94a5-4586-91c8-5069345874e9.png",
@@ -405,7 +505,9 @@
     "height": 62,
     "has_alpha": true,
     "most_frequent_hex": "#202124",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/e87d2da5-f21c-4a9a-aa90-920c15831f07.png",
@@ -413,7 +515,9 @@
     "height": 132,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 100,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/ea077490-3e65-40c6-a21c-2227432d364a.png",
@@ -421,7 +525,9 @@
     "height": 220,
     "has_alpha": true,
     "most_frequent_hex": "#ea4335",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/ec8d92f3-554a-4687-b207-c8fe5b99f387.png",
@@ -429,7 +535,9 @@
     "height": 66,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/ecb1be45-1019-41d2-888c-33bb2166cff1.png",
@@ -437,7 +545,9 @@
     "height": 720,
     "has_alpha": false,
     "most_frequent_hex": "#188038",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 16,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/fb27f2e8-55e8-4772-a865-666f929bb455.png",
@@ -445,7 +555,9 @@
     "height": 44,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/0778e534-d757-4d5e-bae4-8d2b51a893b8.png",
@@ -453,7 +565,9 @@
     "height": 34,
     "has_alpha": true,
     "most_frequent_hex": "#202124",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 3,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/0a6d090f-b86a-43ea-9fc1-0545485fb028.png",
@@ -461,7 +575,9 @@
     "height": 708,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 64,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/126f74f5-1121-4375-bae7-bfd42facf2d0.png",
@@ -469,7 +585,9 @@
     "height": 360,
     "has_alpha": true,
     "most_frequent_hex": "#174ea6",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/12857bc5-bf02-45f8-8b9a-6906018dc86d.png",
@@ -477,7 +595,9 @@
     "height": 140,
     "has_alpha": true,
     "most_frequent_hex": "#ea4435",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/13f051f5-494a-41f2-a9d9-32d564818840.gif",
@@ -485,7 +605,9 @@
     "height": 820,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 71,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/1a502bec-2b00-4b53-ba3a-efcf6bb5a761.png",
@@ -493,7 +615,9 @@
     "height": 440,
     "has_alpha": true,
     "most_frequent_hex": "#aecbfa",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1484,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/1d7ca476-24d8-4b56-9ae4-ed6174093351.png",
@@ -501,7 +625,9 @@
     "height": 480,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/22187c5e-2695-4666-8710-0c83fb66eabc.gif",
@@ -509,7 +635,9 @@
     "height": 400,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 16,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/2269d58d-5e58-49c6-8dce-6c52f2955418.gif",
@@ -517,7 +645,9 @@
     "height": 1200,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 62,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/34434c9e-27a9-4be3-b5ad-08263f27089d.gif",
@@ -525,7 +655,9 @@
     "height": 620,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 68,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/34cea374-e252-4c8b-9998-1ab2782efef1.jpg",
@@ -533,7 +665,9 @@
     "height": 700,
     "has_alpha": false,
     "most_frequent_hex": "#0d0b0c",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 121071,
+    "complex": true
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/37b887ce-b51b-4bba-8f54-b8ccab3d83e6.gif",
@@ -541,7 +675,9 @@
     "height": 400,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 16,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/3eecf352-243c-4b45-8f0a-444d0e356f61.png",
@@ -549,7 +685,9 @@
     "height": 276,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 256,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/41731c43-5a9d-49bc-9fe0-83f7b147e4ac.png",
@@ -557,7 +695,9 @@
     "height": 480,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/41992dd1-70f6-4d0c-8686-886bca35f31d.png",
@@ -565,7 +705,9 @@
     "height": 220,
     "has_alpha": true,
     "most_frequent_hex": "#ea4335",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/4268b668-5630-443d-aabb-eab0d05b6b5e.png",
@@ -573,7 +715,9 @@
     "height": 504,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/440deda3-88c0-4438-a5c6-0d54029b8daa.png",
@@ -581,7 +725,9 @@
     "height": 34,
     "has_alpha": true,
     "most_frequent_hex": "#202124",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 5,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/4517c647-dc22-4984-8c53-0221d9ef7afd.png",
@@ -589,7 +735,9 @@
     "height": 516,
     "has_alpha": true,
     "most_frequent_hex": "#ea8068",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 357,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/53f6feba-cec2-41fa-9d2d-1ef48f42aa39.png",
@@ -597,7 +745,9 @@
     "height": 276,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 1484,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/585b5f3b-0e76-487b-86d6-f6adac07f533.png",
@@ -605,7 +755,9 @@
     "height": 440,
     "has_alpha": true,
     "most_frequent_hex": "#aecbfa",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 4070,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/63ef5cf5-f9bf-4cb2-a146-c441b7ff31de.png",
@@ -613,7 +765,9 @@
     "height": 720,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/66b4eafe-0394-4ad5-ac62-e7588ea60342.png",
@@ -621,7 +775,9 @@
     "height": 360,
     "has_alpha": true,
     "most_frequent_hex": "#174ea6",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/6892b9e7-06d0-4203-bbcb-efdb73e63cba.png",
@@ -629,7 +785,9 @@
     "height": 132,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 100,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/77df1645-e122-4eba-a97b-549b1d35ecc1.png",
@@ -637,7 +795,9 @@
     "height": 954,
     "has_alpha": false,
     "most_frequent_hex": "#e8e8de",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 681,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/7a4e85c8-fb38-4e30-8176-6f1579c6621b.png",
@@ -645,7 +805,9 @@
     "height": 520,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 235,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/7ddae29f-9247-4904-a239-2f7d66280aeb.png",
@@ -653,7 +815,9 @@
     "height": 480,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/82e13347-5739-4d2b-b515-32619df254a8.png",
@@ -661,7 +825,9 @@
     "height": 132,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 103,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/83df92eb-c366-45fe-94d7-6bf2d757d060.png",
@@ -669,7 +835,9 @@
     "height": 312,
     "has_alpha": true,
     "most_frequent_hex": "#5f6469",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 5,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/8d4ac263-723f-4d1c-b1c1-53125754eb94.png",
@@ -677,7 +845,9 @@
     "height": 752,
     "has_alpha": true,
     "most_frequent_hex": "#aecbfa",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 3990,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/90506bad-e5b9-4f0c-84ef-f22834065db4.png",
@@ -685,7 +855,9 @@
     "height": 34,
     "has_alpha": true,
     "most_frequent_hex": "#202124",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 6,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/99817917-4042-4397-bd32-35d865e787de.png",
@@ -693,7 +865,9 @@
     "height": 312,
     "has_alpha": true,
     "most_frequent_hex": "#5f6469",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 5,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/a3393079-8f6b-481e-9c4e-94e4f4c2f2d8.png",
@@ -701,7 +875,9 @@
     "height": 366,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 109,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/a5f5083c-22a1-4b23-8711-47290b2eec89.jpg",
@@ -709,7 +885,9 @@
     "height": 740,
     "has_alpha": false,
     "most_frequent_hex": "#120e0d",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 158372,
+    "complex": true
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/a77a46b9-41b6-4efe-8d8d-67249633aee7.gif",
@@ -717,7 +895,9 @@
     "height": 400,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 15,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/ad88ce38-f500-4c92-b839-293b2625970e.png",
@@ -725,7 +905,9 @@
     "height": 312,
     "has_alpha": true,
     "most_frequent_hex": "#5f6469",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 5,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/b9efdaf7-28d6-49df-a826-d7efb4a6cdbe.gif",
@@ -733,7 +915,9 @@
     "height": 84,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 126,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/c55b1eb8-4009-4ed0-993f-ce6fed7ce634.png",
@@ -741,7 +925,9 @@
     "height": 432,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/cd5fdb8c-e0ed-4d6e-a54e-5708d92cef29.png",
@@ -749,7 +935,9 @@
     "height": 954,
     "has_alpha": false,
     "most_frequent_hex": "#e8e8de",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 693,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/cf49902d-da80-4690-ba92-845b40983486.png",
@@ -757,7 +945,9 @@
     "height": 360,
     "has_alpha": true,
     "most_frequent_hex": "#174ea6",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/d9fa0738-43d5-4948-96c0-0712421a9fac.png",
@@ -765,7 +955,9 @@
     "height": 480,
     "has_alpha": true,
     "most_frequent_hex": "#b7a895",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 31747,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/dc38a706-b1dd-409c-a8a1-2970f8647637.png",
@@ -773,7 +965,9 @@
     "height": 34,
     "has_alpha": true,
     "most_frequent_hex": "#202124",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 5,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/dc994633-3144-4acd-a2d2-613a6f842a0d.png",
@@ -781,7 +975,9 @@
     "height": 1160,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 4,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/debcbf6a-8059-4c1a-b1d5-d58b65d9cb4c.png",
@@ -789,7 +985,9 @@
     "height": 390,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/ed2b3fc7-37be-4f00-acbd-f6a6aa6f7700.png",
@@ -797,7 +995,9 @@
     "height": 158,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/ef14a8e1-eea0-4269-8e1c-d251c9fd7257.png",
@@ -805,7 +1005,9 @@
     "height": 34,
     "has_alpha": true,
     "most_frequent_hex": "#202124",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 5,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/f40f45d4-dbe3-416b-a05b-f1e992697ebc.png",
@@ -813,7 +1015,9 @@
     "height": 442,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 119,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/f41021a9-6610-46c4-a109-70fc538da8a3.png",
@@ -821,7 +1025,9 @@
     "height": 928,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 110,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/f508e8a0-0008-403e-bba1-a381102724bc.png",
@@ -829,7 +1035,9 @@
     "height": 954,
     "has_alpha": false,
     "most_frequent_hex": "#e8e8de",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 911,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/f82b0227-92af-4a91-9238-fd7eb3b89f88.png",
@@ -837,7 +1045,9 @@
     "height": 1160,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 4,
+    "complex": false
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/fa452cf0-d9ae-4049-9d0c-52d189f2a73a.jpg",
@@ -845,7 +1055,9 @@
     "height": 760,
     "has_alpha": false,
     "most_frequent_hex": "#cbc5b9",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 50605,
+    "complex": true
   },
   {
     "url": "https://imgur.com/i5pNQQr.gif?https://services.google.com/fh/files/emails/2025-06-27--testimonial--opt.gif",
@@ -853,7 +1065,9 @@
     "height": 553,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 7,
+    "complex": false
   },
   {
     "url": "https://imgur.com/tKJwF5y.png?https://services.google.com/fh/files/emails/icon--battery-saver--black-fill--white-outline.png",
@@ -861,7 +1075,9 @@
     "height": 192,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 65,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/012023_smb_em1_hero_01.gif",
@@ -869,7 +1085,9 @@
     "height": 802,
     "has_alpha": false,
     "most_frequent_hex": "#111027",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 249,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/012023_smb_em1_hero_01.png",
@@ -877,7 +1095,9 @@
     "height": 860,
     "has_alpha": true,
     "most_frequent_hex": "#34a853",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/012023_smb_em1_hero_02.png",
@@ -885,7 +1105,9 @@
     "height": 860,
     "has_alpha": true,
     "most_frequent_hex": "#ceead6",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 2,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/012023_smb_em1_title_01.png",
@@ -893,7 +1115,9 @@
     "height": 360,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 33,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/1-25-upgrade-hero-dsktp.png",
@@ -901,7 +1125,9 @@
     "height": 838,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 31,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/1-25-upgrade-hero-mbl.png",
@@ -909,7 +1135,9 @@
     "height": 546,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/10sec-icon-white.png",
@@ -917,7 +1145,9 @@
     "height": 490,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/12-04-green-img1.png",
@@ -925,7 +1155,9 @@
     "height": 320,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 61247,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/12-11-blue--calendar-icon.png",
@@ -933,7 +1165,9 @@
     "height": 172,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/12-11-blue--hero-bg.png",
@@ -941,7 +1175,9 @@
     "height": 720,
     "has_alpha": false,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 78,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/12-21-blue_hero.jpg",
@@ -949,7 +1185,9 @@
     "height": 640,
     "has_alpha": false,
     "most_frequent_hex": "#1e1e1e",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 103766,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/1228_countdown.gif",
@@ -957,7 +1195,9 @@
     "height": 301,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 255,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/2-19-core--1.jpg",
@@ -965,7 +1205,9 @@
     "height": 593,
     "has_alpha": false,
     "most_frequent_hex": "#f0f4ff",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 128205,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/2-19-core--3.png",
@@ -973,7 +1215,9 @@
     "height": 680,
     "has_alpha": true,
     "most_frequent_hex": "#303333",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 233,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/2023-03-14--hero--desktop.jpg",
@@ -981,7 +1225,9 @@
     "height": 660,
     "has_alpha": false,
     "most_frequent_hex": "#e7e9e8",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 96426,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/2023-03-14--hero--mobile.jpg",
@@ -989,7 +1235,9 @@
     "height": 400,
     "has_alpha": false,
     "most_frequent_hex": "#cfe2e6",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 105738,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/2023-03-22--move-icon.png",
@@ -997,7 +1245,9 @@
     "height": 110,
     "has_alpha": true,
     "most_frequent_hex": "#0d652d",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/2023-03-22--rotating-quotes.gif",
@@ -1005,7 +1255,9 @@
     "height": 260,
     "has_alpha": false,
     "most_frequent_hex": "#f1f3f4",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 255,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/2023-03-29--img1.jpg",
@@ -1013,7 +1265,9 @@
     "height": 800,
     "has_alpha": false,
     "most_frequent_hex": "#d2cdca",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 169775,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/2023-04-26--offer--lady-with-laptop.jpg",
@@ -1021,7 +1275,9 @@
     "height": 640,
     "has_alpha": false,
     "most_frequent_hex": "#fefefe",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 159847,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/2023-04-26--product--2gigrouter--with-wedge_700.png",
@@ -1029,7 +1285,9 @@
     "height": 432,
     "has_alpha": true,
     "most_frequent_hex": "#0d652d",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 179,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/2023-05--zebra-1--desktop.png",
@@ -1037,7 +1295,9 @@
     "height": 559,
     "has_alpha": true,
     "most_frequent_hex": "#e9e4e1",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 239,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/2023-05--zebra-1--mobile.png",
@@ -1045,7 +1305,9 @@
     "height": 419,
     "has_alpha": true,
     "most_frequent_hex": "#dbdada",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 230,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/2023-05--zebra-2--desktop.png",
@@ -1053,7 +1315,9 @@
     "height": 559,
     "has_alpha": true,
     "most_frequent_hex": "#cbcac6",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 238,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/2023-05--zebra-2--mobile.png",
@@ -1061,7 +1325,9 @@
     "height": 419,
     "has_alpha": true,
     "most_frequent_hex": "#c4c5c8",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 234,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/2023-05-28--photo-desktop.png",
@@ -1069,7 +1335,9 @@
     "height": 720,
     "has_alpha": true,
     "most_frequent_hex": "#8f4801",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 236,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/2023-05-28--photo-mobile.png",
@@ -1077,7 +1345,9 @@
     "height": 320,
     "has_alpha": true,
     "most_frequent_hex": "#904901",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 228,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/2024-05--arrow_icon_button.png",
@@ -1085,7 +1355,9 @@
     "height": 42,
     "has_alpha": true,
     "most_frequent_hex": "#202124",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/2024-05--computer_icon_button.png",
@@ -1093,7 +1365,9 @@
     "height": 62,
     "has_alpha": true,
     "most_frequent_hex": "#202124",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/2024-05--customerservice_icon.png",
@@ -1101,7 +1375,9 @@
     "height": 74,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/2024-05--phone_icon.png",
@@ -1109,7 +1385,9 @@
     "height": 60,
     "has_alpha": true,
     "most_frequent_hex": "#202124",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/2024-05--shapes_divider.png",
@@ -1117,7 +1395,9 @@
     "height": 62,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 4,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/2024-05--stopwatch.png",
@@ -1125,7 +1405,9 @@
     "height": 300,
     "has_alpha": true,
     "most_frequent_hex": "#aecbfa",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/2024-05--tool_icon.png",
@@ -1133,7 +1415,9 @@
     "height": 70,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/2024-05--unlimited_icon.png",
@@ -1141,7 +1425,9 @@
     "height": 44,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/2024-05--wifi_icon.png",
@@ -1149,7 +1435,9 @@
     "height": 66,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/2024-07-02--jk--1a.png",
@@ -1157,7 +1445,9 @@
     "height": 500,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 230,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/2025-06-27--testimonial--opt.gif",
@@ -1165,7 +1455,9 @@
     "height": 553,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 7,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/212_countdown.gif",
@@ -1173,7 +1465,9 @@
     "height": 138,
     "has_alpha": true,
     "most_frequent_hex": "#ea4335",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 193,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/3-device-collage-with-wedge.png",
@@ -1181,7 +1475,9 @@
     "height": 387,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 151,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/3x-icon-white.png",
@@ -1189,7 +1485,9 @@
     "height": 196,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/acp_hero_dsktp2.png",
@@ -1197,7 +1495,9 @@
     "height": 736,
     "has_alpha": true,
     "most_frequent_hex": "#e8f0fe",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 49,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/acp_hero_mbl2.png",
@@ -1205,7 +1505,9 @@
     "height": 678,
     "has_alpha": true,
     "most_frequent_hex": "#e8f0fe",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 49,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/app_04.png",
@@ -1213,7 +1515,9 @@
     "height": 44,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 73,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/app_05.png",
@@ -1221,7 +1525,9 @@
     "height": 44,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 223,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/apple-app-store-button.png",
@@ -1229,7 +1535,9 @@
     "height": 276,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 256,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/apt-lifestyle.jpg",
@@ -1237,7 +1545,9 @@
     "height": 900,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 137032,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/arrow-green-500.gif",
@@ -1245,7 +1555,9 @@
     "height": 500,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 3,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/arrow-red-500.gif",
@@ -1253,7 +1565,9 @@
     "height": 500,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 8,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/bg--green-bubbles-2-light--2023-01-15.png",
@@ -1261,7 +1575,9 @@
     "height": 400,
     "has_alpha": false,
     "most_frequent_hex": "#34a853",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 38,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/bg--green-bubbles-3-light--2023-01-15.png",
@@ -1269,7 +1585,9 @@
     "height": 239,
     "has_alpha": false,
     "most_frequent_hex": "#34a853",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 31,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/bg--red-corner-bubbles--700-900.png",
@@ -1277,7 +1595,9 @@
     "height": 400,
     "has_alpha": false,
     "most_frequent_hex": "#d93025",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 49,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/billboard-text.png",
@@ -1285,7 +1605,9 @@
     "height": 252,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 2,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/blue_arrow2.gif",
@@ -1293,7 +1615,9 @@
     "height": 500,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 7,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/blue_check.png",
@@ -1301,7 +1625,9 @@
     "height": 28,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/blue_checkmark_wide.png",
@@ -1309,7 +1635,9 @@
     "height": 406,
     "has_alpha": true,
     "most_frequent_hex": "#174ea6",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/cal_icon_blk.png",
@@ -1317,7 +1645,9 @@
     "height": 450,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/chat_500_green.png",
@@ -1325,7 +1655,9 @@
     "height": 608,
     "has_alpha": true,
     "most_frequent_hex": "#34a853",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/chat_500_red.png",
@@ -1333,7 +1665,9 @@
     "height": 532,
     "has_alpha": true,
     "most_frequent_hex": "#ea4335",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/checkmark_6d6d6d.png",
@@ -1341,7 +1675,9 @@
     "height": 220,
     "has_alpha": true,
     "most_frequent_hex": "#6d6d6d",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/checkmark_blue_500.png",
@@ -1349,7 +1685,9 @@
     "height": 220,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/checkmark_blue_700.png",
@@ -1357,7 +1695,9 @@
     "height": 220,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/checkmark_blue_900.png",
@@ -1365,7 +1705,9 @@
     "height": 220,
     "has_alpha": true,
     "most_frequent_hex": "#174ea6",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/checkmark_green_500.png",
@@ -1373,7 +1715,9 @@
     "height": 220,
     "has_alpha": true,
     "most_frequent_hex": "#34a853",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/checkmark_green_700.png",
@@ -1381,7 +1725,9 @@
     "height": 220,
     "has_alpha": true,
     "most_frequent_hex": "#188038",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/checkmark_green_900.png",
@@ -1389,7 +1735,9 @@
     "height": 220,
     "has_alpha": true,
     "most_frequent_hex": "#0d652d",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/checkmark_grey_500.png",
@@ -1397,7 +1745,9 @@
     "height": 220,
     "has_alpha": true,
     "most_frequent_hex": "#9aa0a6",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/checkmark_grey_700.png",
@@ -1405,7 +1755,9 @@
     "height": 220,
     "has_alpha": true,
     "most_frequent_hex": "#5f6368",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/checkmark_grey_800.png",
@@ -1413,7 +1765,9 @@
     "height": 220,
     "has_alpha": true,
     "most_frequent_hex": "#3c4043",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/checkmark_grey_900.png",
@@ -1421,7 +1775,9 @@
     "height": 220,
     "has_alpha": true,
     "most_frequent_hex": "#202124",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/checkmark_red_500.png",
@@ -1429,7 +1785,9 @@
     "height": 220,
     "has_alpha": true,
     "most_frequent_hex": "#ea4335",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/checkmark_red_600.png",
@@ -1437,7 +1795,9 @@
     "height": 220,
     "has_alpha": true,
     "most_frequent_hex": "#d93025",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/checkmark_red_900.png",
@@ -1445,7 +1805,9 @@
     "height": 220,
     "has_alpha": true,
     "most_frequent_hex": "#a50e0e",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/checkmark_yellow_100.png",
@@ -1453,7 +1815,9 @@
     "height": 220,
     "has_alpha": true,
     "most_frequent_hex": "#feefc3",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/checkmark_yellow_500.png",
@@ -1461,7 +1825,9 @@
     "height": 220,
     "has_alpha": true,
     "most_frequent_hex": "#fbbc04",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/checkmark_yellow_700.png",
@@ -1469,7 +1835,9 @@
     "height": 308,
     "has_alpha": true,
     "most_frequent_hex": "#f29900",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/checkmark_yellow_900.png",
@@ -1477,7 +1845,9 @@
     "height": 220,
     "has_alpha": true,
     "most_frequent_hex": "#e37400",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/cloud_icon_dec.png",
@@ -1485,7 +1855,9 @@
     "height": 320,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/cloud_icon_dec_blue.png",
@@ -1493,7 +1865,9 @@
     "height": 320,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/cloud_icon_dec_red.png",
@@ -1501,7 +1875,9 @@
     "height": 320,
     "has_alpha": true,
     "most_frequent_hex": "#ea4335",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/cmptr_icon.png",
@@ -1509,7 +1885,9 @@
     "height": 200,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/cooking_dsktp2.jpg",
@@ -1517,7 +1895,9 @@
     "height": 650,
     "has_alpha": false,
     "most_frequent_hex": "#b7b7b7",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 70680,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/countdown-timer--simple--6hrs.gif",
@@ -1525,7 +1905,9 @@
     "height": 80,
     "has_alpha": false,
     "most_frequent_hex": "#202124",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 16,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/countdown-v3.gif",
@@ -1533,7 +1915,9 @@
     "height": 301,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 255,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/coupon_free-data.png",
@@ -1541,7 +1925,9 @@
     "height": 1200,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 61,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/coupon_free-install.png",
@@ -1549,7 +1935,9 @@
     "height": 1200,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 61,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/coupon_free-storage.png",
@@ -1557,7 +1945,9 @@
     "height": 1200,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 61,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/coupon_free-wifi.png",
@@ -1565,7 +1955,9 @@
     "height": 1200,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 61,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/coupon_img_4.png",
@@ -1573,7 +1965,9 @@
     "height": 500,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 44,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/coupon_ll.png",
@@ -1581,7 +1975,9 @@
     "height": 820,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 62,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/coupon_lr.png",
@@ -1589,7 +1985,9 @@
     "height": 820,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 91,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/coupon_tl.png",
@@ -1597,7 +1995,9 @@
     "height": 820,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 62,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/coupon_tr.png",
@@ -1605,7 +2005,9 @@
     "height": 820,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 62,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/dancers.jpg",
@@ -1613,7 +2015,9 @@
     "height": 640,
     "has_alpha": false,
     "most_frequent_hex": "#1e1e1e",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 103766,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/double-pucks--transparent.png",
@@ -1621,7 +2025,9 @@
     "height": 684,
     "has_alpha": true,
     "most_frequent_hex": "#f0f0f0",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 57,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/expansion--quotes.gif",
@@ -1629,7 +2035,9 @@
     "height": 293,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 13,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/faster_red_dsktp.png",
@@ -1637,7 +2045,9 @@
     "height": 1200,
     "has_alpha": true,
     "most_frequent_hex": "#d93025",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/faster_red_mbl.png",
@@ -1645,7 +2055,9 @@
     "height": 450,
     "has_alpha": true,
     "most_frequent_hex": "#d93025",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/fastest_isp_icon_dsktp.png",
@@ -1653,7 +2065,9 @@
     "height": 138,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/fastest_provider.png",
@@ -1661,7 +2075,9 @@
     "height": 730,
     "has_alpha": true,
     "most_frequent_hex": "#235dfb",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1332,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/fastest_provider_mbl.png",
@@ -1669,7 +2085,9 @@
     "height": 456,
     "has_alpha": true,
     "most_frequent_hex": "#235dfb",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1163,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/fb_260.png",
@@ -1677,7 +2095,9 @@
     "height": 260,
     "has_alpha": true,
     "most_frequent_hex": "#202124",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/fiberlogo0518.png",
@@ -1685,7 +2105,9 @@
     "height": 88,
     "has_alpha": true,
     "most_frequent_hex": "#5e6369",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 5,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf-0824-router-dsktp.png",
@@ -1693,7 +2115,9 @@
     "height": 600,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 271,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf-0824-router-mobile.png",
@@ -1701,7 +2125,9 @@
     "height": 912,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 272,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf-10sec-image.png",
@@ -1709,7 +2135,9 @@
     "height": 490,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf-15sec-image.png",
@@ -1717,7 +2145,9 @@
     "height": 490,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf-2025-09-05--single-puck.png",
@@ -1725,7 +2155,9 @@
     "height": 456,
     "has_alpha": true,
     "most_frequent_hex": "#e8eff8",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 120,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf-3x-image.png",
@@ -1733,7 +2165,9 @@
     "height": 490,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf-6-2-wifi-6e.png",
@@ -1741,7 +2175,9 @@
     "height": 990,
     "has_alpha": true,
     "most_frequent_hex": "#dadada",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 236,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0125_1-19_wmn-ktchn_dsktp.png",
@@ -1749,7 +2185,9 @@
     "height": 640,
     "has_alpha": true,
     "most_frequent_hex": "#f7f7f8",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 66425,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0125_1-19_wmn-ktchn_mbl.png",
@@ -1757,7 +2195,9 @@
     "height": 500,
     "has_alpha": true,
     "most_frequent_hex": "#f7f7f8",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 72427,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0125_1-19_wmn-ktchn_mbl3.png",
@@ -1765,7 +2205,9 @@
     "height": 563,
     "has_alpha": true,
     "most_frequent_hex": "#f7f7f8",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 43224,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0125_1-22_bllt-pnts_mbl3.png",
@@ -1773,7 +2215,9 @@
     "height": 320,
     "has_alpha": true,
     "most_frequent_hex": "#ceead6",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 145,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0125_1-22_lrg-bllt-pnts_dsktp3.png",
@@ -1781,7 +2225,9 @@
     "height": 500,
     "has_alpha": true,
     "most_frequent_hex": "#2a9a45",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 136,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0125_1-23_gfiber_app_screens.gif",
@@ -1789,7 +2235,9 @@
     "height": 1020,
     "has_alpha": true,
     "most_frequent_hex": "#5290f7",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 119,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0125_app_green500.png",
@@ -1797,7 +2245,9 @@
     "height": 336,
     "has_alpha": false,
     "most_frequent_hex": "#34a853",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0125_router_shadow_800px.png",
@@ -1805,7 +2255,9 @@
     "height": 1200,
     "has_alpha": true,
     "most_frequent_hex": "#b7b4b6",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 14132,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0225_2-16_reverse_wmn-ktchn_dsktp.png",
@@ -1813,7 +2265,9 @@
     "height": 640,
     "has_alpha": true,
     "most_frequent_hex": "#f7f7f8",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 69191,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0225_2-23_hero-50px_dsktp.png",
@@ -1821,7 +2275,9 @@
     "height": 640,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 112001,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0225_2-2_arm3_hero.png",
@@ -1829,7 +2285,9 @@
     "height": 460,
     "has_alpha": true,
     "most_frequent_hex": "#dadce0",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 47,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0225_2-9-25_attributes_jd-power_speeds_wifi_no-hidden-fees.png",
@@ -1837,7 +2295,9 @@
     "height": 1200,
     "has_alpha": false,
     "most_frequent_hex": "#f2f3f3",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 10572,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0225_core-logo.png",
@@ -1845,7 +2305,9 @@
     "height": 482,
     "has_alpha": true,
     "most_frequent_hex": "#5f6469",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0225_core-logo_blk.png",
@@ -1853,7 +2315,9 @@
     "height": 482,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0225_edge-logo_outlined.png",
@@ -1861,7 +2325,9 @@
     "height": 442,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0225_edge-logo_white-with-outline.png",
@@ -1869,7 +2335,9 @@
     "height": 880,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0225_home-logo.png",
@@ -1877,7 +2345,9 @@
     "height": 404,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 4,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0325_3-18_headline_dsktp.png",
@@ -1885,7 +2355,9 @@
     "height": 128,
     "has_alpha": true,
     "most_frequent_hex": "#fbbc04",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 16,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0325_3-18_headline_mbl.png",
@@ -1893,7 +2365,9 @@
     "height": 80,
     "has_alpha": true,
     "most_frequent_hex": "#fbbc04",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 16,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0325_3-18_hero.jpg",
@@ -1901,7 +2375,9 @@
     "height": 728,
     "has_alpha": false,
     "most_frequent_hex": "#d5d4d0",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 79801,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0325_3-18_subhead_dsktp.png",
@@ -1909,7 +2385,9 @@
     "height": 128,
     "has_alpha": true,
     "most_frequent_hex": "#fbbc04",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 16,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0325_3-5_gal-cmptr_dsktp.png",
@@ -1917,7 +2395,9 @@
     "height": 640,
     "has_alpha": true,
     "most_frequent_hex": "#adacaa",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 78539,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0325_3-5_gal-cmptr_mbl.png",
@@ -1925,7 +2405,9 @@
     "height": 400,
     "has_alpha": true,
     "most_frequent_hex": "#e0ded9",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 85888,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0325_icon_uptime-guarantee_v2.png",
@@ -1933,7 +2415,9 @@
     "height": 576,
     "has_alpha": true,
     "most_frequent_hex": "#202124",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 52,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0425_4-20_hero.jpg",
@@ -1941,7 +2425,9 @@
     "height": 760,
     "has_alpha": false,
     "most_frequent_hex": "#dededc",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 85571,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0425_4-23_silver.jpg",
@@ -1949,7 +2435,9 @@
     "height": 840,
     "has_alpha": false,
     "most_frequent_hex": "#d2d2d2",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 660,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0425_7x-icon-blue.png",
@@ -1957,7 +2445,9 @@
     "height": 490,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0425_7x-icon-white.png",
@@ -1965,7 +2455,9 @@
     "height": 490,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0425_icon_uplds-dwnlds.png",
@@ -1973,7 +2465,9 @@
     "height": 480,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 15,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0525_5-21_hero_dsktp.gif",
@@ -1981,7 +2475,9 @@
     "height": 680,
     "has_alpha": false,
     "most_frequent_hex": "#4385f5",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 255,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0525_5-21_hero_mbl.gif",
@@ -1989,7 +2485,9 @@
     "height": 448,
     "has_alpha": false,
     "most_frequent_hex": "#4385f5",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 253,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0525_5-21_hero_phone.png",
@@ -1997,7 +2495,9 @@
     "height": 1424,
     "has_alpha": true,
     "most_frequent_hex": "#ceead6",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 4392,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0525_5-21_hero_taps_v2.png",
@@ -2005,7 +2505,9 @@
     "height": 210,
     "has_alpha": true,
     "most_frequent_hex": "#ea4335",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 16,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0525_icon_laptop-outlined-white.png",
@@ -2013,7 +2515,9 @@
     "height": 400,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0525_icon_phone-outlined-white.png",
@@ -2021,7 +2525,9 @@
     "height": 420,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0525_icon_route_blue700.png",
@@ -2029,7 +2535,9 @@
     "height": 312,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0525_icon_secure-lock.png",
@@ -2037,7 +2545,9 @@
     "height": 432,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0525_icon_secure-lock_blue700.png",
@@ -2045,7 +2555,9 @@
     "height": 384,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0525_icon_uptime-guarantee.png",
@@ -2053,7 +2565,9 @@
     "height": 576,
     "has_alpha": true,
     "most_frequent_hex": "#bdc1c6",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 58,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0525_jd-power_pc-mag_hsi_ookla_dsktp.gif",
@@ -2061,7 +2575,9 @@
     "height": 700,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 67,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0525_jd-power_pc-mag_hsi_ookla_mbl.gif",
@@ -2069,7 +2585,9 @@
     "height": 820,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 69,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0624_gfiber_app_screens_fade.gif",
@@ -2077,7 +2595,9 @@
     "height": 1200,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 62,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0625_6-18_attributes_jd-power_1-gig-speeds_wifi_no-hidden-fees.png",
@@ -2085,7 +2605,9 @@
     "height": 1200,
     "has_alpha": true,
     "most_frequent_hex": "#f2f3f3",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 10569,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0625_6-18_hero_dsktp.png",
@@ -2093,7 +2615,9 @@
     "height": 800,
     "has_alpha": false,
     "most_frequent_hex": "#d2e3fc",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 79673,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0625_6-18_hero_mbl.png",
@@ -2101,7 +2625,9 @@
     "height": 648,
     "has_alpha": true,
     "most_frequent_hex": "#cbb39a",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 150982,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0625_6-4_blue200_core_hero_mbl.png",
@@ -2109,7 +2635,9 @@
     "height": 440,
     "has_alpha": true,
     "most_frequent_hex": "#aecbfa",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1484,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0625_6-4_blue200_hero_mbl.png",
@@ -2117,7 +2645,9 @@
     "height": 440,
     "has_alpha": true,
     "most_frequent_hex": "#aecbfa",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 4070,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0625_6-4_jd-power-laurels_dsktp.png",
@@ -2125,7 +2655,9 @@
     "height": 500,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 4210,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0625_6-4_jd-power-laurels_mbl.png",
@@ -2133,7 +2665,9 @@
     "height": 680,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 4627,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0625_6-4_quotes_anim_v2.gif",
@@ -2141,7 +2675,9 @@
     "height": 975,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 7,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0625_exp_douglas-county.jpg",
@@ -2149,7 +2685,9 @@
     "height": 660,
     "has_alpha": false,
     "most_frequent_hex": "#c2dbf1",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 158575,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0625_jd-power_pc-mag_hsi_ookla_dsktp.gif",
@@ -2157,7 +2695,9 @@
     "height": 700,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 67,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0625_jd-power_pc-mag_hsi_ookla_mbl.gif",
@@ -2165,7 +2705,9 @@
     "height": 820,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 74,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0724_6e-extender-shape.png",
@@ -2173,7 +2715,9 @@
     "height": 780,
     "has_alpha": true,
     "most_frequent_hex": "#fbbc04",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 1778,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0724_pucks_shape.png",
@@ -2181,7 +2725,9 @@
     "height": 780,
     "has_alpha": true,
     "most_frequent_hex": "#fbbc04",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 2672,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0725_7-30_4up_jd-power_1-gig.png",
@@ -2189,7 +2735,9 @@
     "height": 900,
     "has_alpha": true,
     "most_frequent_hex": "#f3f4f4",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 9221,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0725_7-6_hero_july-invite.png",
@@ -2197,7 +2745,9 @@
     "height": 720,
     "has_alpha": true,
     "most_frequent_hex": "#fefefe",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 4729,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0725_hsi_badge_2x-winner_bkgrnd.png",
@@ -2205,7 +2755,9 @@
     "height": 1200,
     "has_alpha": true,
     "most_frequent_hex": "#162b64",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 294,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0725_icon_battery-full_black.png",
@@ -2213,7 +2765,9 @@
     "height": 480,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0725_icon_bolt_blk.png",
@@ -2221,7 +2775,9 @@
     "height": 480,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0725_icon_dollar-sign_500-blue.png",
@@ -2229,7 +2785,9 @@
     "height": 480,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0725_icon_dollar-sign_blk.png",
@@ -2237,7 +2795,9 @@
     "height": 480,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0725_icon_home-pin_blk.png",
@@ -2245,7 +2805,9 @@
     "height": 504,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0725_icon_route_black.png",
@@ -2253,7 +2815,9 @@
     "height": 390,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0725_jd-power_pc-mag_hsi_ookla_dsktp.gif",
@@ -2261,7 +2825,9 @@
     "height": 620,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 67,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0725_jd-power_pc-mag_hsi_ookla_mbl.gif",
@@ -2269,7 +2835,9 @@
     "height": 820,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 74,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0824_8-25_router_dsktp.jpg",
@@ -2277,7 +2845,9 @@
     "height": 960,
     "has_alpha": false,
     "most_frequent_hex": "#ebe6e2",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 16841,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0824_8-25_router_mbl.png",
@@ -2285,7 +2855,9 @@
     "height": 440,
     "has_alpha": true,
     "most_frequent_hex": "#e9e4e0",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 26222,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0824_arrows_left.png",
@@ -2293,7 +2865,9 @@
     "height": 192,
     "has_alpha": true,
     "most_frequent_hex": "#fbab18",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0824_arrows_right.png",
@@ -2301,7 +2875,9 @@
     "height": 192,
     "has_alpha": true,
     "most_frequent_hex": "#fbab18",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0825_8-20_core-connected.jpg",
@@ -2309,7 +2885,9 @@
     "height": 720,
     "has_alpha": false,
     "most_frequent_hex": "#82684d",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 73485,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0825_8-20_number-1_blk.png",
@@ -2317,7 +2895,9 @@
     "height": 420,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 32,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0825_8-20_number-2_blk.png",
@@ -2325,7 +2905,9 @@
     "height": 420,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 32,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0825_8-20_number-3_blk.png",
@@ -2333,7 +2915,9 @@
     "height": 420,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 32,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0825_edge-logo_white-with-outline.png",
@@ -2341,7 +2925,9 @@
     "height": 880,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0825_exp_cibolo.jpg",
@@ -2349,7 +2935,9 @@
     "height": 720,
     "has_alpha": false,
     "most_frequent_hex": "#030303",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 79144,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0825_icon_2x_blue700.png",
@@ -2357,7 +2945,9 @@
     "height": 338,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0825_icon_cstmr-srvc_blue500.png",
@@ -2365,7 +2955,9 @@
     "height": 486,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0825_icon_cstmr-srvc_blue700.png",
@@ -2373,7 +2965,9 @@
     "height": 486,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0825_icon_pin-chckmrk_blk.png",
@@ -2381,7 +2975,9 @@
     "height": 468,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0825_icon_shield_blue700.png",
@@ -2389,7 +2985,9 @@
     "height": 468,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0825_icon_star_blue700.png",
@@ -2397,7 +2995,9 @@
     "height": 468,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0825_icon_wrench_blue500.png",
@@ -2405,7 +3005,9 @@
     "height": 480,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0825_icon_wrench_blue700.png",
@@ -2413,7 +3015,9 @@
     "height": 480,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0825_jd-power_pc-mag_hsi_ookla_dsktp.gif",
@@ -2421,7 +3025,9 @@
     "height": 620,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 67,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0825_jd-power_pc-mag_hsi_ookla_dsktp_v2.gif",
@@ -2429,7 +3035,9 @@
     "height": 620,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 67,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0825_jd-power_pc-mag_hsi_ookla_mbl.gif",
@@ -2437,7 +3045,9 @@
     "height": 820,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 81,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0825_jd-power_pc-mag_hsi_ookla_mbl_v2.gif",
@@ -2445,7 +3055,9 @@
     "height": 820,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 75,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0825_no-price-change_banner_dsktp.gif",
@@ -2453,7 +3065,9 @@
     "height": 160,
     "has_alpha": false,
     "most_frequent_hex": "#ea4335",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 31,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0825_no-price-change_banner_mbl.gif",
@@ -2461,7 +3075,9 @@
     "height": 200,
     "has_alpha": false,
     "most_frequent_hex": "#ea4335",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 31,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0924_8x-speeds.png",
@@ -2469,7 +3085,9 @@
     "height": 490,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0924_9-15_xtndr_mbl.png",
@@ -2477,7 +3095,9 @@
     "height": 456,
     "has_alpha": true,
     "most_frequent_hex": "#bfbfb8",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 70659,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0924_9-22_tiering_home3_dsktp.png",
@@ -2485,7 +3105,9 @@
     "height": 484,
     "has_alpha": true,
     "most_frequent_hex": "#e4e4e2",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 236859,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0924_9-22_tiering_home3_mbl.png",
@@ -2493,7 +3115,9 @@
     "height": 720,
     "has_alpha": true,
     "most_frequent_hex": "#e3e3e1",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 103763,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0924_9-26_home3_dsktp.png",
@@ -2501,7 +3125,9 @@
     "height": 532,
     "has_alpha": true,
     "most_frequent_hex": "#e4e4e2",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 113839,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0924_9-29_timer_anim.gif",
@@ -2509,7 +3135,9 @@
     "height": 301,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 254,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0924_exclamation-network-box.gif",
@@ -2517,7 +3145,9 @@
     "height": 461,
     "has_alpha": true,
     "most_frequent_hex": "#5f6368",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 255,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0924_lower-bar_dsktp.png",
@@ -2525,7 +3155,9 @@
     "height": 116,
     "has_alpha": true,
     "most_frequent_hex": "#fbbc04",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 2,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0924_lower-bar_mbl.png",
@@ -2533,7 +3165,9 @@
     "height": 174,
     "has_alpha": true,
     "most_frequent_hex": "#fbbc04",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 2,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_9-10_hero_sept-invite_blue-yellow500.gif",
@@ -2541,7 +3175,9 @@
     "height": 720,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 226,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_9-21_nest_dsktp.png",
@@ -2549,7 +3185,9 @@
     "height": 560,
     "has_alpha": true,
     "most_frequent_hex": "#fbbc04",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 2217,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_9-21_nest_mbl.png",
@@ -2557,7 +3195,9 @@
     "height": 1062,
     "has_alpha": true,
     "most_frequent_hex": "#fbbc04",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 3778,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_9-23_hdlne-hero_blue.png",
@@ -2565,7 +3205,9 @@
     "height": 204,
     "has_alpha": true,
     "most_frequent_hex": "#1738a6",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 442,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_9-23_hdlne-hero_red.png",
@@ -2573,7 +3215,9 @@
     "height": 204,
     "has_alpha": true,
     "most_frequent_hex": "#a50e0e",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 261,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_9-23_hero-blue_dsktp2.jpg",
@@ -2581,7 +3225,9 @@
     "height": 780,
     "has_alpha": false,
     "most_frequent_hex": "#1a73e9",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 6368,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_9-23_nest-wire.png",
@@ -2589,7 +3235,9 @@
     "height": 840,
     "has_alpha": true,
     "most_frequent_hex": "#f9f9f8",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 605,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_9-23_router.png",
@@ -2597,7 +3245,9 @@
     "height": 1008,
     "has_alpha": true,
     "most_frequent_hex": "#efefef",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 242,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_9-24_upgrades_dsktp_v2.png",
@@ -2605,7 +3255,9 @@
     "height": 552,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 274,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_9-24_upgrades_mbl_v2.png",
@@ -2613,7 +3265,9 @@
     "height": 1000,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 271,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_exp_franklin.jpg",
@@ -2621,7 +3275,9 @@
     "height": 780,
     "has_alpha": false,
     "most_frequent_hex": "#637da0",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 186506,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_exp_pittsboro.jpg",
@@ -2629,7 +3285,9 @@
     "height": 700,
     "has_alpha": false,
     "most_frequent_hex": "#030303",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 140866,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_gal-working.jpg",
@@ -2637,7 +3295,9 @@
     "height": 760,
     "has_alpha": false,
     "most_frequent_hex": "#d3d0c1",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 94814,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_hero_top-half_gfiber.png",
@@ -2645,7 +3305,9 @@
     "height": 216,
     "has_alpha": true,
     "most_frequent_hex": "#003d77",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 50,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_icons_battery-charged_red600.png",
@@ -2653,7 +3315,9 @@
     "height": 360,
     "has_alpha": true,
     "most_frequent_hex": "#d93025",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_icons_calendar_red600.png",
@@ -2661,7 +3325,9 @@
     "height": 360,
     "has_alpha": true,
     "most_frequent_hex": "#d93025",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_icons_cloud_red600.png",
@@ -2669,7 +3335,9 @@
     "height": 288,
     "has_alpha": true,
     "most_frequent_hex": "#d93025",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_icons_live-support_red600.png",
@@ -2677,7 +3345,9 @@
     "height": 360,
     "has_alpha": true,
     "most_frequent_hex": "#d93025",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_icons_lock_red600.png",
@@ -2685,7 +3355,9 @@
     "height": 432,
     "has_alpha": true,
     "most_frequent_hex": "#d93025",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_icons_room-settings_red600.png",
@@ -2693,7 +3365,9 @@
     "height": 360,
     "has_alpha": true,
     "most_frequent_hex": "#d93025",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_icons_route_red600.png",
@@ -2701,7 +3375,9 @@
     "height": 360,
     "has_alpha": true,
     "most_frequent_hex": "#d93025",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_icons_unlimited-data_red600.png",
@@ -2709,7 +3385,9 @@
     "height": 216,
     "has_alpha": true,
     "most_frequent_hex": "#d93025",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_icons_up-down-loads_red600.png",
@@ -2717,7 +3395,9 @@
     "height": 396,
     "has_alpha": true,
     "most_frequent_hex": "#d93025",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_icons_wifi_red600.png",
@@ -2725,7 +3405,9 @@
     "height": 288,
     "has_alpha": true,
     "most_frequent_hex": "#d93025",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_icons_wrench_red600.png",
@@ -2733,7 +3415,9 @@
     "height": 324,
     "has_alpha": true,
     "most_frequent_hex": "#d93025",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_jd-power_pc-mag_hsi_ookla_dsktp.gif",
@@ -2741,7 +3425,9 @@
     "height": 620,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 68,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_jd-power_pc-mag_hsi_ookla_mbl.gif",
@@ -2749,7 +3435,9 @@
     "height": 820,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 71,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_jd-power_pc-mag_hsi_ookla_mbl_2.gif",
@@ -2757,7 +3445,9 @@
     "height": 820,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 71,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_vr-glasses.png",
@@ -2765,7 +3455,9 @@
     "height": 600,
     "has_alpha": true,
     "most_frequent_hex": "#131013",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 26051,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_1-8_hero.jpg",
@@ -2773,7 +3465,9 @@
     "height": 600,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 67426,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_10-7_hero-dsktp-v2.jpeg",
@@ -2781,7 +3475,9 @@
     "height": 692,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 101413,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_10-7_hero-mbl.jpg",
@@ -2789,7 +3485,9 @@
     "height": 300,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 94532,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_10-7_lower-desktop2-v2.jpeg",
@@ -2797,7 +3495,9 @@
     "height": 1048,
     "has_alpha": false,
     "most_frequent_hex": "#dddad5",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 47278,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_10-7_lower-mbl.jpg",
@@ -2805,7 +3505,9 @@
     "height": 300,
     "has_alpha": false,
     "most_frequent_hex": "#c9c6c1",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 47589,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_1024_10-9_hero_router_mbl.png",
@@ -2813,7 +3515,9 @@
     "height": 450,
     "has_alpha": true,
     "most_frequent_hex": "#e37400",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 1889,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_1024_10-9_nest_dsktp_v2.png",
@@ -2821,7 +3525,9 @@
     "height": 560,
     "has_alpha": true,
     "most_frequent_hex": "#fbbc04",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 1578,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_1024_10-9_router_dsktp.png",
@@ -2829,7 +3535,9 @@
     "height": 560,
     "has_alpha": true,
     "most_frequent_hex": "#fbbc04",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 1739,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_11-15_installer_shapes.png",
@@ -2837,7 +3545,9 @@
     "height": 552,
     "has_alpha": true,
     "most_frequent_hex": "#ea4335",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 72813,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_11-17-24_edge_dsktp.png",
@@ -2845,7 +3555,9 @@
     "height": 544,
     "has_alpha": true,
     "most_frequent_hex": "#d5cabe",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 84549,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_11-20_timer.gif",
@@ -2853,7 +3565,9 @@
     "height": 92,
     "has_alpha": true,
     "most_frequent_hex": "#6d7071",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 12,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_1123_fallout-3_accolades2.gif",
@@ -2861,7 +3575,9 @@
     "height": 444,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 62,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_1124_11-24-24_edge-image_dsktp.png",
@@ -2869,7 +3585,9 @@
     "height": 700,
     "has_alpha": true,
     "most_frequent_hex": "#e0d5c9",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 140963,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_1124_11-24-24_goggles_mbl.png",
@@ -2877,7 +3595,9 @@
     "height": 560,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 13698,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_1124_address-bar_blue-dsktp.gif",
@@ -2885,7 +3605,9 @@
     "height": 238,
     "has_alpha": true,
     "most_frequent_hex": "#7aaef2",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 61,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_1124_address-bar_blue-mbl.gif",
@@ -2893,7 +3615,9 @@
     "height": 276,
     "has_alpha": true,
     "most_frequent_hex": "#7aaef2",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 15,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_1124_blue900-800_bkgrnd.png",
@@ -2901,7 +3625,9 @@
     "height": 760,
     "has_alpha": false,
     "most_frequent_hex": "#174ea6",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_1124_icon_battery_black-outline.png",
@@ -2909,7 +3635,9 @@
     "height": 720,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_1124_icon_cloud-upload_black-outline.png",
@@ -2917,7 +3645,9 @@
     "height": 620,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_1124_icon_cstmr-srvc_black-outline.png",
@@ -2925,7 +3655,9 @@
     "height": 720,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_1124_icon_room-settings_black-outline.png",
@@ -2933,7 +3665,9 @@
     "height": 720,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_1124_icon_wifi_black-outline.png",
@@ -2941,7 +3675,9 @@
     "height": 720,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_1124_shapes_blue_1200.png",
@@ -2949,7 +3685,9 @@
     "height": 972,
     "has_alpha": false,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_11823_hero_dsktp4.png",
@@ -2957,7 +3695,9 @@
     "height": 838,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_11823_hero_mbl4.png",
@@ -2965,7 +3705,9 @@
     "height": 600,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_12-14_dsktp_blue.gif",
@@ -2973,7 +3715,9 @@
     "height": 600,
     "has_alpha": false,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 254,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_12-14_mbl_blue.gif",
@@ -2981,7 +3725,9 @@
     "height": 852,
     "has_alpha": false,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 252,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_12-21_laptop_icon.png",
@@ -2989,7 +3735,9 @@
     "height": 240,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_12-21_phone_icon.png",
@@ -2997,7 +3745,9 @@
     "height": 240,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_12-21_upg_dsktp_red.gif",
@@ -3005,7 +3755,9 @@
     "height": 488,
     "has_alpha": false,
     "most_frequent_hex": "#ea4335",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 255,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_12-21_upg_mbl_red.gif",
@@ -3013,7 +3765,9 @@
     "height": 852,
     "has_alpha": false,
     "most_frequent_hex": "#ea4335",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 252,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_12-7_hero2.png",
@@ -3021,7 +3775,9 @@
     "height": 600,
     "has_alpha": true,
     "most_frequent_hex": "#efefef",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 2696,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_12-7_hero_wide.png",
@@ -3029,7 +3785,9 @@
     "height": 600,
     "has_alpha": true,
     "most_frequent_hex": "#efefef",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 2774,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_1224_12-4_4up_jd-power--3gigs.png",
@@ -3037,7 +3795,9 @@
     "height": 900,
     "has_alpha": true,
     "most_frequent_hex": "#f3f4f4",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 236,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_1224_12-4_4up_jd-power.png",
@@ -3045,7 +3805,9 @@
     "height": 900,
     "has_alpha": true,
     "most_frequent_hex": "#f3f4f4",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 8116,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_1224_12-4_4up_pc-mag.png",
@@ -3053,7 +3815,9 @@
     "height": 900,
     "has_alpha": true,
     "most_frequent_hex": "#f3f4f4",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 578,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_1224_12-4_4up_pc-mag.png--3gigs.png",
@@ -3061,7 +3825,9 @@
     "height": 900,
     "has_alpha": true,
     "most_frequent_hex": "#f3f4f4",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 227,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_1224_12-4_home3gig_computer.png",
@@ -3069,7 +3835,9 @@
     "height": 720,
     "has_alpha": true,
     "most_frequent_hex": "#e3e3e1",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 155453,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_1224_pc-mag_best-isp-lockup.png",
@@ -3077,7 +3845,9 @@
     "height": 928,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 110,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_1224_pc_mag_anim.gif",
@@ -3085,7 +3855,9 @@
     "height": 84,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 126,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_1224_speed_whole-wifi_pricing_pc-mag_v2.gif",
@@ -3093,7 +3865,9 @@
     "height": 800,
     "has_alpha": true,
     "most_frequent_hex": "#f2f3f3",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 43,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_2-26_hero_dsktp.gif",
@@ -3101,7 +3875,9 @@
     "height": 358,
     "has_alpha": true,
     "most_frequent_hex": "#188038",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 246,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_2-26_hero_mbl.gif",
@@ -3109,7 +3885,9 @@
     "height": 688,
     "has_alpha": true,
     "most_frequent_hex": "#188038",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 246,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_2024-02-02_headset_dsktp.png",
@@ -3117,7 +3895,9 @@
     "height": 388,
     "has_alpha": false,
     "most_frequent_hex": "#1b73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 256,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_2024-02-02_streaming_dsktp.png",
@@ -3125,7 +3905,9 @@
     "height": 388,
     "has_alpha": false,
     "most_frequent_hex": "#33a853",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 255,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_2024-02-02_videogame_dsktp.png",
@@ -3133,7 +3915,9 @@
     "height": 388,
     "has_alpha": false,
     "most_frequent_hex": "#fabd05",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 256,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_215_hero.jpg",
@@ -3141,7 +3925,9 @@
     "height": 760,
     "has_alpha": false,
     "most_frequent_hex": "#e1dad2",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 91711,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_215_hero_mbl.jpg",
@@ -3149,7 +3935,9 @@
     "height": 640,
     "has_alpha": false,
     "most_frequent_hex": "#e1dad2",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 59233,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_219_pucks_dsktp.png",
@@ -3157,7 +3945,9 @@
     "height": 796,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 5449,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_219_pucks_mbl.png",
@@ -3165,7 +3955,9 @@
     "height": 720,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 6292,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_3-15_laptop_dsktp.jpg",
@@ -3173,7 +3965,9 @@
     "height": 800,
     "has_alpha": false,
     "most_frequent_hex": "#e0e4e5",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 53569,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_3-15_laptop_mbl.jpg",
@@ -3181,7 +3975,9 @@
     "height": 500,
     "has_alpha": false,
     "most_frequent_hex": "#d6d6d4",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 40967,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_3-26_lower_bkgrnd_dsktp.png",
@@ -3189,7 +3985,9 @@
     "height": 548,
     "has_alpha": true,
     "most_frequent_hex": "#feefc3",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_3-26_lower_bkgrnd_n100.png",
@@ -3197,7 +3995,9 @@
     "height": 740,
     "has_alpha": true,
     "most_frequent_hex": "#feefc3",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_3-26_sun.png",
@@ -3205,7 +4005,9 @@
     "height": 716,
     "has_alpha": true,
     "most_frequent_hex": "#feefc3",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_3-26_sun_family.png",
@@ -3213,7 +4015,9 @@
     "height": 656,
     "has_alpha": true,
     "most_frequent_hex": "#feefc3",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 63299,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_3-8_laptop.png",
@@ -3221,7 +4025,9 @@
     "height": 512,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 80635,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_3-8_lower_dsktp2.png",
@@ -3229,7 +4035,9 @@
     "height": 340,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 43432,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_3-8_lower_mbl2.png",
@@ -3237,7 +4045,9 @@
     "height": 392,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 37842,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-15_bkgrnd.png",
@@ -3245,7 +4055,9 @@
     "height": 1440,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-15_bkgrnd_lower.png",
@@ -3253,7 +4065,9 @@
     "height": 420,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-16_bkgrnd_core.png",
@@ -3261,7 +4075,9 @@
     "height": 804,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-16_bkgrnd_mbl.png",
@@ -3269,7 +4085,9 @@
     "height": 222,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-16_bkgrnd_offer2.png",
@@ -3277,7 +4095,9 @@
     "height": 732,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-16_puck_100_grey.png",
@@ -3285,7 +4105,9 @@
     "height": 588,
     "has_alpha": true,
     "most_frequent_hex": "#9aa0a6",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 5821,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-23_hero_dsktp_2.gif",
@@ -3293,7 +4115,9 @@
     "height": 672,
     "has_alpha": false,
     "most_frequent_hex": "#4285f5",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 255,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-23_hero_mbl.gif",
@@ -3301,7 +4125,9 @@
     "height": 848,
     "has_alpha": false,
     "most_frequent_hex": "#4186f7",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 252,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-23_offer_hero_dsktp.gif",
@@ -3309,7 +4135,9 @@
     "height": 500,
     "has_alpha": false,
     "most_frequent_hex": "#4285f5",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 254,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-23_offer_hero_mbl.gif",
@@ -3317,7 +4145,9 @@
     "height": 760,
     "has_alpha": false,
     "most_frequent_hex": "#4285f5",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 255,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-26_upg_dsktp.gif",
@@ -3325,7 +4155,9 @@
     "height": 600,
     "has_alpha": false,
     "most_frequent_hex": "#4285f5",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 255,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-26_upg_mbl.gif",
@@ -3333,7 +4165,9 @@
     "height": 888,
     "has_alpha": false,
     "most_frequent_hex": "#4285f5",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 254,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-30_gamer.jpg",
@@ -3341,7 +4175,9 @@
     "height": 760,
     "has_alpha": false,
     "most_frequent_hex": "#0e0d13",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 97364,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-30_gamer_dsktp.jpg",
@@ -3349,7 +4185,9 @@
     "height": 680,
     "has_alpha": false,
     "most_frequent_hex": "#1a73e9",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 43475,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-30_gamer_mbl.jpg",
@@ -3357,7 +4195,9 @@
     "height": 430,
     "has_alpha": false,
     "most_frequent_hex": "#010415",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 54544,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-30_hero_gamer_mbl.jpg",
@@ -3365,7 +4205,9 @@
     "height": 400,
     "has_alpha": false,
     "most_frequent_hex": "#1a73e9",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 46671,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-30_offer_girl.jpg",
@@ -3373,7 +4215,9 @@
     "height": 760,
     "has_alpha": false,
     "most_frequent_hex": "#fcfcfc",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 68979,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-30_offer_girl_mbl.jpg",
@@ -3381,7 +4225,9 @@
     "height": 480,
     "has_alpha": false,
     "most_frequent_hex": "#f2f2f4",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 62821,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-30_offer_hero_dsktp.jpg",
@@ -3389,7 +4235,9 @@
     "height": 592,
     "has_alpha": false,
     "most_frequent_hex": "#4385f5",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 51215,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-30_offer_hero_mbl.jpg",
@@ -3397,7 +4245,9 @@
     "height": 480,
     "has_alpha": false,
     "most_frequent_hex": "#4385f5",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 76002,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-5_bkgrnd_blue100.png",
@@ -3405,7 +4255,9 @@
     "height": 980,
     "has_alpha": true,
     "most_frequent_hex": "#d2e3fc",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-5_bottom_speed.png",
@@ -3413,7 +4265,9 @@
     "height": 228,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-5_boy_laptop.jpg",
@@ -3421,7 +4275,9 @@
     "height": 810,
     "has_alpha": false,
     "most_frequent_hex": "#fcfcfc",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 72006,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-5_family_laptop.jpg",
@@ -3429,7 +4285,9 @@
     "height": 810,
     "has_alpha": false,
     "most_frequent_hex": "#4b3a32",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 120196,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-5_gal_flute.jpg",
@@ -3437,7 +4295,9 @@
     "height": 810,
     "has_alpha": false,
     "most_frequent_hex": "#cac9ce",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 100626,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-5_top_puck.png",
@@ -3445,7 +4305,9 @@
     "height": 390,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 5036,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-5_top_puck_offer.png",
@@ -3453,7 +4315,9 @@
     "height": 390,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 7223,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_5-22_bkgrnd_curve.png",
@@ -3461,7 +4325,9 @@
     "height": 904,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_5-22_chevron500.png",
@@ -3469,7 +4335,9 @@
     "height": 130,
     "has_alpha": true,
     "most_frequent_hex": "#fbbc04",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_5-22_jdpower_half-circle.png",
@@ -3477,7 +4345,9 @@
     "height": 416,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_5-29_hero_red500.png",
@@ -3485,7 +4355,9 @@
     "height": 856,
     "has_alpha": false,
     "most_frequent_hex": "#ea4335",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_5-3_headset_dsktp.png",
@@ -3493,7 +4365,9 @@
     "height": 528,
     "has_alpha": false,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 721,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_5-3_headset_mbl.png",
@@ -3501,7 +4375,9 @@
     "height": 450,
     "has_alpha": false,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 643,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_5-3_hero_dsktp_3.png",
@@ -3509,7 +4385,9 @@
     "height": 628,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1302,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_5-3_hero_mbl_2.png",
@@ -3517,7 +4395,9 @@
     "height": 744,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 2698,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_5-3_offer_hero_dsktp_2.png",
@@ -3525,7 +4405,9 @@
     "height": 720,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 2202,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_5-3_offer_hero_mbl_2.png",
@@ -3533,7 +4415,9 @@
     "height": 576,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 3157,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_5-3_streaming_dsktp.png",
@@ -3541,7 +4425,9 @@
     "height": 528,
     "has_alpha": false,
     "most_frequent_hex": "#34a853",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 603,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_5-3_streaming_mbl.png",
@@ -3549,7 +4435,9 @@
     "height": 450,
     "has_alpha": false,
     "most_frequent_hex": "#34a853",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 508,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_5-3_upg_dsktp.gif",
@@ -3557,7 +4445,9 @@
     "height": 620,
     "has_alpha": false,
     "most_frequent_hex": "#4285f5",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 255,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_5-3_upg_mbl.gif",
@@ -3565,7 +4455,9 @@
     "height": 848,
     "has_alpha": false,
     "most_frequent_hex": "#4285f5",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 252,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_5-3_videogame_dsktp.png",
@@ -3573,7 +4465,9 @@
     "height": 528,
     "has_alpha": false,
     "most_frequent_hex": "#fbbc04",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 845,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_5-3_videogame_mbl.png",
@@ -3581,7 +4475,9 @@
     "height": 450,
     "has_alpha": false,
     "most_frequent_hex": "#fbbc04",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 771,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_5gig_full_hero_dsktp.png",
@@ -3589,7 +4485,9 @@
     "height": 780,
     "has_alpha": true,
     "most_frequent_hex": "#f29900",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 201,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_5gig_full_hero_mbl.png",
@@ -3597,7 +4495,9 @@
     "height": 608,
     "has_alpha": true,
     "most_frequent_hex": "#f29900",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 121,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_6-28_smb_2workers_dsktp.jpg",
@@ -3605,7 +4505,9 @@
     "height": 600,
     "has_alpha": false,
     "most_frequent_hex": "#fcfafb",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 60882,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_6-28_smb_2workers_mbl.jpg",
@@ -3613,7 +4515,9 @@
     "height": 536,
     "has_alpha": false,
     "most_frequent_hex": "#fcfafb",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 81465,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_6-28_smb_herbal_dsktp.jpg",
@@ -3621,7 +4525,9 @@
     "height": 600,
     "has_alpha": false,
     "most_frequent_hex": "#fbffff",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 82729,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_6-28_smb_herbal_mbl.jpg",
@@ -3629,7 +4535,9 @@
     "height": 536,
     "has_alpha": false,
     "most_frequent_hex": "#030303",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 96185,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_6-28_smb_tablet_dsktp.jpg",
@@ -3637,7 +4545,9 @@
     "height": 600,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 63290,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_6-28_smb_tablet_mbl.jpg",
@@ -3645,7 +4555,9 @@
     "height": 536,
     "has_alpha": false,
     "most_frequent_hex": "#0c0c0c",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 68262,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_child_tv.jpg",
@@ -3653,7 +4565,9 @@
     "height": 372,
     "has_alpha": false,
     "most_frequent_hex": "#0e0c0d",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 36435,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_child_tv_tall.jpg",
@@ -3661,7 +4575,9 @@
     "height": 800,
     "has_alpha": false,
     "most_frequent_hex": "#0b090a",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 53154,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_cloud_up_icon_500blue.png",
@@ -3669,7 +4585,9 @@
     "height": 300,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_confetti_dsktp.png",
@@ -3677,7 +4595,9 @@
     "height": 260,
     "has_alpha": true,
     "most_frequent_hex": "#48ab36",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 78,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_confetti_mbl.png",
@@ -3685,7 +4605,9 @@
     "height": 330,
     "has_alpha": true,
     "most_frequent_hex": "#1e84ba",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 9,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_confetti_reversed_dsktp.png",
@@ -3693,7 +4615,9 @@
     "height": 260,
     "has_alpha": true,
     "most_frequent_hex": "#48ab36",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 66,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_confetti_reversed_mbl.png",
@@ -3701,7 +4625,9 @@
     "height": 330,
     "has_alpha": true,
     "most_frequent_hex": "#1e84ba",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 9,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_cottage_icon.png",
@@ -3709,7 +4635,9 @@
     "height": 576,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_customer_service.png",
@@ -3717,7 +4645,9 @@
     "height": 390,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_customer_service_icon_black_white.png",
@@ -3725,7 +4655,9 @@
     "height": 480,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_cxcomms_gm3_check_icon_blue.png",
@@ -3733,7 +4665,9 @@
     "height": 49,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_dinner_dsktp.jpg",
@@ -3741,7 +4675,9 @@
     "height": 800,
     "has_alpha": false,
     "most_frequent_hex": "#d5d5d7",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 82912,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_dinner_mbl.jpg",
@@ -3749,7 +4685,9 @@
     "height": 558,
     "has_alpha": false,
     "most_frequent_hex": "#dee1e6",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 86300,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_exp1_anim.gif",
@@ -3757,7 +4695,9 @@
     "height": 700,
     "has_alpha": false,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 80,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_exp1_anim_mbl.gif",
@@ -3765,7 +4705,9 @@
     "height": 480,
     "has_alpha": false,
     "most_frequent_hex": "#e8f0fe",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 61,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_exp_build2_worker.jpg",
@@ -3773,7 +4715,9 @@
     "height": 680,
     "has_alpha": false,
     "most_frequent_hex": "#e5e8ef",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 71749,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_exp_lower_confetti_dsktp.png",
@@ -3781,7 +4725,9 @@
     "height": 260,
     "has_alpha": true,
     "most_frequent_hex": "#48ab36",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 82,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_exp_lower_confetti_mbl.png",
@@ -3789,7 +4735,9 @@
     "height": 330,
     "has_alpha": true,
     "most_frequent_hex": "#1e84ba",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 25,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_expansion_bkgrnd.png",
@@ -3797,7 +4745,9 @@
     "height": 428,
     "has_alpha": true,
     "most_frequent_hex": "#ffba0f",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 16,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_expansion_bkgrnd_lower.png",
@@ -3805,7 +4755,9 @@
     "height": 456,
     "has_alpha": true,
     "most_frequent_hex": "#ffba0f",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 25,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_gals_couch.jpg",
@@ -3813,7 +4765,9 @@
     "height": 372,
     "has_alpha": false,
     "most_frequent_hex": "#ddd6cc",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 47098,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_gals_couch_tall.jpg",
@@ -3821,7 +4775,9 @@
     "height": 800,
     "has_alpha": false,
     "most_frequent_hex": "#ddd6cc",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 56667,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_game_dsktp.png",
@@ -3829,7 +4785,9 @@
     "height": 352,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 6690,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_game_mobile.jpg",
@@ -3837,7 +4795,9 @@
     "height": 400,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 5064,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_home_3.jpg",
@@ -3845,7 +4805,9 @@
     "height": 480,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 6672,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_home_icon_white-with-border_70x62.png",
@@ -3853,7 +4815,9 @@
     "height": 280,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 234,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_hsi_badge_fall2023.png",
@@ -3861,7 +4825,9 @@
     "height": 1500,
     "has_alpha": true,
     "most_frequent_hex": "#235dfb",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1741,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_hsi_badge_mbl.png",
@@ -3869,7 +4835,9 @@
     "height": 570,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 1348,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_hsi_wide_dsktp.png",
@@ -3877,7 +4845,9 @@
     "height": 312,
     "has_alpha": true,
     "most_frequent_hex": "#235dfb",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 946,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_icon_house_white.png",
@@ -3885,7 +4855,9 @@
     "height": 500,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_icon_laptop_white.png",
@@ -3893,7 +4865,9 @@
     "height": 480,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_icon_phone_white.png",
@@ -3901,7 +4875,9 @@
     "height": 480,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_invite_yellow_dsktp.png",
@@ -3909,7 +4885,9 @@
     "height": 600,
     "has_alpha": true,
     "most_frequent_hex": "#fbbc04",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 337,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_invite_yellow_mbl.png",
@@ -3917,7 +4895,9 @@
     "height": 900,
     "has_alpha": true,
     "most_frequent_hex": "#fbbc04",
-    "theme": "yellow"
+    "theme": "yellow",
+    "total_unique_colors": 401,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_logo.png",
@@ -3925,7 +4905,9 @@
     "height": 240,
     "has_alpha": true,
     "most_frequent_hex": "#5f6368",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 5,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_man_kitchen.jpg",
@@ -3933,7 +4915,9 @@
     "height": 372,
     "has_alpha": false,
     "most_frequent_hex": "#d5bfb4",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 68570,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_man_kitchen_tall.jpg",
@@ -3941,7 +4925,9 @@
     "height": 800,
     "has_alpha": false,
     "most_frequent_hex": "#d5bfb4",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 91505,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_map_pin_500_blue_whiteborder_rounded.png",
@@ -3949,7 +4935,9 @@
     "height": 404,
     "has_alpha": true,
     "most_frequent_hex": "#e8e8de",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 241,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_map_pin_500_green_blk_outline.png",
@@ -3957,7 +4945,9 @@
     "height": 1280,
     "has_alpha": false,
     "most_frequent_hex": "#e8e8de",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 849,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_map_pin_500_green_whiteborder_rounded.png",
@@ -3965,7 +4955,9 @@
     "height": 404,
     "has_alpha": true,
     "most_frequent_hex": "#e8e8de",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 239,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_map_pin_700_green.png",
@@ -3973,7 +4965,9 @@
     "height": 954,
     "has_alpha": false,
     "most_frequent_hex": "#e8e8de",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 681,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_map_pin_blue_500.png",
@@ -3981,7 +4975,9 @@
     "height": 954,
     "has_alpha": false,
     "most_frequent_hex": "#e8e8de",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 678,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_map_pin_blue_700.png",
@@ -3989,7 +4985,9 @@
     "height": 954,
     "has_alpha": false,
     "most_frequent_hex": "#e8e8de",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 672,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_map_pin_blue_900.png",
@@ -3997,7 +4995,9 @@
     "height": 954,
     "has_alpha": false,
     "most_frequent_hex": "#e8e8de",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 681,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_map_pin_red_500.png",
@@ -4005,7 +5005,9 @@
     "height": 954,
     "has_alpha": false,
     "most_frequent_hex": "#e8e8de",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 677,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_map_pin_red_600.png",
@@ -4013,7 +5015,9 @@
     "height": 954,
     "has_alpha": false,
     "most_frequent_hex": "#e8e8de",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 693,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_map_pin_red_900.png",
@@ -4021,7 +5025,9 @@
     "height": 954,
     "has_alpha": false,
     "most_frequent_hex": "#e8e8de",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 693,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_mesa.jpg",
@@ -4029,7 +5035,9 @@
     "height": 899,
     "has_alpha": false,
     "most_frequent_hex": "#514745",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 139818,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_nest_dec2023.png",
@@ -4037,7 +5045,9 @@
     "height": 840,
     "has_alpha": true,
     "most_frequent_hex": "#f3f3f3",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 1607,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_nest_dec2023_single.png",
@@ -4045,7 +5055,9 @@
     "height": 870,
     "has_alpha": true,
     "most_frequent_hex": "#f3f3f3",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 1010,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_nest_single_shadow.png",
@@ -4053,7 +5065,9 @@
     "height": 939,
     "has_alpha": true,
     "most_frequent_hex": "#f3f3f3",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 1045,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_network_icon_500blue.png",
@@ -4061,7 +5075,9 @@
     "height": 280,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_one-puck_white--no-text.png",
@@ -4069,7 +5085,9 @@
     "height": 375,
     "has_alpha": true,
     "most_frequent_hex": "#f2f8ff",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 140,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_one-puck_white2.png",
@@ -4077,7 +5095,9 @@
     "height": 600,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 5894,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_pending_icon.png",
@@ -4085,7 +5105,9 @@
     "height": 616,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_pucks_tall.jpg",
@@ -4093,7 +5115,9 @@
     "height": 800,
     "has_alpha": false,
     "most_frequent_hex": "#b7e0c2",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 3132,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_pucks_white.png",
@@ -4101,7 +5125,9 @@
     "height": 575,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 5717,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_pucks_wide.jpg",
@@ -4109,7 +5135,9 @@
     "height": 372,
     "has_alpha": false,
     "most_frequent_hex": "#b7e0c2",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 3126,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_shapes_green_1200.png",
@@ -4117,7 +5145,9 @@
     "height": 720,
     "has_alpha": false,
     "most_frequent_hex": "#188038",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 16,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_shapes_red900.png",
@@ -4125,7 +5155,9 @@
     "height": 660,
     "has_alpha": true,
     "most_frequent_hex": "#a50e0e",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_smb_3-22.jpg",
@@ -4133,7 +5165,9 @@
     "height": 760,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 95471,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_smb_3-22_mbl.jpg",
@@ -4141,7 +5175,9 @@
     "height": 640,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 62613,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_speed_icon.png",
@@ -4149,7 +5185,9 @@
     "height": 480,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_stream_dsktp.png",
@@ -4157,7 +5195,9 @@
     "height": 436,
     "has_alpha": true,
     "most_frequent_hex": "#d0d3d7",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 4095,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_stream_mobile.jpg",
@@ -4165,7 +5205,9 @@
     "height": 400,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 322,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_thermo_dsktp.png",
@@ -4173,7 +5215,9 @@
     "height": 400,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 973,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_thermo_mobile.jpg",
@@ -4181,7 +5225,9 @@
     "height": 400,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 470,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_timer_12-21.gif",
@@ -4189,7 +5235,9 @@
     "height": 301,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 255,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_unlmtd-data_icon.png",
@@ -4197,7 +5245,9 @@
     "height": 480,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_upg_background_215_light.png",
@@ -4205,7 +5255,9 @@
     "height": 580,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 1009,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_van_infinite.gif",
@@ -4213,7 +5265,9 @@
     "height": 246,
     "has_alpha": true,
     "most_frequent_hex": "#040606",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 127,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_webpass_logo-v2.png",
@@ -4221,7 +5275,9 @@
     "height": 150,
     "has_alpha": true,
     "most_frequent_hex": "#5f6368",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 5,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_wifi_icon.png",
@@ -4229,7 +5285,9 @@
     "height": 480,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_wifi_icon_white.png",
@@ -4237,7 +5295,9 @@
     "height": 480,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_work_dsktp.jpg",
@@ -4245,7 +5305,9 @@
     "height": 800,
     "has_alpha": false,
     "most_frequent_hex": "#e8e7e3",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 79191,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_work_mbl.jpg",
@@ -4253,7 +5315,9 @@
     "height": 372,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 52243,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gfb_logo.png",
@@ -4261,7 +5325,9 @@
     "height": 688,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 5,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gfb_smb_hero.jpg",
@@ -4269,7 +5335,9 @@
     "height": 680,
     "has_alpha": false,
     "most_frequent_hex": "#1d2a33",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 47594,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gfb_smb_hero_mbl.png",
@@ -4277,7 +5345,9 @@
     "height": 684,
     "has_alpha": true,
     "most_frequent_hex": "#1a2430",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 75619,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/gfiber_biz_stacked_logo.png",
@@ -4285,7 +5355,9 @@
     "height": 1160,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 4,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gfiber_logo_1300.png",
@@ -4293,7 +5365,9 @@
     "height": 312,
     "has_alpha": true,
     "most_frequent_hex": "#5f6469",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 5,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gfiber_logo_primary_rgb_transparent_x1.png",
@@ -4301,7 +5375,9 @@
     "height": 367,
     "has_alpha": true,
     "most_frequent_hex": "#5f6469",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 5,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gfiber_van_anim_small.gif",
@@ -4309,7 +5385,9 @@
     "height": 360,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 254,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/google-play-button.png",
@@ -4317,7 +5395,9 @@
     "height": 276,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 1484,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/green_check01.png",
@@ -4325,7 +5405,9 @@
     "height": 53,
     "has_alpha": true,
     "most_frequent_hex": "#34a853",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/green_checkmark.png",
@@ -4333,7 +5415,9 @@
     "height": 53,
     "has_alpha": true,
     "most_frequent_hex": "#34a853",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/green_phone_icon.png",
@@ -4341,7 +5425,9 @@
     "height": 70,
     "has_alpha": true,
     "most_frequent_hex": "#34a853",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/grey_pucks_up.png",
@@ -4349,7 +5435,9 @@
     "height": 720,
     "has_alpha": true,
     "most_frequent_hex": "#9aa0a6",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 6549,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/hsi_logo_2024.png",
@@ -4357,7 +5445,9 @@
     "height": 1160,
     "has_alpha": true,
     "most_frequent_hex": "#0a0a46",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 217,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/hsi_logo_2025.png",
@@ -4365,7 +5455,9 @@
     "height": 1170,
     "has_alpha": true,
     "most_frequent_hex": "#162b64",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 228,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/icon--business--white--20x20.png",
@@ -4373,7 +5465,9 @@
     "height": 80,
     "has_alpha": true,
     "most_frequent_hex": "#feffff",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/icon--calendar--2023-01-22.png",
@@ -4381,7 +5475,9 @@
     "height": 100,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 84,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/icon--calendar--black-inside--white-outside--2023-01-15.png",
@@ -4389,7 +5485,9 @@
     "height": 196,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 99,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/icon--cloud-upload--black-inside--white-outside--2023-01-15.png",
@@ -4397,7 +5495,9 @@
     "height": 132,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 105,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/icon--laptop--black--32x28.png",
@@ -4405,7 +5505,9 @@
     "height": 110,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/icon--loop--black-inside--white-outside--2023-01-15.png",
@@ -4413,7 +5515,9 @@
     "height": 132,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 100,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/icon--pcmag--2024--3xwinner--darkmode.png",
@@ -4421,7 +5525,9 @@
     "height": 482,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 210,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/icon--pcmag--2024--3xwinner--horizontal--darkmode.png",
@@ -4429,7 +5535,9 @@
     "height": 406,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 224,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/icon--pcmag--2024--3xwinner--horizontal.png",
@@ -4437,7 +5545,9 @@
     "height": 366,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 109,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/icon--pcmag--2024--3xwinner.png",
@@ -4445,7 +5555,9 @@
     "height": 442,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 119,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/icon--phone--black--32x28.png",
@@ -4453,7 +5565,9 @@
     "height": 110,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/icon--phone--white--128x128.png",
@@ -4461,7 +5575,9 @@
     "height": 128,
     "has_alpha": true,
     "most_frequent_hex": "#feffff",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/icon--piggy-bank--black-inside--white-outside--2023-12-28.png",
@@ -4469,7 +5585,9 @@
     "height": 532,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/icon--smile--2023-01-22.png",
@@ -4477,7 +5595,9 @@
     "height": 100,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 119,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/icon--speedometer--2023-01-22.png",
@@ -4485,7 +5605,9 @@
     "height": 225,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/icon--support-upload--black-inside--white-outside--2023-01-15.png",
@@ -4493,7 +5615,9 @@
     "height": 132,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 110,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/icon--touch--2023-01-22.png",
@@ -4501,7 +5625,9 @@
     "height": 100,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 136,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/icon--wifi--black-inside--white-outside--2023-01-15.png",
@@ -4509,7 +5635,9 @@
     "height": 132,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 94,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/icon--wrench--black-inside--white-outside--2023-01-15.png",
@@ -4517,7 +5645,9 @@
     "height": 132,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 103,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/icon_cstmr-srvce_blue500.png",
@@ -4525,7 +5655,9 @@
     "height": 504,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/icon_install_blue500.png",
@@ -4533,7 +5665,9 @@
     "height": 540,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/icon_unlmtd-data_blue500.png",
@@ -4541,7 +5675,9 @@
     "height": 270,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/icon_wifi_blue500.png",
@@ -4549,7 +5685,9 @@
     "height": 396,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/ig_260.png",
@@ -4557,7 +5695,9 @@
     "height": 260,
     "has_alpha": true,
     "most_frequent_hex": "#202124",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/img--kids-gaming--2023-01-11.jpg",
@@ -4565,7 +5705,9 @@
     "height": 800,
     "has_alpha": false,
     "most_frequent_hex": "#fff6f9",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 98370,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/img--lady-sitting--2023-01-22.jpg",
@@ -4573,7 +5715,9 @@
     "height": 800,
     "has_alpha": false,
     "most_frequent_hex": "#c2c5b0",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 157076,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/in_260.png",
@@ -4581,7 +5725,9 @@
     "height": 260,
     "has_alpha": true,
     "most_frequent_hex": "#202124",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/install_icon.png",
@@ -4589,7 +5735,9 @@
     "height": 320,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/install_icon_blue.png",
@@ -4597,7 +5745,9 @@
     "height": 320,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/install_icon_blue700.png",
@@ -4605,7 +5755,9 @@
     "height": 390,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/install_icon_red.png",
@@ -4613,7 +5765,9 @@
     "height": 320,
     "has_alpha": true,
     "most_frequent_hex": "#ea4335",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/jd_power_0425_gfiber-award.png",
@@ -4621,7 +5775,9 @@
     "height": 1278,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 69224,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/jd_power_dec2023.png",
@@ -4629,7 +5785,9 @@
     "height": 1200,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 61483,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/kc-sporting-footer-v2.jpg",
@@ -4637,7 +5795,9 @@
     "height": 433,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 7572,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/kitchen-couple-square.jpg",
@@ -4645,7 +5805,9 @@
     "height": 550,
     "has_alpha": false,
     "most_frequent_hex": "#d6d6d8",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 66988,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/kitchen-tablet-fam.jpg",
@@ -4653,7 +5815,9 @@
     "height": 600,
     "has_alpha": false,
     "most_frequent_hex": "#9a2514",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 127040,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/laptop_icon_blue500.png",
@@ -4661,7 +5825,9 @@
     "height": 560,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/live-support_icon_blue700.png",
@@ -4669,7 +5835,9 @@
     "height": 360,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/live_support_icon.png",
@@ -4677,7 +5845,9 @@
     "height": 320,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/live_support_icon_blue.png",
@@ -4685,7 +5855,9 @@
     "height": 320,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/live_support_icon_red.png",
@@ -4693,7 +5865,9 @@
     "height": 320,
     "has_alpha": true,
     "most_frequent_hex": "#ea4335",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/logo--cnet--red.png",
@@ -4701,7 +5875,9 @@
     "height": 110,
     "has_alpha": true,
     "most_frequent_hex": "#e71d1e",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/logo--cnet--white.png",
@@ -4709,7 +5885,9 @@
     "height": 110,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/logo--highspeedinternet.png",
@@ -4717,7 +5895,9 @@
     "height": 704,
     "has_alpha": true,
     "most_frequent_hex": "#235dfb",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 187,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/lower_pucks.png",
@@ -4725,7 +5905,9 @@
     "height": 408,
     "has_alpha": true,
     "most_frequent_hex": "#f5f6f4",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 3737,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/material-icon--blue-700--2x.png",
@@ -4733,7 +5915,9 @@
     "height": 128,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 102,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/material-icon--blue-700--battery.png",
@@ -4741,7 +5925,9 @@
     "height": 128,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 57,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/material-icon--blue-700--bolt.png",
@@ -4749,7 +5935,9 @@
     "height": 128,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 74,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/material-icon--blue-700--gauge.png",
@@ -4757,7 +5945,9 @@
     "height": 128,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 110,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/material-icon--blue-700--shield.png",
@@ -4765,7 +5955,9 @@
     "height": 128,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 101,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/material-icon--blue-700--star.png",
@@ -4773,7 +5965,9 @@
     "height": 128,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 91,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/mesh-antenna.jpg",
@@ -4781,7 +5975,9 @@
     "height": 800,
     "has_alpha": false,
     "most_frequent_hex": "#ea4235",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 6334,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/new_year_bgrnd_blue.png",
@@ -4789,7 +5985,9 @@
     "height": 720,
     "has_alpha": false,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 31,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/new_year_bgrnd_dkblue.png",
@@ -4797,7 +5995,9 @@
     "height": 720,
     "has_alpha": false,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 32,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/phone_icon2.png",
@@ -4805,7 +6005,9 @@
     "height": 200,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/phone_icon_blue500.png",
@@ -4813,7 +6015,9 @@
     "height": 560,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/phone_icon_white_smb.png",
@@ -4821,7 +6025,9 @@
     "height": 70,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/pucks.png",
@@ -4829,7 +6035,9 @@
     "height": 268,
     "has_alpha": true,
     "most_frequent_hex": "#efefef",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 59,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/pucks_green.png",
@@ -4837,7 +6045,9 @@
     "height": 684,
     "has_alpha": false,
     "most_frequent_hex": "#34a853",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 5741,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/pucks_grey.png",
@@ -4845,7 +6055,9 @@
     "height": 720,
     "has_alpha": true,
     "most_frequent_hex": "#9aa0a6",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 6549,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/pucks_grey_23.png",
@@ -4853,7 +6065,9 @@
     "height": 720,
     "has_alpha": true,
     "most_frequent_hex": "#9aa0a6",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 6549,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/pucks_red_dsktp.png",
@@ -4861,7 +6075,9 @@
     "height": 1136,
     "has_alpha": true,
     "most_frequent_hex": "#d93025",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 617,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/pucks_red_mbl.png",
@@ -4869,7 +6085,9 @@
     "height": 600,
     "has_alpha": true,
     "most_frequent_hex": "#d93025",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 268,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/red_check.png",
@@ -4877,7 +6095,9 @@
     "height": 56,
     "has_alpha": true,
     "most_frequent_hex": "#ff0000",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/red_checkmark500.png",
@@ -4885,7 +6105,9 @@
     "height": 132,
     "has_alpha": true,
     "most_frequent_hex": "#ea4335",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/self_install_hero_image.gif",
@@ -4893,7 +6115,9 @@
     "height": 809,
     "has_alpha": true,
     "most_frequent_hex": "#adceff",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/self_install_oak_mall_locator.png",
@@ -4901,7 +6125,9 @@
     "height": 462,
     "has_alpha": true,
     "most_frequent_hex": "#f8f0de",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 6329,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/sik_iphone_screen.png",
@@ -4909,7 +6135,9 @@
     "height": 482,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 32821,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/speed_icon_blue.png",
@@ -4917,7 +6145,9 @@
     "height": 320,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/speed_icon_red.png",
@@ -4925,7 +6155,9 @@
     "height": 320,
     "has_alpha": true,
     "most_frequent_hex": "#ea4335",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/speedometer_500_green.png",
@@ -4933,7 +6165,9 @@
     "height": 800,
     "has_alpha": true,
     "most_frequent_hex": "#34a853",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/sporting_kc_footer.png",
@@ -4941,7 +6175,9 @@
     "height": 525,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 166,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/sporting_kc_footer_v3.png",
@@ -4949,7 +6185,9 @@
     "height": 525,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 146,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/tw_260.png",
@@ -4957,7 +6195,9 @@
     "height": 260,
     "has_alpha": true,
     "most_frequent_hex": "#202124",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/unlmtd_data_icon.png",
@@ -4965,7 +6205,9 @@
     "height": 320,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/unlmtd_data_icon_blue.png",
@@ -4973,7 +6215,9 @@
     "height": 208,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/unlmtd_data_icon_blue700.png",
@@ -4981,7 +6225,9 @@
     "height": 270,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/unlmtd_data_icon_red.png",
@@ -4989,7 +6235,9 @@
     "height": 208,
     "has_alpha": true,
     "most_frequent_hex": "#ea4335",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/van-long.jpg",
@@ -4997,7 +6245,9 @@
     "height": 416,
     "has_alpha": false,
     "most_frequent_hex": "#9ba0a6",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 4982,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/van-square.jpg",
@@ -5005,7 +6255,9 @@
     "height": 550,
     "has_alpha": false,
     "most_frequent_hex": "#9ba0a6",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 4921,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/vr-kid-long.jpg",
@@ -5013,7 +6265,9 @@
     "height": 416,
     "has_alpha": false,
     "most_frequent_hex": "#c4c5a6",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 106840,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/vr-kid-square.jpg",
@@ -5021,7 +6275,9 @@
     "height": 550,
     "has_alpha": false,
     "most_frequent_hex": "#c4c5a6",
-    "theme": "green"
+    "theme": "green",
+    "total_unique_colors": 111696,
+    "complex": true
   },
   {
     "url": "https://services.google.com/fh/files/emails/wedge--blue-500--60x79.png",
@@ -5029,7 +6285,9 @@
     "height": 158,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/wedge--red-500--92x70.png",
@@ -5037,7 +6295,9 @@
     "height": 140,
     "has_alpha": true,
     "most_frequent_hex": "#ea4435",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/wifi_icon_blue700.png",
@@ -5045,7 +6305,9 @@
     "height": 300,
     "has_alpha": true,
     "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/wifi_icon_dec.png",
@@ -5053,7 +6315,9 @@
     "height": 320,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
-    "theme": "black"
+    "theme": "black",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/wifi_icon_dec_blue.png",
@@ -5061,7 +6325,9 @@
     "height": 320,
     "has_alpha": true,
     "most_frequent_hex": "#4285f4",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/wifi_icon_dec_red.png",
@@ -5069,7 +6335,9 @@
     "height": 320,
     "has_alpha": true,
     "most_frequent_hex": "#ea4335",
-    "theme": "red"
+    "theme": "red",
+    "total_unique_colors": 1,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/x_260.png",
@@ -5077,7 +6345,9 @@
     "height": 260,
     "has_alpha": true,
     "most_frequent_hex": "#202124",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 17,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/yt_260.png",
@@ -5085,7 +6355,9 @@
     "height": 260,
     "has_alpha": true,
     "most_frequent_hex": "#202124",
-    "theme": "gray"
+    "theme": "gray",
+    "total_unique_colors": 32,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/misc/11-23-upg-1.png",
@@ -5093,7 +6365,9 @@
     "height": 400,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 38,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/misc/11-23-upg-image.png",
@@ -5101,7 +6375,9 @@
     "height": 400,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 41,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/misc/coupon-1.png",
@@ -5109,7 +6385,9 @@
     "height": 400,
     "has_alpha": false,
     "most_frequent_hex": "#ffffff",
-    "theme": "white"
+    "theme": "white",
+    "total_unique_colors": 38,
+    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/misc/highspeedinternet_badge.png",
@@ -5117,6 +6395,8 @@
     "height": 1600,
     "has_alpha": true,
     "most_frequent_hex": "#235dfb",
-    "theme": "blue"
+    "theme": "blue",
+    "total_unique_colors": 12116,
+    "complex": false
   }
 ]
