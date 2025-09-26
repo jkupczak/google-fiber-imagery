@@ -105,10 +105,11 @@
   <p>Results:</p>
   <div id="results"></div>
   <textarea id="jsonOutput" rows="15"></textarea>
-  <div id="versionInfo">v1 - 09/26/25 17:25:00</div>
+  <div id="versionInfo">v1.1 - 09/26/25 17:25:00</div>
 
   <script>
-    const CORS_PROXY = "https://cors-anywhere.herokuapp.com/";
+    // Use local Node.js CORS proxy
+    const CORS_PROXY = "http://localhost:8080/";
 
     const themeColors = {
       green: ["#CEEAD6", "#81C995", "#34A853", "#188038", "#137333", "#0D652D"],
