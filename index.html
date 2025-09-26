@@ -1,78 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Image Grid with Multi-Filters & Resize</title>
-  <style>
-    body { font-family: Arial, sans-serif; padding: 20px; }
-    .filters { margin-bottom: 20px; }
-    .filter-button {
-      padding: 8px 12px;
-      margin: 5px;
-      border: 2px solid #ccc;
-      cursor: pointer;
-      border-radius: 4px;
-      background: #f9f9f9;
-    }
-    .filter-button.active { outline: 3px solid #000; outline-offset: 2px; }
-    .color-filter {
-      width: 30px;
-      height: 30px;
-      border-radius: 50%;
-      border: 2px solid #ccc;
-      margin: 5px;
-      cursor: pointer;
-      display: inline-block;
-    }
-    .color-filter.active { outline: 3px solid #000; outline-offset: 2px; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 10px; }
-    .image-wrapper {
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start; /* buttons above image */
-      align-items: center;
-      background: #f0f0f0;
-      border: 1px solid #ddd;
-      overflow: hidden;
-      transition: width 0.2s, height 0.2s;
-    }
-    .image-wrapper img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      display: block;
-    }
-    .button-container {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-      opacity: 0;
-      transition: opacity 0.2s;
-      align-items: center;
-      pointer-events: none;
-    }
-    .image-wrapper:hover .button-container { opacity: 1; pointer-events: auto; }
-    .copy-btn { padding: 2px 6px; font-size: 0.8em; cursor: pointer; border: 1px solid #ccc; border-radius: 3px; background: #f9f9f9; }
-    .size-controls { margin-bottom: 20px; }
-    .size-controls button { margin: 0 5px; padding: 6px 10px; border: 2px solid #ccc; background: #f9f9f9; cursor: pointer; border-radius: 4px; }
-    #versionInfo {
-      position: fixed;
-      top: 10px;
-      right: 10px;
-      font-size: 0.9em;
-      color: #555;
-      background: rgba(255,255,255,0.9);
-      padding: 5px 10px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      z-index: 1000;
-    }
-  </style>
+<meta charset="UTF-8">
+<title>Image Grid with Multi-Filters & Resize</title>
+<style>
+body { font-family: Arial, sans-serif; padding: 20px; }
+.filters { margin-bottom: 20px; }
+.filter-button { padding: 8px 12px; margin: 5px; border: 2px solid #ccc; cursor: pointer; border-radius: 4px; background: #f9f9f9; }
+.filter-button.active { outline: 3px solid #000; outline-offset: 2px; }
+.color-filter { width: 30px; height: 30px; border-radius: 50%; border: 2px solid #ccc; margin: 5px; cursor: pointer; display: inline-block; }
+.color-filter.active { outline: 3px solid #000; outline-offset: 2px; }
+.color-bw { background: linear-gradient(to right, #000 50%, #fff 50%); }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 10px; }
+.image-wrapper { position: relative; display: flex; flex-direction: column; justify-content: flex-start; align-items: center; background: #f0f0f0; border: 1px solid #ddd; overflow: hidden; }
+.image-wrapper img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.button-container { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: flex; flex-direction: column; gap: 4px; opacity: 0; transition: opacity 0.2s; align-items: center; pointer-events: none; }
+.image-wrapper:hover .button-container { opacity: 1; pointer-events: auto; }
+.copy-btn { padding: 2px 6px; font-size: 0.8em; cursor: pointer; border: 1px solid #ccc; border-radius: 3px; background: #f9f9f9; }
+.size-controls { margin-bottom: 20px; }
+.size-controls button { margin: 0 5px; padding: 6px 10px; border: 2px solid #ccc; background: #f9f9f9; cursor: pointer; border-radius: 4px; }
+#versionInfo { position: fixed; top: 10px; right: 10px; font-size: 0.9em; color: #555; background: rgba(255,255,255,0.9); padding: 5px 10px; border: 1px solid #ccc; border-radius: 4px; z-index: 1000; }
+</style>
 </head>
 <body>
 
@@ -99,7 +47,7 @@
 
 <div class="grid" id="imageGrid"></div>
 
-<div id="versionInfo">Version 6 | 09/26/25, 14:52:00</div>
+<div id="versionInfo">Version 7 | 09/26/25, 15:12:00</div>
 
 <script>
 const themeColors = {
@@ -134,6 +82,7 @@ function renderThemeFilters(data) {
     .filter(theme => theme && themeColors[theme]);
 
   themes.forEach(theme => {
+    if (theme === "black" || theme === "white") return; // skip individual B/W
     const btn = document.createElement("div");
     btn.className = "color-filter";
     btn.style.backgroundColor = themeColors[theme];
@@ -151,10 +100,28 @@ function renderThemeFilters(data) {
     });
     container.appendChild(btn);
   });
+
+  // Combined black & white button
+  const bwBtn = document.createElement("div");
+  bwBtn.className = "color-filter color-bw";
+  bwBtn.dataset.theme = "bw";
+  bwBtn.addEventListener("click", () => {
+    if (activeThemeFilter === "bw") {
+      activeThemeFilter = null;
+      bwBtn.classList.remove("active");
+    } else {
+      activeThemeFilter = "bw";
+      document.querySelectorAll(".color-filter").forEach(b => b.classList.remove("active"));
+      bwBtn.classList.add("active");
+    }
+    renderImages();
+  });
+  container.appendChild(bwBtn);
 }
 
 function renderImages() {
   const grid = document.getElementById("imageGrid");
+  grid.style.gridTemplateColumns = `repeat(auto-fill, minmax(${currentSize}px, 1fr))`;
   grid.innerHTML = "";
 
   let filtered = allImages.filter(img => {
@@ -164,15 +131,18 @@ function renderImages() {
     if (ext === "jpeg") ext = "jpg";
     if (activeFileFilters.size && !activeFileFilters.has(ext)) return false;
     if (activeAlphaFilter !== null && img.has_alpha !== activeAlphaFilter) return false;
-    if (activeThemeFilter && img.theme.toLowerCase() !== activeThemeFilter) return false;
+    if (activeThemeFilter) {
+      if (activeThemeFilter === "bw") {
+        if (!["black","white"].includes(img.theme.toLowerCase())) return false;
+      } else if (img.theme.toLowerCase() !== activeThemeFilter) return false;
+    }
     return true;
   });
 
   filtered.forEach(img => {
     const wrapper = document.createElement("div");
     wrapper.className = "image-wrapper";
-    wrapper.style.width = currentSize + "px";
-    wrapper.style.height = currentSize + "px";
+    wrapper.style.height = currentSize + "px"; // width handled by grid
 
     const buttonContainer = document.createElement("div");
     buttonContainer.className = "button-container";
@@ -181,22 +151,14 @@ function renderImages() {
     copyURLBtn.textContent = "Copy URL";
     copyURLBtn.className = "copy-btn";
     copyURLBtn.addEventListener("click", async () => {
-      try {
-        await navigator.clipboard.writeText(img.url);
-        copyURLBtn.textContent = "Copied!";
-        setTimeout(() => copyURLBtn.textContent = "Copy URL", 1000);
-      } catch (err) { console.error(err); }
+      try { await navigator.clipboard.writeText(img.url); copyURLBtn.textContent="Copied!"; setTimeout(()=>copyURLBtn.textContent="Copy URL",1000);} catch(e){console.error(e);}
     });
 
     const copyDetailsBtn = document.createElement("button");
     copyDetailsBtn.textContent = "Copy Details";
     copyDetailsBtn.className = "copy-btn";
     copyDetailsBtn.addEventListener("click", async () => {
-      try {
-        await navigator.clipboard.writeText(JSON.stringify(img, null, 2));
-        copyDetailsBtn.textContent = "Copied!";
-        setTimeout(() => copyDetailsBtn.textContent = "Copy Details", 1000);
-      } catch (err) { console.error(err); }
+      try { await navigator.clipboard.writeText(JSON.stringify(img,null,2)); copyDetailsBtn.textContent="Copied!"; setTimeout(()=>copyDetailsBtn.textContent="Copy Details",1000);} catch(e){console.error(e);}
     });
 
     buttonContainer.appendChild(copyURLBtn);
@@ -212,42 +174,32 @@ function renderImages() {
 }
 
 // File type filters
-document.querySelectorAll(".filter-button[data-type]").forEach(btn => {
-  btn.addEventListener("click", () => {
-    const type = btn.dataset.type;
-    if (activeFileFilters.has(type)) {
-      activeFileFilters.delete(type);
-      btn.classList.remove("active");
-    } else {
-      activeFileFilters.add(type);
-      btn.classList.add("active");
-    }
+document.querySelectorAll(".filter-button[data-type]").forEach(btn=>{
+  btn.addEventListener("click",()=>{
+    const type=btn.dataset.type;
+    if(activeFileFilters.has(type)){ activeFileFilters.delete(type); btn.classList.remove("active");}
+    else{ activeFileFilters.add(type); btn.classList.add("active");}
     renderImages();
   });
 });
 
 // Alpha filter
-document.querySelector(".filter-button[data-alpha]").addEventListener("click", e => {
-  if (activeAlphaFilter) {
-    activeAlphaFilter = null;
-    e.target.classList.remove("active");
-  } else {
-    activeAlphaFilter = true;
-    e.target.classList.add("active");
-  }
+document.querySelector(".filter-button[data-alpha]").addEventListener("click",e=>{
+  if(activeAlphaFilter){ activeAlphaFilter=null; e.target.classList.remove("active");}
+  else{ activeAlphaFilter=true; e.target.classList.add("active");}
   renderImages();
 });
 
-// Clear color button
-document.querySelector(".clear-colors").addEventListener("click", e => {
-  activeThemeFilter = null;
-  document.querySelectorAll(".color-filter").forEach(b => b.classList.remove("active"));
+// Clear color
+document.querySelector(".clear-colors").addEventListener("click",()=>{
+  activeThemeFilter=null;
+  document.querySelectorAll(".color-filter").forEach(b=>b.classList.remove("active"));
   renderImages();
 });
 
-// Image size controls (update parent container size)
-document.getElementById("increase").addEventListener("click", () => { currentSize += 20; renderImages(); });
-document.getElementById("decrease").addEventListener("click", () => { if (currentSize > 40) { currentSize -= 20; renderImages(); } });
+// Size controls
+document.getElementById("increase").addEventListener("click",()=>{currentSize+=20; renderImages();});
+document.getElementById("decrease").addEventListener("click",()=>{if(currentSize>40){currentSize-=20; renderImages();}});
 
 loadImages();
 </script>
