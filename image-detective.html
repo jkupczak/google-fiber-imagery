@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Image Dominant Color Analyzer</title>
+  <title>Image Dominant Color Analyzer (Average RGB)</title>
 </head>
 <body>
   <h1>Image Dominant Color Analyzer</h1>
@@ -37,11 +37,6 @@
     );
   }
 
-  function normalizeColor(r, g, b) {
-    const round = x => Math.round(x / 5) * 5;
-    return `${round(r)},${round(g)},${round(b)}`;
-  }
-
   function findClosestReferenceColor(rgb) {
     let minDist = Infinity;
     let closestHex = null;
@@ -72,7 +67,7 @@
         ctx.drawImage(img, 0, 0, w, h);
 
         const data = ctx.getImageData(0, 0, w, h).data;
-        const colorCounts = new Map();
+        let totalR = 0, totalG = 0, totalB = 0, count = 0;
         let hasAlpha = false;
 
         for (let i = 0; i < data.length; i += 4) {
@@ -82,22 +77,20 @@
           const a = data[i+3];
 
           if (a < 255) hasAlpha = true;
-          if (a === 0) continue;
+          if (a === 0) continue; // skip fully transparent
 
-          const key = normalizeColor(r, g, b);
-          colorCounts.set(key, (colorCounts.get(key) || 0) + 1);
+          totalR += r;
+          totalG += g;
+          totalB += b;
+          count++;
         }
 
-        // Find most dominant color
-        let dominantRgb = [0,0,0], maxCount = 0;
-        for (const [key, count] of colorCounts.entries()) {
-          if (count > maxCount) {
-            maxCount = count;
-            dominantRgb = key.split(",").map(Number);
-          }
-        }
+        // Avoid division by zero
+        const avgRgb = count > 0
+          ? [Math.round(totalR/count), Math.round(totalG/count), Math.round(totalB/count)]
+          : [0,0,0];
 
-        const dominant_color = findClosestReferenceColor(dominantRgb);
+        const dominant_color = findClosestReferenceColor(avgRgb);
 
         resolve({
           url,
