@@ -1,212 +1,306 @@
 [
   {
-    "url": "https://services.google.com/fh/files/emails/gf_0525_5-21_hero_mbl.gif",
-    "width": 720,
-    "height": 448,
+    "url": "https://services.google.com/fh/files/emails/gf_4-30_offer_hero_dsktp.jpg",
+    "width": 1200,
+    "height": 592,
     "has_alpha": false,
-    "dominant_color": "#4285f4"
+    "most_frequent_hex": "#4385f5",
+    "theme": "#4285f4"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/gf_0525_5-21_hero_phone.png",
-    "width": 1000,
-    "height": 1424,
+    "url": "https://services.google.com/fh/files/emails/gf_4-30_offer_hero_mbl.jpg",
+    "width": 720,
+    "height": 480,
+    "has_alpha": false,
+    "most_frequent_hex": "#4385f5",
+    "theme": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_4-5_bkgrnd_blue100.png",
+    "width": 1200,
+    "height": 980,
     "has_alpha": true,
-    "dominant_color": "#4285f4"
+    "most_frequent_hex": "#d2e3fc",
+    "theme": "#4285f4"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/gf_0525_5-21_hero_taps_v2.png",
+    "url": "https://services.google.com/fh/files/emails/gf_4-5_bottom_speed.png",
     "width": 1080,
-    "height": 210,
+    "height": 228,
     "has_alpha": true,
-    "dominant_color": "#ea4435"
+    "most_frequent_hex": "#4285f4",
+    "theme": "#4285f4"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/gf_0525_icon_laptop-outlined-white.png",
-    "width": 560,
-    "height": 400,
-    "has_alpha": true,
-    "dominant_color": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0525_icon_phone-outlined-white.png",
-    "width": 420,
-    "height": 420,
-    "has_alpha": true,
-    "dominant_color": "#000000"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0525_icon_route_blue700.png",
-    "width": 312,
-    "height": 312,
-    "has_alpha": true,
-    "dominant_color": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0525_icon_secure-lock.png",
-    "width": 360,
-    "height": 432,
-    "has_alpha": true,
-    "dominant_color": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0525_icon_secure-lock_blue700.png",
-    "width": 312,
-    "height": 384,
-    "has_alpha": true,
-    "dominant_color": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0525_icon_uptime-guarantee.png",
-    "width": 576,
-    "height": 576,
-    "has_alpha": true,
-    "dominant_color": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0525_jd-power_pc-mag_hsi_ookla_dsktp.gif",
-    "width": 1200,
-    "height": 700,
-    "has_alpha": true,
-    "dominant_color": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0525_jd-power_pc-mag_hsi_ookla_mbl.gif",
-    "width": 620,
-    "height": 820,
-    "has_alpha": true,
-    "dominant_color": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0624_gfiber_app_screens_fade.gif",
-    "width": 600,
-    "height": 1200,
-    "has_alpha": true,
-    "dominant_color": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0625_6-18_attributes_jd-power_1-gig-speeds_wifi_no-hidden-fees.png",
-    "width": 1200,
-    "height": 1200,
-    "has_alpha": true,
-    "dominant_color": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0625_6-18_hero_dsktp.png",
-    "width": 1200,
-    "height": 800,
+    "url": "https://services.google.com/fh/files/emails/gf_4-5_boy_laptop.jpg",
+    "width": 810,
+    "height": 810,
     "has_alpha": false,
-    "dominant_color": "#4285f4"
+    "most_frequent_hex": "#fcfcfc",
+    "theme": "#4285f4"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/gf_0625_6-18_hero_mbl.png",
-    "width": 720,
-    "height": 648,
+    "url": "https://services.google.com/fh/files/emails/gf_4-5_family_laptop.jpg",
+    "width": 810,
+    "height": 810,
+    "has_alpha": false,
+    "most_frequent_hex": "#4b3a32",
+    "theme": "#5f6469"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_4-5_gal_flute.jpg",
+    "width": 810,
+    "height": 810,
+    "has_alpha": false,
+    "most_frequent_hex": "#cac9ce",
+    "theme": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_4-5_top_puck.png",
+    "width": 1080,
+    "height": 390,
     "has_alpha": true,
-    "dominant_color": "#5f6469"
+    "most_frequent_hex": "#4285f4",
+    "theme": "#4285f4"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/gf_0625_6-4_blue200_core_hero_mbl.png",
-    "width": 720,
-    "height": 440,
+    "url": "https://services.google.com/fh/files/emails/gf_4-5_top_puck_offer.png",
+    "width": 1080,
+    "height": 390,
     "has_alpha": true,
-    "dominant_color": "#4285f4"
+    "most_frequent_hex": "#4285f4",
+    "theme": "#4285f4"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/gf_0625_6-4_blue200_hero_mbl.png",
-    "width": 720,
-    "height": 440,
+    "url": "https://services.google.com/fh/files/emails/gf_5-22_bkgrnd_curve.png",
+    "width": 1200,
+    "height": 904,
     "has_alpha": true,
-    "dominant_color": "#4285f4"
+    "most_frequent_hex": "#1a73e8",
+    "theme": "#4285f4"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/gf_0625_6-4_jd-power-laurels_dsktp.png",
+    "url": "https://services.google.com/fh/files/emails/gf_5-22_chevron500.png",
+    "width": 1400,
+    "height": 130,
+    "has_alpha": true,
+    "most_frequent_hex": "#fbbc04",
+    "theme": "#fbbc04"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_5-22_jdpower_half-circle.png",
+    "width": 1200,
+    "height": 416,
+    "has_alpha": true,
+    "most_frequent_hex": "#1a73e8",
+    "theme": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_5-29_hero_red500.png",
+    "width": 1200,
+    "height": 856,
+    "has_alpha": false,
+    "most_frequent_hex": "#ea4335",
+    "theme": "#ea4435"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_5-3_headset_dsktp.png",
+    "width": 720,
+    "height": 528,
+    "has_alpha": false,
+    "most_frequent_hex": "#1a73e8",
+    "theme": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_5-3_headset_mbl.png",
+    "width": 720,
+    "height": 450,
+    "has_alpha": false,
+    "most_frequent_hex": "#1a73e8",
+    "theme": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_5-3_hero_dsktp_3.png",
+    "width": 1200,
+    "height": 628,
+    "has_alpha": true,
+    "most_frequent_hex": "#1a73e8",
+    "theme": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_1124_icon_battery_black-outline.png",
+    "width": 540,
+    "height": 720,
+    "has_alpha": true,
+    "most_frequent_hex": "#000000",
+    "theme": "#000000"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_1124_icon_cloud-upload_black-outline.png",
+    "width": 840,
+    "height": 620,
+    "has_alpha": true,
+    "most_frequent_hex": "#000000",
+    "theme": "#000000"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_1124_icon_cstmr-srvc_black-outline.png",
+    "width": 800,
+    "height": 720,
+    "has_alpha": true,
+    "most_frequent_hex": "#000000",
+    "theme": "#000000"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_1124_icon_room-settings_black-outline.png",
+    "width": 760,
+    "height": 720,
+    "has_alpha": true,
+    "most_frequent_hex": "#000000",
+    "theme": "#000000"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_1124_icon_wifi_black-outline.png",
+    "width": 1020,
+    "height": 720,
+    "has_alpha": true,
+    "most_frequent_hex": "#000000",
+    "theme": "#000000"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_1124_shapes_blue_1200.png",
+    "width": 1200,
+    "height": 972,
+    "has_alpha": false,
+    "most_frequent_hex": "#1a73e8",
+    "theme": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_11823_hero_dsktp4.png",
+    "width": 1200,
+    "height": 838,
+    "has_alpha": true,
+    "most_frequent_hex": "#4285f4",
+    "theme": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_11823_hero_mbl4.png",
+    "width": 960,
+    "height": 600,
+    "has_alpha": true,
+    "most_frequent_hex": "#4285f4",
+    "theme": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_12-14_dsktp_blue.gif",
+    "width": 1200,
+    "height": 600,
+    "has_alpha": false,
+    "most_frequent_hex": "#4285f4",
+    "theme": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_12-14_mbl_blue.gif",
+    "width": 640,
+    "height": 852,
+    "has_alpha": false,
+    "most_frequent_hex": "#4285f4",
+    "theme": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_12-21_laptop_icon.png",
+    "width": 240,
+    "height": 240,
+    "has_alpha": true,
+    "most_frequent_hex": "#000000",
+    "theme": "#000000"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf-2025-09-05--single-puck.png",
+    "width": 472,
+    "height": 456,
+    "has_alpha": true,
+    "most_frequent_hex": "#e8eff8",
+    "theme": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf-3x-image.png",
+    "width": 490,
+    "height": 490,
+    "has_alpha": true,
+    "most_frequent_hex": "#1a73e8",
+    "theme": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf-6-2-wifi-6e.png",
+    "width": 870,
+    "height": 990,
+    "has_alpha": true,
+    "most_frequent_hex": "#dadada",
+    "theme": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0125_1-19_wmn-ktchn_dsktp.png",
+    "width": 420,
+    "height": 640,
+    "has_alpha": true,
+    "most_frequent_hex": "#f7f7f8",
+    "theme": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0125_1-19_wmn-ktchn_mbl.png",
+    "width": 720,
+    "height": 500,
+    "has_alpha": true,
+    "most_frequent_hex": "#f7f7f8",
+    "theme": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0125_1-19_wmn-ktchn_mbl3.png",
+    "width": 233,
+    "height": 563,
+    "has_alpha": true,
+    "most_frequent_hex": "#f7f7f8",
+    "theme": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0125_1-22_bllt-pnts_mbl3.png",
+    "width": 720,
+    "height": 320,
+    "has_alpha": true,
+    "most_frequent_hex": "#ceead6",
+    "theme": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0125_1-22_lrg-bllt-pnts_dsktp3.png",
     "width": 1200,
     "height": 500,
     "has_alpha": true,
-    "dominant_color": "#4285f4"
+    "most_frequent_hex": "#2a9a45",
+    "theme": "#34a853"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/gf_0625_6-4_jd-power-laurels_mbl.png",
-    "width": 720,
-    "height": 680,
+    "url": "https://services.google.com/fh/files/emails/gf_0125_1-23_gfiber_app_screens.gif",
+    "width": 500,
+    "height": 1020,
     "has_alpha": true,
-    "dominant_color": "#4285f4"
+    "most_frequent_hex": "#5290f7",
+    "theme": "#4285f4"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/gf_0625_6-4_quotes_anim_v2.gif",
+    "url": "https://services.google.com/fh/files/emails/gf_0125_app_green500.png",
     "width": 1200,
-    "height": 975,
+    "height": 336,
     "has_alpha": false,
-    "dominant_color": "#4285f4"
+    "most_frequent_hex": "#34a853",
+    "theme": "#34a853"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/gf_0625_exp_douglas-county.jpg",
-    "width": 1200,
-    "height": 660,
-    "has_alpha": false,
-    "dominant_color": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0625_jd-power_pc-mag_hsi_ookla_dsktp.gif",
-    "width": 1200,
-    "height": 700,
-    "has_alpha": true,
-    "dominant_color": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0625_jd-power_pc-mag_hsi_ookla_mbl.gif",
-    "width": 620,
-    "height": 820,
-    "has_alpha": true,
-    "dominant_color": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0724_6e-extender-shape.png",
-    "width": 840,
-    "height": 780,
-    "has_alpha": true,
-    "dominant_color": "#fbbc04"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0724_pucks_shape.png",
-    "width": 840,
-    "height": 780,
-    "has_alpha": true,
-    "dominant_color": "#fbbc04"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0725_7-30_4up_jd-power_1-gig.png",
-    "width": 900,
-    "height": 900,
-    "has_alpha": true,
-    "dominant_color": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0725_7-6_hero_july-invite.png",
-    "width": 1080,
-    "height": 720,
-    "has_alpha": true,
-    "dominant_color": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0725_hsi_badge_2x-winner_bkgrnd.png",
-    "width": 950,
+    "url": "https://services.google.com/fh/files/emails/gf_0125_router_shadow_800px.png",
+    "width": 800,
     "height": 1200,
     "has_alpha": true,
-    "dominant_color": "#5f6469"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0725_icon_battery-full_black.png",
-    "width": 300,
-    "height": 480,
-    "has_alpha": true,
-    "dominant_color": "#4285f4"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0725_icon_bolt_blk.png",
-    "width": 420,
-    "height": 480,
-    "has_alpha": true,
-    "dominant_color": "#4285f4"
+    "most_frequent_hex": "#b7b4b6",
+    "theme": "#4285f4"
   }
 ]
