@@ -27,13 +27,13 @@ body { font-family: Arial, sans-serif; padding: 20px; }
 
 <div class="filters">
   <div>
-    <button class="filter-button" data-type="gif">.gif</button>
-    <button class="filter-button" data-type="jpg">.jpg/.jpeg</button>
-    <button class="filter-button" data-type="png">.png</button>
+    <button class="filter-button" data-type="gif">GIF</button>
+    <button class="filter-button" data-type="jpg">JPG</button>
+    <button class="filter-button" data-type="png">PNG</button>
   </div>
   <div>
-    <button class="filter-button" data-alpha="true">Has Alpha</button>
-    <button class="filter-button" data-complex="true">Complex</button>
+    <button class="filter-button" data-alpha="true">Has Transparency</button>
+    <button class="filter-button" data-complex="true">Only Complex Colors</button>
   </div>
   <div>
     <button class="filter-button clear-colors">Clear Colors</button>
@@ -42,9 +42,8 @@ body { font-family: Arial, sans-serif; padding: 20px; }
 </div>
 
 <div class="sort-controls">
-  <label for="sortSelect">Sort by total_unique_colors:</label>
+  <label for="sortSelect">Sort by Total Unique Colors:</label>
   <select id="sortSelect">
-    <option value="">--None--</option>
     <option value="asc">Ascending</option>
     <option value="desc">Descending</option>
   </select>
@@ -58,7 +57,7 @@ body { font-family: Arial, sans-serif; padding: 20px; }
 
 <div class="grid" id="imageGrid"></div>
 
-<div id="versionInfo">Version 8 | 09/26/25, 15:40:00</div>
+<div id="versionInfo">Version 9 | 09/26/25, 15:40:00</div>
 
 <script>
 const themeColors = {
