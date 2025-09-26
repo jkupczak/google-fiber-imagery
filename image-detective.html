@@ -92,8 +92,44 @@
   <script>
   const CORS_PROXY = "https://cors-anywhere.herokuapp.com/";
 
+  const referenceColors = [
+    "#4285f4", "#34a853", "#ea4435", "#fbbc04", "#5f6469", "#000000"
+  ];
+
   function rgbToHex(r, g, b) {
     return "#" + [r, g, b].map(x => x.toString(16).padStart(2, '0')).join('');
+  }
+
+  function hexToRgb(hex) {
+    const bigint = parseInt(hex.slice(1), 16);
+    return {
+      r: (bigint >> 16) & 255,
+      g: (bigint >> 8) & 255,
+      b: bigint & 255
+    };
+  }
+
+  function colorDistance(hex1, hex2) {
+    const c1 = hexToRgb(hex1);
+    const c2 = hexToRgb(hex2);
+    return Math.sqrt(
+      Math.pow(c1.r - c2.r, 2) +
+      Math.pow(c1.g - c2.g, 2) +
+      Math.pow(c1.b - c2.b, 2)
+    );
+  }
+
+  function findClosestReferenceColor(hex) {
+    let closest = null;
+    let minDist = Infinity;
+    for (const ref of referenceColors) {
+      const dist = colorDistance(hex, ref);
+      if (dist < minDist) {
+        minDist = dist;
+        closest = ref;
+      }
+    }
+    return closest;
   }
 
   async function analyzeImage(url) {
@@ -137,12 +173,15 @@
           }
         }
 
+        const theme = most_frequent_hex ? findClosestReferenceColor(most_frequent_hex) : null;
+
         resolve({
           url,
           width: img.width,
           height: img.height,
           has_alpha: hasAlpha,
-          most_frequent_hex
+          most_frequent_hex,
+          theme
         });
       };
       img.onerror = () => reject(new Error(`Failed to load image: ${url}`));
@@ -174,7 +213,7 @@
     results.forEach(item => {
       const div = document.createElement("div");
       div.className = "result-item";
-      div.textContent = `${item.url} → ${item.most_frequent_hex || 'N/A'}`;
+      div.textContent = `${item.url} → ${item.most_frequent_hex || 'N/A'} (theme: ${item.theme || 'N/A'})`;
       if (item.most_frequent_hex) {
         const swatch = document.createElement("div");
         swatch.className = "color-swatch";
@@ -194,7 +233,6 @@
     const output = document.getElementById("jsonOutput");
     output.value = JSON.stringify(results, null, 2);
 
-    // Copy to clipboard without alert
     try {
       await navigator.clipboard.writeText(JSON.stringify(results, null, 2));
     } catch (err) {
