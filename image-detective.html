@@ -41,7 +41,6 @@
       margin-top: 15px;
     }
 
-    /* Dark mode styles */
     @media (prefers-color-scheme: dark) {
       body {
         background-color: #121212;
@@ -102,10 +101,12 @@
 
           if (a < 255) {
             hasAlpha = true;
-            continue;
+            continue; // ignore non-opaque pixels
           }
 
           const hex = rgbToHex(r, g, b);
+          if (hex.toLowerCase() === "#ffffff") continue; // ignore white
+
           colorCounts[hex] = (colorCounts[hex] || 0) + 1;
         }
 
