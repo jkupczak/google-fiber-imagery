@@ -145,12 +145,21 @@
 
     function findTheme(hex) {
       const rgb = hexToRgb(hex);
+      const r = rgb.r, g = rgb.g, b = rgb.b;
 
       // Grayscale rule: if all RGB values equal, match only to white or black
-      if (rgb.r === rgb.g && rgb.g === rgb.b) {
+      if (r === g && g === b) {
         const distWhite = colorDistance(hex, "#ffffff");
         const distBlack = colorDistance(hex, "#000000");
         return distWhite < distBlack ? "white" : "black";
+      }
+
+      // Desaturation check: near-gray colors assigned to gray
+      const max = Math.max(r, g, b);
+      const min = Math.min(r, g, b);
+      const saturation = max === 0 ? 0 : (max - min) / max; 
+      if (saturation < 0.15) {
+        return "gray";
       }
 
       // Otherwise, find closest theme hex
