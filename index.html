@@ -9,7 +9,7 @@
     .filter-button {
       padding: 8px 12px;
       margin: 5px;
-      border: 2px solid #ccc; /* Light gray outline */
+      border: 2px solid #ccc;
       cursor: pointer;
       border-radius: 4px;
       background: #f9f9f9;
@@ -26,9 +26,11 @@
     }
     .color-filter.active { outline: 3px solid #000; outline-offset: 2px; }
     .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 10px; }
-    .image-wrapper { display: flex; flex-direction: column; justify-content: center; align-items: center; background: #f0f0f0; border: 1px solid #ddd; overflow: hidden; }
-    .image-wrapper img { width: 100%; height: 100%; object-fit: contain; }
-    .copy-btn { margin-top: 5px; padding: 2px 6px; font-size: 0.8em; cursor: pointer; border: 1px solid #ccc; border-radius: 3px; background: #f9f9f9; }
+    .image-wrapper { position: relative; display: flex; flex-direction: column; justify-content: center; align-items: center; background: #f0f0f0; border: 1px solid #ddd; overflow: hidden; }
+    .image-wrapper img { width: 160px; height: 160px; object-fit: contain; }
+    .button-container { position: absolute; top: 5px; display: flex; flex-direction: column; gap: 4px; opacity: 0; transition: opacity 0.2s; align-items: center; }
+    .image-wrapper:hover .button-container { opacity: 1; }
+    .copy-btn { padding: 2px 6px; font-size: 0.8em; cursor: pointer; border: 1px solid #ccc; border-radius: 3px; background: #f9f9f9; }
     .size-controls { margin-bottom: 20px; }
     .size-controls button { margin: 0 5px; padding: 6px 10px; border: 2px solid #ccc; background: #f9f9f9; cursor: pointer; border-radius: 4px; }
     #versionInfo {
@@ -70,7 +72,7 @@
 
 <div class="grid" id="imageGrid"></div>
 
-<div id="versionInfo">Version 3 | 09/26/25, 14:16:30</div>
+<div id="versionInfo">Version 5 | 09/26/25, 14:36:00</div>
 
 <script>
 const themeColors = {
@@ -131,42 +133,52 @@ function renderImages() {
   let filtered = allImages.filter(img => {
     if (img.theme === null || img.theme === "null") return false;
 
-    // File filter
     let ext = img.url.split(".").pop().toLowerCase();
     if (ext === "jpeg") ext = "jpg";
     if (activeFileFilters.size && !activeFileFilters.has(ext)) return false;
-
-    // Alpha filter
     if (activeAlphaFilter !== null && img.has_alpha !== activeAlphaFilter) return false;
-
-    // Theme filter
     if (activeThemeFilter && img.theme.toLowerCase() !== activeThemeFilter) return false;
-
     return true;
   });
 
   filtered.forEach(img => {
     const wrapper = document.createElement("div");
     wrapper.className = "image-wrapper";
-    wrapper.style.width = wrapper.style.height = currentSize + "px";
+
+    const buttonContainer = document.createElement("div");
+    buttonContainer.className = "button-container";
+
+    const copyURLBtn = document.createElement("button");
+    copyURLBtn.textContent = "Copy URL";
+    copyURLBtn.className = "copy-btn";
+    copyURLBtn.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(img.url);
+        copyURLBtn.textContent = "Copied!";
+        setTimeout(() => copyURLBtn.textContent = "Copy URL", 1000);
+      } catch (err) { console.error(err); }
+    });
+
+    const copyDetailsBtn = document.createElement("button");
+    copyDetailsBtn.textContent = "Copy Details";
+    copyDetailsBtn.className = "copy-btn";
+    copyDetailsBtn.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(JSON.stringify(img, null, 2));
+        copyDetailsBtn.textContent = "Copied!";
+        setTimeout(() => copyDetailsBtn.textContent = "Copy Details", 1000);
+      } catch (err) { console.error(err); }
+    });
+
+    buttonContainer.appendChild(copyURLBtn);
+    buttonContainer.appendChild(copyDetailsBtn);
+    wrapper.appendChild(buttonContainer);
 
     const image = document.createElement("img");
     image.src = img.url;
+    image.style.width = currentSize + "px";
+    image.style.height = currentSize + "px";
     wrapper.appendChild(image);
-
-    const copyBtn = document.createElement("button");
-    copyBtn.textContent = "Copy Details";
-    copyBtn.className = "copy-btn";
-    copyBtn.addEventListener("click", async () => {
-      try {
-        await navigator.clipboard.writeText(JSON.stringify(img, null, 2));
-        copyBtn.textContent = "Copied!";
-        setTimeout(() => copyBtn.textContent = "Copy Details", 1000);
-      } catch (err) {
-        console.error("Failed to copy JSON:", err);
-      }
-    });
-    wrapper.appendChild(copyBtn);
 
     grid.appendChild(wrapper);
   });
