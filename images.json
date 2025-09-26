@@ -1,142 +1,212 @@
 [
   {
-    "url": "https://i.imgur.com/pfDnyD4.png?https://services.google.com/fh/files/emails/gf_0425_blue700-500_bkgrnd.png",
-    "width": 1200,
-    "height": 760,
-    "has_alpha": false,
-    "dominant_color": "#5f6469"
-  },
-  {
-    "url": "https://i.imgur.com/VrQWYOY.png?https://services.google.com/fh/files/emails/icon--loop--black-inside--white-outside--2023-01-15.png",
-    "width": 468,
-    "height": 468,
-    "has_alpha": true,
-    "dominant_color": "#4285f4"
-  },
-  {
-    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/cmptr_icon.png",
-    "width": 280,
-    "height": 200,
-    "has_alpha": true,
-    "dominant_color": "#5f6469"
-  },
-  {
-    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gf_0825_jd-power_pc-mag_hsi_ookla_dsktp_v2.gif",
-    "width": 1100,
-    "height": 620,
-    "has_alpha": true,
-    "dominant_color": "#4285f4"
-  },
-  {
-    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gf_background_blue700.png",
-    "width": 1200,
-    "height": 1340,
-    "has_alpha": true,
-    "dominant_color": "#4285f4"
-  },
-  {
-    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gf_map_pin_700_green.png",
-    "width": 948,
-    "height": 954,
+    "url": "https://services.google.com/fh/files/emails/gf_0525_5-21_hero_mbl.gif",
+    "width": 720,
+    "height": 448,
     "has_alpha": false,
     "dominant_color": "#4285f4"
   },
   {
-    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gf_nest_dec2023_single.png",
-    "width": 900,
-    "height": 870,
+    "url": "https://services.google.com/fh/files/emails/gf_0525_5-21_hero_phone.png",
+    "width": 1000,
+    "height": 1424,
     "has_alpha": true,
     "dominant_color": "#4285f4"
   },
   {
-    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gf_nest_single_shadow.png",
-    "width": 900,
-    "height": 939,
+    "url": "https://services.google.com/fh/files/emails/gf_0525_5-21_hero_taps_v2.png",
+    "width": 1080,
+    "height": 210,
+    "has_alpha": true,
+    "dominant_color": "#ea4435"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0525_icon_laptop-outlined-white.png",
+    "width": 560,
+    "height": 400,
     "has_alpha": true,
     "dominant_color": "#4285f4"
   },
   {
-    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gf_shapes_green_1200.png",
+    "url": "https://services.google.com/fh/files/emails/gf_0525_icon_phone-outlined-white.png",
+    "width": 420,
+    "height": 420,
+    "has_alpha": true,
+    "dominant_color": "#000000"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0525_icon_route_blue700.png",
+    "width": 312,
+    "height": 312,
+    "has_alpha": true,
+    "dominant_color": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0525_icon_secure-lock.png",
+    "width": 360,
+    "height": 432,
+    "has_alpha": true,
+    "dominant_color": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0525_icon_secure-lock_blue700.png",
+    "width": 312,
+    "height": 384,
+    "has_alpha": true,
+    "dominant_color": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0525_icon_uptime-guarantee.png",
+    "width": 576,
+    "height": 576,
+    "has_alpha": true,
+    "dominant_color": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0525_jd-power_pc-mag_hsi_ookla_dsktp.gif",
     "width": 1200,
+    "height": 700,
+    "has_alpha": true,
+    "dominant_color": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0525_jd-power_pc-mag_hsi_ookla_mbl.gif",
+    "width": 620,
+    "height": 820,
+    "has_alpha": true,
+    "dominant_color": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0624_gfiber_app_screens_fade.gif",
+    "width": 600,
+    "height": 1200,
+    "has_alpha": true,
+    "dominant_color": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0625_6-18_attributes_jd-power_1-gig-speeds_wifi_no-hidden-fees.png",
+    "width": 1200,
+    "height": 1200,
+    "has_alpha": true,
+    "dominant_color": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0625_6-18_hero_dsktp.png",
+    "width": 1200,
+    "height": 800,
+    "has_alpha": false,
+    "dominant_color": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0625_6-18_hero_mbl.png",
+    "width": 720,
+    "height": 648,
+    "has_alpha": true,
+    "dominant_color": "#5f6469"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0625_6-4_blue200_core_hero_mbl.png",
+    "width": 720,
+    "height": 440,
+    "has_alpha": true,
+    "dominant_color": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0625_6-4_blue200_hero_mbl.png",
+    "width": 720,
+    "height": 440,
+    "has_alpha": true,
+    "dominant_color": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0625_6-4_jd-power-laurels_dsktp.png",
+    "width": 1200,
+    "height": 500,
+    "has_alpha": true,
+    "dominant_color": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0625_6-4_jd-power-laurels_mbl.png",
+    "width": 720,
+    "height": 680,
+    "has_alpha": true,
+    "dominant_color": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0625_6-4_quotes_anim_v2.gif",
+    "width": 1200,
+    "height": 975,
+    "has_alpha": false,
+    "dominant_color": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0625_exp_douglas-county.jpg",
+    "width": 1200,
+    "height": 660,
+    "has_alpha": false,
+    "dominant_color": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0625_jd-power_pc-mag_hsi_ookla_dsktp.gif",
+    "width": 1200,
+    "height": 700,
+    "has_alpha": true,
+    "dominant_color": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0625_jd-power_pc-mag_hsi_ookla_mbl.gif",
+    "width": 620,
+    "height": 820,
+    "has_alpha": true,
+    "dominant_color": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0724_6e-extender-shape.png",
+    "width": 840,
+    "height": 780,
+    "has_alpha": true,
+    "dominant_color": "#fbbc04"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0724_pucks_shape.png",
+    "width": 840,
+    "height": 780,
+    "has_alpha": true,
+    "dominant_color": "#fbbc04"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0725_7-30_4up_jd-power_1-gig.png",
+    "width": 900,
+    "height": 900,
+    "has_alpha": true,
+    "dominant_color": "#4285f4"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0725_7-6_hero_july-invite.png",
+    "width": 1080,
     "height": 720,
-    "has_alpha": false,
-    "dominant_color": "#34a853"
+    "has_alpha": true,
+    "dominant_color": "#4285f4"
   },
   {
-    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gf_speed_icon.png",
-    "width": 480,
+    "url": "https://services.google.com/fh/files/emails/gf_0725_hsi_badge_2x-winner_bkgrnd.png",
+    "width": 950,
+    "height": 1200,
+    "has_alpha": true,
+    "dominant_color": "#5f6469"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0725_icon_battery-full_black.png",
+    "width": 300,
     "height": 480,
     "has_alpha": true,
     "dominant_color": "#4285f4"
   },
   {
-    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gfiber_logo_1300_v2.png",
-    "width": 1344,
-    "height": 312,
-    "has_alpha": true,
-    "dominant_color": "#5f6469"
-  },
-  {
-    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/icon__loop__black_inside__white_outside__2023_01_15.png",
-    "width": 132,
-    "height": 132,
+    "url": "https://services.google.com/fh/files/emails/gf_0725_icon_bolt_blk.png",
+    "width": 420,
+    "height": 480,
     "has_alpha": true,
     "dominant_color": "#4285f4"
-  },
-  {
-    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/icon__piggy_bank__black_inside__white_outside__2023_12_28.png",
-    "width": 560,
-    "height": 532,
-    "has_alpha": true,
-    "dominant_color": "#4285f4"
-  },
-  {
-    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/icon__support_upload__black_inside__white_outside__2023_01_15.png",
-    "width": 132,
-    "height": 132,
-    "has_alpha": true,
-    "dominant_color": "#4285f4"
-  },
-  {
-    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/icon__wifi__black_inside__white_outside__2023_01_15.png",
-    "width": 132,
-    "height": 132,
-    "has_alpha": true,
-    "dominant_color": "#4285f4"
-  },
-  {
-    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/icon__wrench__black_inside__white_outside__2023_01_15.png",
-    "width": 132,
-    "height": 132,
-    "has_alpha": true,
-    "dominant_color": "#4285f4"
-  },
-  {
-    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/icon_calendar_black_inside_white_outside_0123.png",
-    "width": 180,
-    "height": 196,
-    "has_alpha": true,
-    "dominant_color": "#4285f4"
-  },
-  {
-    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/phone_icon2.png",
-    "width": 210,
-    "height": 200,
-    "has_alpha": true,
-    "dominant_color": "#5f6469"
-  },
-  {
-    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/sporting_kc_footer.png",
-    "width": 1800,
-    "height": 525,
-    "has_alpha": false,
-    "dominant_color": "#4285f4"
-  },
-  {
-    "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/0109347d-8cba-4c94-a7dc-81e80673f912.png",
-    "width": 260,
-    "height": 260,
-    "has_alpha": true,
-    "dominant_color": "#5f6469"
   }
 ]
