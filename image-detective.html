@@ -2,10 +2,10 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Image Dominant Color Analyzer (Brightness-Based Black)</title>
+  <title>Image Most Frequent Color Analyzer</title>
 </head>
 <body>
-  <h1>Image Dominant Color Analyzer</h1>
+  <h1>Image Most Frequent Color Analyzer!</h1>
   <p>Paste a list of image URLs (one per line):</p>
   <textarea id="urlInput" rows="10" cols="80"></textarea><br><br>
   <button id="analyzeBtn">Analyze Images</button>
@@ -15,36 +15,9 @@
 
   <script>
   const CORS_PROXY = "https://cors-anywhere.herokuapp.com/";
-  const REFERENCE_COLORS = [
-    "#4285f4", // blue
-    "#34a853", // green
-    "#ea4435", // red
-    "#fbbc04", // yellow
-    "#5f6469", // gray
-    "#000000"  // black
-  ];
 
-  function hexToRgb(hex) {
-    const m = hex.match(/^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i);
-    return m ? [parseInt(m[1],16), parseInt(m[2],16), parseInt(m[3],16)] : [0,0,0];
-  }
-
-  function colorDistance(c1, c2) {
-    return Math.sqrt(
-      Math.pow(c1[0]-c2[0],2) +
-      Math.pow(c1[1]-c2[1],2) +
-      Math.pow(c1[2]-c2[2],2)
-    );
-  }
-
-  function normalizeColor(r, g, b) {
-    const round = x => Math.round(x / 5) * 5;
-    return [round(r), round(g), round(b)];
-  }
-
-  function pixelBrightness(r, g, b) {
-    // Perceived brightness (0=dark, 255=bright)
-    return 0.299*r + 0.587*g + 0.114*b;
+  function rgbToHex(r, g, b) {
+    return "#" + [r, g, b].map(x => x.toString(16).padStart(2, '0')).join('');
   }
 
   async function analyzeImage(url) {
@@ -52,20 +25,14 @@
       const img = new Image();
       img.crossOrigin = "Anonymous";
       img.onload = () => {
-        const scale = 50;
-        const w = Math.min(img.width, scale);
-        const h = Math.min(img.height, scale);
-
         const canvas = document.createElement("canvas");
-        canvas.width = w;
-        canvas.height = h;
+        canvas.width = img.width;
+        canvas.height = img.height;
         const ctx = canvas.getContext("2d");
-        ctx.drawImage(img, 0, 0, w, h);
+        ctx.drawImage(img, 0, 0);
 
-        const data = ctx.getImageData(0, 0, w, h).data;
-        const scores = {};
-        for (const hex of REFERENCE_COLORS) scores[hex] = 0;
-
+        const data = ctx.getImageData(0, 0, img.width, img.height).data;
+        const colorCounts = {};
         let hasAlpha = false;
 
         for (let i = 0; i < data.length; i += 4) {
@@ -74,40 +41,22 @@
           const b = data[i+2];
           const a = data[i+3];
 
-          if (a < 255) hasAlpha = true;
-          if (a === 0) continue; // ignore fully transparent pixels
-
-          const weight = a / 255;
-          const brightness = pixelBrightness(r,g,b);
-
-          let closestHex;
-          if (brightness < 30) {
-            // Very dark pixel → treat as black
-            closestHex = "#000000";
-          } else {
-            // Normal reference color matching
-            const pixel = normalizeColor(r,g,b);
-            let minDist = Infinity;
-            for (const hex of REFERENCE_COLORS) {
-              const refRgb = hexToRgb(hex);
-              const dist = colorDistance(pixel, refRgb);
-              if (dist < minDist) {
-                minDist = dist;
-                closestHex = hex;
-              }
-            }
+          if (a < 255) {
+            hasAlpha = true;
+            continue; // ignore non-opaque pixels
           }
 
-          scores[closestHex] += weight;
+          const hex = rgbToHex(r, g, b);
+          colorCounts[hex] = (colorCounts[hex] || 0) + 1;
         }
 
-        // Pick reference color with highest weighted score
-        let dominant_color = REFERENCE_COLORS[0];
-        let maxScore = -1;
-        for (const hex of REFERENCE_COLORS) {
-          if (scores[hex] > maxScore) {
-            maxScore = scores[hex];
-            dominant_color = hex;
+        // Find the most frequent hex
+        let most_frequent_hex = null;
+        let maxCount = 0;
+        for (const [hex, count] of Object.entries(colorCounts)) {
+          if (count > maxCount) {
+            maxCount = count;
+            most_frequent_hex = hex;
           }
         }
 
@@ -116,7 +65,7 @@
           width: img.width,
           height: img.height,
           has_alpha: hasAlpha,
-          dominant_color
+          most_frequent_hex
         });
       };
       img.onerror = () => reject(new Error(`Failed to load image: ${url}`));
