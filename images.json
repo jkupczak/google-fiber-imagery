@@ -1,131 +1,43 @@
 [
   {
-    "url": "https://services.google.com/fh/files/emails/gf_0425_7x-icon-blue.png",
-    "width": 490,
-    "height": 490,
-    "has_alpha": true,
-    "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
-  },
-  {
     "url": "https://services.google.com/fh/files/emails/gf_0425_7x-icon-white.png",
     "width": 490,
     "height": 490,
     "has_alpha": true,
-    "most_frequent_hex": null,
-    "theme": null
+    "most_frequent_hex": "#ffffff",
+    "theme": "white"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/gf_0425_icon_uplds-dwnlds.png",
-    "width": 400,
+    "url": "https://services.google.com/fh/files/emails/gf_icon_house_white.png",
+    "width": 500,
+    "height": 500,
+    "has_alpha": true,
+    "most_frequent_hex": "#ffffff",
+    "theme": "white"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_icon_laptop_white.png",
+    "width": 672,
     "height": 480,
     "has_alpha": true,
-    "most_frequent_hex": "#000000",
-    "theme": "black"
+    "most_frequent_hex": "#ffffff",
+    "theme": "white"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/gf_0525_5-21_hero_dsktp.gif",
-    "width": 1200,
-    "height": 680,
-    "has_alpha": false,
-    "most_frequent_hex": "#4385f5",
-    "theme": "blue"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0525_5-21_hero_mbl.gif",
-    "width": 720,
-    "height": 448,
-    "has_alpha": false,
-    "most_frequent_hex": "#4385f5",
-    "theme": "blue"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0525_5-21_hero_phone.png",
-    "width": 1000,
-    "height": 1424,
+    "url": "https://services.google.com/fh/files/emails/gf_icon_phone_white.png",
+    "width": 504,
+    "height": 480,
     "has_alpha": true,
-    "most_frequent_hex": "#ceead6",
-    "theme": "green"
+    "most_frequent_hex": "#ffffff",
+    "theme": "white"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/gf_0525_5-21_hero_taps_v2.png",
-    "width": 1080,
-    "height": 210,
-    "has_alpha": true,
-    "most_frequent_hex": "#ea4335",
-    "theme": "red"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_1124_icon_wifi_black-outline.png",
-    "width": 1020,
-    "height": 720,
-    "has_alpha": true,
-    "most_frequent_hex": "#000000",
-    "theme": "black"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_1124_shapes_blue_1200.png",
-    "width": 1200,
-    "height": 972,
-    "has_alpha": false,
-    "most_frequent_hex": "#1a73e8",
-    "theme": "blue"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_11823_hero_dsktp4.png",
-    "width": 1200,
-    "height": 838,
-    "has_alpha": true,
-    "most_frequent_hex": "#4285f4",
-    "theme": "blue"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_11823_hero_mbl4.png",
+    "url": "https://services.google.com/fh/files/emails/gf_hsi_badge_mbl.png",
     "width": 960,
-    "height": 600,
+    "height": 570,
     "has_alpha": true,
-    "most_frequent_hex": "#4285f4",
-    "theme": "blue"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_12-14_dsktp_blue.gif",
-    "width": 1200,
-    "height": 600,
-    "has_alpha": false,
-    "most_frequent_hex": "#4285f4",
-    "theme": "blue"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_12-14_mbl_blue.gif",
-    "width": 640,
-    "height": 852,
-    "has_alpha": false,
-    "most_frequent_hex": "#4285f4",
-    "theme": "blue"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_12-21_laptop_icon.png",
-    "width": 240,
-    "height": 240,
-    "has_alpha": true,
-    "most_frequent_hex": "#000000",
-    "theme": "black"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_12-21_phone_icon.png",
-    "width": 240,
-    "height": 240,
-    "has_alpha": true,
-    "most_frequent_hex": "#000000",
-    "theme": "black"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_12-21_upg_dsktp_red.gif",
-    "width": 1200,
-    "height": 488,
-    "has_alpha": false,
-    "most_frequent_hex": "#ea4335",
-    "theme": "red"
+    "most_frequent_hex": "#ffffff",
+    "theme": "white"
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_gals_couch_tall.jpg",
@@ -133,102 +45,6 @@
     "height": 800,
     "has_alpha": false,
     "most_frequent_hex": "#ddd6cc",
-    "theme": "green"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_game_dsktp.png",
-    "width": 480,
-    "height": 352,
-    "has_alpha": true,
-    "most_frequent_hex": "#fefefe",
-    "theme": "blue"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_game_mobile.jpg",
-    "width": 640,
-    "height": 400,
-    "has_alpha": false,
-    "most_frequent_hex": "#fefefe",
-    "theme": "blue"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_home_3.jpg",
-    "width": 1200,
-    "height": 480,
-    "has_alpha": false,
-    "most_frequent_hex": "#fdfdfd",
-    "theme": "blue"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_home_icon_white-with-border_70x62.png",
-    "width": 248,
-    "height": 280,
-    "has_alpha": true,
-    "most_frequent_hex": "#000000",
-    "theme": "black"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_hsi_badge_fall2023.png",
-    "width": 1500,
-    "height": 1500,
-    "has_alpha": true,
-    "most_frequent_hex": "#235dfb",
-    "theme": "blue"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_hsi_badge_mbl.png",
-    "width": 960,
-    "height": 570,
-    "has_alpha": true,
-    "most_frequent_hex": "#e6e6e5",
-    "theme": "green"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_hsi_wide_dsktp.png",
-    "width": 1200,
-    "height": 312,
-    "has_alpha": true,
-    "most_frequent_hex": "#235dfb",
-    "theme": "blue"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_icon_house_white.png",
-    "width": 500,
-    "height": 500,
-    "has_alpha": true,
-    "most_frequent_hex": null,
-    "theme": null
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_icon_laptop_white.png",
-    "width": 672,
-    "height": 480,
-    "has_alpha": true,
-    "most_frequent_hex": null,
-    "theme": null
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_icon_phone_white.png",
-    "width": 504,
-    "height": 480,
-    "has_alpha": true,
-    "most_frequent_hex": null,
-    "theme": null
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/green_checkmark.png",
-    "width": 72,
-    "height": 53,
-    "has_alpha": true,
-    "most_frequent_hex": "#34a853",
-    "theme": "green"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/green_phone_icon.png",
-    "width": 70,
-    "height": 70,
-    "has_alpha": true,
-    "most_frequent_hex": "#34a853",
     "theme": "green"
   },
   {
@@ -240,124 +56,12 @@
     "theme": "green"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/hsi_logo_2024.png",
-    "width": 1080,
-    "height": 1160,
-    "has_alpha": true,
-    "most_frequent_hex": "#0a0a46",
-    "theme": "black"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/hsi_logo_2025.png",
-    "width": 1080,
-    "height": 1170,
-    "has_alpha": true,
-    "most_frequent_hex": "#162b64",
-    "theme": "blue"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/icon--business--white--20x20.png",
-    "width": 80,
-    "height": 80,
-    "has_alpha": true,
-    "most_frequent_hex": "#feffff",
-    "theme": "blue"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/icon--calendar--2023-01-22.png",
-    "width": 100,
-    "height": 100,
-    "has_alpha": true,
-    "most_frequent_hex": "#000000",
-    "theme": "black"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/icon--calendar--black-inside--white-outside--2023-01-15.png",
-    "width": 180,
-    "height": 196,
-    "has_alpha": true,
-    "most_frequent_hex": "#000000",
-    "theme": "black"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/icon--cloud-upload--black-inside--white-outside--2023-01-15.png",
-    "width": 132,
-    "height": 132,
-    "has_alpha": true,
-    "most_frequent_hex": "#000000",
-    "theme": "black"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/icon--laptop--black--32x28.png",
-    "width": 128,
-    "height": 110,
-    "has_alpha": true,
-    "most_frequent_hex": "#000000",
-    "theme": "black"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/icon--loop--black-inside--white-outside--2023-01-15.png",
-    "width": 132,
-    "height": 132,
-    "has_alpha": true,
-    "most_frequent_hex": "#000000",
-    "theme": "black"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/icon--pcmag--2024--3xwinner--darkmode.png",
-    "width": 280,
-    "height": 482,
-    "has_alpha": true,
-    "most_frequent_hex": "#eb002e",
-    "theme": "red"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/icon--pcmag--2024--3xwinner--horizontal--darkmode.png",
-    "width": 840,
-    "height": 406,
-    "has_alpha": true,
-    "most_frequent_hex": "#eb002e",
-    "theme": "red"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/icon--pcmag--2024--3xwinner--horizontal.png",
-    "width": 800,
-    "height": 366,
-    "has_alpha": true,
-    "most_frequent_hex": "#eb002e",
-    "theme": "red"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/icon--pcmag--2024--3xwinner.png",
-    "width": 240,
-    "height": 442,
-    "has_alpha": true,
-    "most_frequent_hex": "#eb002e",
-    "theme": "red"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/icon--phone--black--32x28.png",
-    "width": 128,
-    "height": 110,
-    "has_alpha": true,
-    "most_frequent_hex": "#000000",
-    "theme": "black"
-  },
-  {
     "url": "https://services.google.com/fh/files/emails/pucks.png",
     "width": 452,
     "height": 268,
     "has_alpha": true,
     "most_frequent_hex": "#efefef",
-    "theme": "green"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/pucks_green.png",
-    "width": 960,
-    "height": 684,
-    "has_alpha": false,
-    "most_frequent_hex": "#34a853",
-    "theme": "green"
+    "theme": "white"
   },
   {
     "url": "https://services.google.com/fh/files/emails/pucks_grey.png",
@@ -376,27 +80,147 @@
     "theme": "green"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/pucks_red_dsktp.png",
+    "url": "https://services.google.com/fh/files/emails/hsi_logo_2024.png",
+    "width": 1080,
+    "height": 1160,
+    "has_alpha": true,
+    "most_frequent_hex": "#0a0a46",
+    "theme": "black"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/icon--business--white--20x20.png",
+    "width": 80,
+    "height": 80,
+    "has_alpha": true,
+    "most_frequent_hex": "#feffff",
+    "theme": "white"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_game_dsktp.png",
+    "width": 480,
+    "height": 352,
+    "has_alpha": true,
+    "most_frequent_hex": "#ffffff",
+    "theme": "white"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_game_mobile.jpg",
+    "width": 640,
+    "height": 400,
+    "has_alpha": false,
+    "most_frequent_hex": "#ffffff",
+    "theme": "white"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_home_3.jpg",
     "width": 1200,
-    "height": 1136,
-    "has_alpha": true,
-    "most_frequent_hex": "#d93025",
-    "theme": "red"
+    "height": 480,
+    "has_alpha": false,
+    "most_frequent_hex": "#ffffff",
+    "theme": "white"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/pucks_red_mbl.png",
-    "width": 960,
-    "height": 600,
+    "url": "https://services.google.com/fh/files/emails/12-11-blue--calendar-icon.png",
+    "width": 172,
+    "height": 172,
     "has_alpha": true,
-    "most_frequent_hex": "#d93025",
-    "theme": "red"
+    "most_frequent_hex": "#000000",
+    "theme": "black"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/red_check.png",
-    "width": 71,
-    "height": 56,
+    "url": "https://services.google.com/fh/files/emails/12-11-blue--hero-bg.png",
+    "width": 1200,
+    "height": 720,
+    "has_alpha": false,
+    "most_frequent_hex": "#4285f4",
+    "theme": "blue"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/12-21-blue_hero.jpg",
+    "width": 1200,
+    "height": 640,
+    "has_alpha": false,
+    "most_frequent_hex": "#1e1e1e",
+    "theme": "black"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/1228_countdown.gif",
+    "width": 1200,
+    "height": 301,
     "has_alpha": true,
-    "most_frequent_hex": "#ff0000",
-    "theme": "red"
+    "most_frequent_hex": "#ffffff",
+    "theme": "white"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/2-19-core--1.jpg",
+    "width": 1200,
+    "height": 593,
+    "has_alpha": false,
+    "most_frequent_hex": "#f0f4ff",
+    "theme": "white"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/2-19-core--3.png",
+    "width": 480,
+    "height": 680,
+    "has_alpha": true,
+    "most_frequent_hex": "#303333",
+    "theme": "green"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/2023-03-14--hero--desktop.jpg",
+    "width": 400,
+    "height": 660,
+    "has_alpha": false,
+    "most_frequent_hex": "#e7e9e8",
+    "theme": "blue"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/2023-03-14--hero--mobile.jpg",
+    "width": 660,
+    "height": 400,
+    "has_alpha": false,
+    "most_frequent_hex": "#cfe2e6",
+    "theme": "green"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/2023-03-22--move-icon.png",
+    "width": 80,
+    "height": 110,
+    "has_alpha": true,
+    "most_frequent_hex": "#0d652d",
+    "theme": "green"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/2023-03-22--rotating-quotes.gif",
+    "width": 950,
+    "height": 260,
+    "has_alpha": false,
+    "most_frequent_hex": "#f1f3f4",
+    "theme": "white"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/2023-03-29--img1.jpg",
+    "width": 1200,
+    "height": 800,
+    "has_alpha": false,
+    "most_frequent_hex": "#d2cdca",
+    "theme": "green"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/2023-04-26--offer--lady-with-laptop.jpg",
+    "width": 1200,
+    "height": 640,
+    "has_alpha": false,
+    "most_frequent_hex": "#fefefe",
+    "theme": "white"
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/2023-04-26--product--2gigrouter--with-wedge_700.png",
+    "width": 400,
+    "height": 432,
+    "has_alpha": true,
+    "most_frequent_hex": "#0d652d",
+    "theme": "green"
   }
 ]
