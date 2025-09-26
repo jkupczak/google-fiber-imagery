@@ -2,10 +2,10 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Image Dominant Color Analyzer (Average RGB)</title>
+  <title>Image Dominant Color Analyzer (Weighted Reference)</title>
 </head>
 <body>
-  <h1>Image Dominant Color Analyzer!</h1>
+  <h1>Image Dominant Color Analyzer</h1>
   <p>Paste a list of image URLs (one per line):</p>
   <textarea id="urlInput" rows="10" cols="80"></textarea><br><br>
   <button id="analyzeBtn">Analyze Images</button>
@@ -37,18 +37,9 @@
     );
   }
 
-  function findClosestReferenceColor(rgb) {
-    let minDist = Infinity;
-    let closestHex = null;
-    for (const hex of REFERENCE_COLORS) {
-      const refRgb = hexToRgb(hex);
-      const dist = colorDistance(rgb, refRgb);
-      if (dist < minDist) {
-        minDist = dist;
-        closestHex = hex;
-      }
-    }
-    return closestHex;
+  function normalizeColor(r, g, b) {
+    const round = x => Math.round(x / 5) * 5;
+    return [round(r), round(g), round(b)];
   }
 
   async function analyzeImage(url) {
@@ -67,7 +58,9 @@
         ctx.drawImage(img, 0, 0, w, h);
 
         const data = ctx.getImageData(0, 0, w, h).data;
-        let totalR = 0, totalG = 0, totalB = 0, count = 0;
+        const scores = {};
+        for (const hex of REFERENCE_COLORS) scores[hex] = 0;
+
         let hasAlpha = false;
 
         for (let i = 0; i < data.length; i += 4) {
@@ -77,20 +70,33 @@
           const a = data[i+3];
 
           if (a < 255) hasAlpha = true;
-          if (a === 0) continue; // skip fully transparent
+          if (a === 0) continue; // ignore fully transparent pixels
 
-          totalR += r;
-          totalG += g;
-          totalB += b;
-          count++;
+          const pixel = normalizeColor(r,g,b);
+
+          // Find closest reference color for this pixel
+          let minDist = Infinity;
+          let closestHex = null;
+          for (const hex of REFERENCE_COLORS) {
+            const refRgb = hexToRgb(hex);
+            const dist = colorDistance(pixel, refRgb);
+            if (dist < minDist) {
+              minDist = dist;
+              closestHex = hex;
+            }
+          }
+          scores[closestHex]++;
         }
 
-        // Avoid division by zero
-        const avgRgb = count > 0
-          ? [Math.round(totalR/count), Math.round(totalG/count), Math.round(totalB/count)]
-          : [0,0,0];
-
-        const dominant_color = findClosestReferenceColor(avgRgb);
+        // Pick reference color with highest score
+        let dominant_color = REFERENCE_COLORS[0];
+        let maxScore = -1;
+        for (const hex of REFERENCE_COLORS) {
+          if (scores[hex] > maxScore) {
+            maxScore = scores[hex];
+            dominant_color = hex;
+          }
+        }
 
         resolve({
           url,
