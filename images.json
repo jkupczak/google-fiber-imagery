@@ -1,226 +1,162 @@
 [
   {
-    "url": "https://services.google.com/fh/files/emails/gf_0425_7x-icon-white.png",
-    "width": 490,
-    "height": 490,
-    "has_alpha": true,
-    "most_frequent_hex": "#ffffff",
-    "theme": "white"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_icon_house_white.png",
-    "width": 500,
-    "height": 500,
-    "has_alpha": true,
-    "most_frequent_hex": "#ffffff",
-    "theme": "white"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_icon_laptop_white.png",
-    "width": 672,
-    "height": 480,
-    "has_alpha": true,
-    "most_frequent_hex": "#ffffff",
-    "theme": "white"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_icon_phone_white.png",
-    "width": 504,
-    "height": 480,
-    "has_alpha": true,
-    "most_frequent_hex": "#ffffff",
-    "theme": "white"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_hsi_badge_mbl.png",
-    "width": 960,
-    "height": 570,
-    "has_alpha": true,
-    "most_frequent_hex": "#ffffff",
-    "theme": "white"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_gals_couch_tall.jpg",
-    "width": 600,
-    "height": 800,
-    "has_alpha": false,
-    "most_frequent_hex": "#ddd6cc",
-    "theme": "green"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/grey_pucks_up.png",
-    "width": 780,
-    "height": 720,
-    "has_alpha": true,
-    "most_frequent_hex": "#9aa0a6",
-    "theme": "green"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/pucks.png",
-    "width": 452,
-    "height": 268,
-    "has_alpha": true,
-    "most_frequent_hex": "#efefef",
-    "theme": "white"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/pucks_grey.png",
-    "width": 780,
-    "height": 720,
-    "has_alpha": true,
-    "most_frequent_hex": "#9aa0a6",
-    "theme": "green"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/pucks_grey_23.png",
-    "width": 780,
-    "height": 720,
-    "has_alpha": true,
-    "most_frequent_hex": "#9aa0a6",
-    "theme": "green"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/hsi_logo_2024.png",
-    "width": 1080,
-    "height": 1160,
-    "has_alpha": true,
-    "most_frequent_hex": "#0a0a46",
-    "theme": "black"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/icon--business--white--20x20.png",
-    "width": 80,
-    "height": 80,
-    "has_alpha": true,
-    "most_frequent_hex": "#feffff",
-    "theme": "white"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_game_dsktp.png",
-    "width": 480,
-    "height": 352,
-    "has_alpha": true,
-    "most_frequent_hex": "#ffffff",
-    "theme": "white"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_game_mobile.jpg",
-    "width": 640,
-    "height": 400,
-    "has_alpha": false,
-    "most_frequent_hex": "#ffffff",
-    "theme": "white"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_home_3.jpg",
+    "url": "https://i.imgur.com/pfDnyD4.png?https://services.google.com/fh/files/emails/gf_0425_blue700-500_bkgrnd.png",
     "width": 1200,
-    "height": 480,
+    "height": 760,
     "has_alpha": false,
+    "most_frequent_hex": "#174ea6",
+    "theme": "blue"
+  },
+  {
+    "url": "https://i.imgur.com/VrQWYOY.png?https://services.google.com/fh/files/emails/icon--loop--black-inside--white-outside--2023-01-15.png",
+    "width": 468,
+    "height": 468,
+    "has_alpha": true,
     "most_frequent_hex": "#ffffff",
     "theme": "white"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/12-11-blue--calendar-icon.png",
-    "width": 172,
-    "height": 172,
+    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/cmptr_icon.png",
+    "width": 280,
+    "height": 200,
     "has_alpha": true,
     "most_frequent_hex": "#000000",
     "theme": "black"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/12-11-blue--hero-bg.png",
-    "width": 1200,
-    "height": 720,
-    "has_alpha": false,
-    "most_frequent_hex": "#4285f4",
-    "theme": "blue"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/12-21-blue_hero.jpg",
-    "width": 1200,
-    "height": 640,
-    "has_alpha": false,
-    "most_frequent_hex": "#1e1e1e",
-    "theme": "black"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/1228_countdown.gif",
-    "width": 1200,
-    "height": 301,
+    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gf_0825_jd-power_pc-mag_hsi_ookla_dsktp_v2.gif",
+    "width": 1100,
+    "height": 620,
     "has_alpha": true,
     "most_frequent_hex": "#ffffff",
     "theme": "white"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/2-19-core--1.jpg",
+    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gf_background_blue700.png",
     "width": 1200,
-    "height": 593,
-    "has_alpha": false,
-    "most_frequent_hex": "#f0f4ff",
-    "theme": "white"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/2-19-core--3.png",
-    "width": 480,
-    "height": 680,
+    "height": 1340,
     "has_alpha": true,
-    "most_frequent_hex": "#303333",
-    "theme": "green"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/2023-03-14--hero--desktop.jpg",
-    "width": 400,
-    "height": 660,
-    "has_alpha": false,
-    "most_frequent_hex": "#e7e9e8",
+    "most_frequent_hex": "#1a73e8",
     "theme": "blue"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/2023-03-14--hero--mobile.jpg",
-    "width": 660,
-    "height": 400,
+    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gf_map_pin_700_green.png",
+    "width": 948,
+    "height": 954,
     "has_alpha": false,
-    "most_frequent_hex": "#cfe2e6",
-    "theme": "green"
+    "most_frequent_hex": "#e8e8de",
+    "theme": "gray"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/2023-03-22--move-icon.png",
-    "width": 80,
-    "height": 110,
+    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gf_nest_dec2023_single.png",
+    "width": 900,
+    "height": 870,
     "has_alpha": true,
-    "most_frequent_hex": "#0d652d",
+    "most_frequent_hex": "#f3f3f3",
+    "theme": "white"
+  },
+  {
+    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gf_nest_single_shadow.png",
+    "width": 900,
+    "height": 939,
+    "has_alpha": true,
+    "most_frequent_hex": "#f3f3f3",
+    "theme": "white"
+  },
+  {
+    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gf_shapes_green_1200.png",
+    "width": 1200,
+    "height": 720,
+    "has_alpha": false,
+    "most_frequent_hex": "#188038",
     "theme": "green"
   },
   {
-    "url": "https://services.google.com/fh/files/emails/2023-03-22--rotating-quotes.gif",
-    "width": 950,
+    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gf_speed_icon.png",
+    "width": 480,
+    "height": 480,
+    "has_alpha": true,
+    "most_frequent_hex": "#ffffff",
+    "theme": "white"
+  },
+  {
+    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gfiber_logo_1300_v2.png",
+    "width": 1344,
+    "height": 312,
+    "has_alpha": true,
+    "most_frequent_hex": "#5f6469",
+    "theme": "gray"
+  },
+  {
+    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/icon__loop__black_inside__white_outside__2023_01_15.png",
+    "width": 132,
+    "height": 132,
+    "has_alpha": true,
+    "most_frequent_hex": "#ffffff",
+    "theme": "white"
+  },
+  {
+    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/icon__piggy_bank__black_inside__white_outside__2023_12_28.png",
+    "width": 560,
+    "height": 532,
+    "has_alpha": true,
+    "most_frequent_hex": "#ffffff",
+    "theme": "white"
+  },
+  {
+    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/icon__support_upload__black_inside__white_outside__2023_01_15.png",
+    "width": 132,
+    "height": 132,
+    "has_alpha": true,
+    "most_frequent_hex": "#ffffff",
+    "theme": "white"
+  },
+  {
+    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/icon__wifi__black_inside__white_outside__2023_01_15.png",
+    "width": 132,
+    "height": 132,
+    "has_alpha": true,
+    "most_frequent_hex": "#ffffff",
+    "theme": "white"
+  },
+  {
+    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/icon__wrench__black_inside__white_outside__2023_01_15.png",
+    "width": 132,
+    "height": 132,
+    "has_alpha": true,
+    "most_frequent_hex": "#ffffff",
+    "theme": "white"
+  },
+  {
+    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/icon_calendar_black_inside_white_outside_0123.png",
+    "width": 180,
+    "height": 196,
+    "has_alpha": true,
+    "most_frequent_hex": "#ffffff",
+    "theme": "white"
+  },
+  {
+    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/phone_icon2.png",
+    "width": 210,
+    "height": 200,
+    "has_alpha": true,
+    "most_frequent_hex": "#000000",
+    "theme": "black"
+  },
+  {
+    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/sporting_kc_footer.png",
+    "width": 1800,
+    "height": 525,
+    "has_alpha": false,
+    "most_frequent_hex": "#ffffff",
+    "theme": "white"
+  },
+  {
+    "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/0109347d-8cba-4c94-a7dc-81e80673f912.png",
+    "width": 260,
     "height": 260,
-    "has_alpha": false,
-    "most_frequent_hex": "#f1f3f4",
-    "theme": "white"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/2023-03-29--img1.jpg",
-    "width": 1200,
-    "height": 800,
-    "has_alpha": false,
-    "most_frequent_hex": "#d2cdca",
-    "theme": "green"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/2023-04-26--offer--lady-with-laptop.jpg",
-    "width": 1200,
-    "height": 640,
-    "has_alpha": false,
-    "most_frequent_hex": "#fefefe",
-    "theme": "white"
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/2023-04-26--product--2gigrouter--with-wedge_700.png",
-    "width": 400,
-    "height": 432,
     "has_alpha": true,
-    "most_frequent_hex": "#0d652d",
-    "theme": "green"
+    "most_frequent_hex": "#202124",
+    "theme": "gray"
   }
 ]
