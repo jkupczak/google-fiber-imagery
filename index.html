@@ -17,7 +17,9 @@
     .filter-group button.active { border: 2px solid #0073e6; }
 
     /* Color buttons */
-    #color-buttons button { width: 30px; height: 30px; padding: 0; border-radius: 50%; border: 2px solid #ccc; }
+    #color-buttons button.color-btn { 
+      width: 30px; height: 30px; padding: 0; border-radius: 50%; border: 2px solid #ccc; 
+    }
 
     /* Grid */
     #image-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(var(--cell-size, 160px), 1fr)); gap: 15px; padding: 15px 0; }
@@ -63,16 +65,34 @@
     let activeColor = 'all';
     let activeAlpha = 'all';
 
-    function updateGridSize(value) { document.documentElement.style.setProperty('--cell-size', value + 'px'); }
+    // Theme → Hex mapping
+    const themeColors = {
+      green: "#34A853",
+      blue: "#4285F4",
+      yellow: "#FBBC04",
+      red: "#EA4335",
+      gray: "#5f6469",
+      black: "#000000"
+    };
+
+    function updateGridSize(value) { 
+      document.documentElement.style.setProperty('--cell-size', value + 'px'); 
+    }
     updateGridSize(sizeSlider.value);
     sizeSlider.addEventListener('input', () => updateGridSize(sizeSlider.value));
-    decreaseBtn.addEventListener('click', () => { let val = Math.max(sizeSlider.min, sizeSlider.value - 10); sizeSlider.value = val; updateGridSize(val); });
-    increaseBtn.addEventListener('click', () => { let val = Math.min(sizeSlider.max, parseInt(sizeSlider.value) + 10); sizeSlider.value = val; updateGridSize(val); });
+    decreaseBtn.addEventListener('click', () => { 
+      let val = Math.max(sizeSlider.min, sizeSlider.value - 10); 
+      sizeSlider.value = val; updateGridSize(val); 
+    });
+    increaseBtn.addEventListener('click', () => { 
+      let val = Math.min(sizeSlider.max, parseInt(sizeSlider.value) + 10); 
+      sizeSlider.value = val; updateGridSize(val); 
+    });
 
     fetch(jsonUrl)
       .then(res => res.json())
       .then(data => {
-        const colors = new Set();
+        const themes = new Set();
 
         // Create image wrappers
         data.forEach(item => {
@@ -84,18 +104,17 @@
           const wrapper = document.createElement('div');
           wrapper.className = 'image-wrapper';
           wrapper.dataset.ext = ext;
-          wrapper.dataset.color = item.theme.toLowerCase();
+          wrapper.dataset.color = item.theme.toLowerCase(); // normalize
           wrapper.dataset.alpha = item.has_alpha.toString();
 
-          const img = document.createElement('img'); img.src = url; img.alt = '';
+          const img = document.createElement('img'); 
+          img.src = url; 
+          img.alt = '';
           wrapper.appendChild(img);
           container.appendChild(wrapper);
 
-          colors.add(item.theme.toLowerCase());
+          themes.add(item.theme.toLowerCase());
         });
-
-        // Always include #000000
-        colors.add('#000000');
 
         // Add color buttons
         const colorContainer = document.getElementById('color-buttons');
@@ -110,15 +129,19 @@
         });
         colorContainer.appendChild(clearBtn);
 
-        colors.forEach(color => {
+        themes.forEach(theme => {
+          if (!themeColors[theme]) return; // skip if theme is unexpected
           const btn = document.createElement('button');
-          btn.style.backgroundColor = color;
-          btn.dataset.color = color;
+          btn.className = "color-btn";
+          btn.style.backgroundColor = themeColors[theme];
+          btn.title = theme; // tooltip
+          btn.dataset.color = theme;
           colorContainer.appendChild(btn);
+
           btn.addEventListener('click', () => {
             colorContainer.querySelectorAll('button').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
-            activeColor = color;
+            activeColor = theme;
             filterImages();
           });
         });
