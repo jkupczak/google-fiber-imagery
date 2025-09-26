@@ -84,14 +84,14 @@
           const wrapper = document.createElement('div');
           wrapper.className = 'image-wrapper';
           wrapper.dataset.ext = ext;
-          wrapper.dataset.color = item.dominant_color.toLowerCase();
+          wrapper.dataset.color = item.theme.toLowerCase();
           wrapper.dataset.alpha = item.has_alpha.toString();
 
           const img = document.createElement('img'); img.src = url; img.alt = '';
           wrapper.appendChild(img);
           container.appendChild(wrapper);
 
-          colors.add(item.dominant_color.toLowerCase());
+          colors.add(item.theme.toLowerCase());
         });
 
         // Always include #000000
