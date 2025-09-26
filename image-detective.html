@@ -93,10 +93,10 @@
   const CORS_PROXY = "https://cors-anywhere.herokuapp.com/";
 
   const themeColors = {
-    green: ["#E6F4Ea", "#CEEAD6", "#81C995", "#34A853", "#188038", "#137333", "#0D652D"],
-    blue: ["#E8F0FE", "#D2E3FC", "#8AB4F8", "#4285F4", "#1a73e8", "#185ABC", "#174EA6"],
-    yellow: ["#FEF7E0", "#FEEFC3", "#FDD663", "#FBBC04", "#F29900", "#EA8600", "#E37400"],
-    red: ["#FCE8E6", "#FAD2CF", "#F28B82", "#EA4335", "#d93025", "#B31412", "#A50E0E"],
+    green: ["#CEEAD6", "#81C995", "#34A853", "#188038", "#137333", "#0D652D"],
+    blue: ["#D2E3FC", "#8AB4F8", "#4285F4", "#1a73e8", "#185ABC", "#174EA6"],
+    yellow: ["#FEEFC3", "#FDD663", "#FBBC04", "#F29900", "#EA8600", "#E37400"],
+    red: ["#FAD2CF", "#F28B82", "#EA4335", "#d93025", "#B31412", "#A50E0E"],
     gray: ["#5f6469"],
     black: ["#000000"],
     white: ["#ffffff"]
@@ -126,6 +126,16 @@
   }
 
   function findTheme(hex) {
+    const rgb = hexToRgb(hex);
+
+    // Grayscale rule: if all RGB values equal, match only to white or black
+    if (rgb.r === rgb.g && rgb.g === rgb.b) {
+      const distWhite = colorDistance(hex, "#ffffff");
+      const distBlack = colorDistance(hex, "#000000");
+      return distWhite < distBlack ? "white" : "black";
+    }
+
+    // Otherwise, find closest theme hex
     let closestTheme = null;
     let minDist = Infinity;
 
@@ -138,6 +148,7 @@
         }
       }
     }
+
     return closestTheme;
   }
 
@@ -164,7 +175,7 @@
 
           if (a < 255) {
             hasAlpha = true;
-            continue; // ignore non-opaque pixels
+            continue; // ignore transparent pixels
           }
 
           const hex = rgbToHex(r, g, b);
