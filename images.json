@@ -1,235 +1,449 @@
 [
-{
-  "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gf_nest_dec2023_single.png",
-  "width": 900,
-  "height": 870,
-  "has_alpha": true,
-  "most_frequent_hex": "#f3f3f3",
-  "theme": "white",
-  "total_unique_colors": 1010,
-  "complex": false,
-  "tags": ["hardware"]
-},
-{
-  "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gf_nest_single_shadow.png",
-  "width": 900,
-  "height": 939,
-  "has_alpha": true,
-  "most_frequent_hex": "#f3f3f3",
-  "theme": "white",
-  "total_unique_colors": 1045,
-  "complex": false,
-  "tags": ["hardware"]
-},
-{
-  "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/1400f06f-1d51-4dac-822b-d2e448063313.png",
-  "width": 900,
-  "height": 939,
-  "has_alpha": true,
-  "most_frequent_hex": "#f3f3f3",
-  "theme": "white",
-  "total_unique_colors": 1045,
-  "complex": false,
-  "tags": ["hardware"]
-},
-{
-  "url": "https://services.google.com/fh/files/emails/gf-6-2-wifi-6e.png",
-  "width": 870,
-  "height": 990,
-  "has_alpha": true,
-  "most_frequent_hex": "#dadada",
-  "theme": "white",
-  "total_unique_colors": 236,
-  "complex": false,
-  "tags": ["hardware"]
-},
-{
-  "url": "https://services.google.com/fh/files/emails/gf-0824-router-mobile.png",
-  "width": 632,
-  "height": 912,
-  "has_alpha": true,
-  "most_frequent_hex": "#ffffff",
-  "theme": "white",
-  "total_unique_colors": 272,
-  "complex": false,
-  "tags": ["hardware"]
-},
-{
-  "url": "https://services.google.com/fh/files/emails/gf-0824-router-dsktp.png",
-  "width": 1080,
-  "height": 600,
-  "has_alpha": true,
-  "most_frequent_hex": "#ffffff",
-  "theme": "white",
-  "total_unique_colors": 271,
-  "complex": false,
-  "tags": ["hardware"]
-},
-{
-  "url": "https://services.google.com/fh/files/emails/double-pucks--transparent.png",
-  "width": 960,
-  "height": 684,
-  "has_alpha": true,
-  "most_frequent_hex": "#f0f0f0",
-  "theme": "white",
-  "total_unique_colors": 57,
-  "complex": false,
-  "tags": ["hardware"]
-},
-{
-  "url": "https://services.google.com/fh/files/emails/gf_0925_9-24_upgrades_mbl_v2.png",
-  "width": 632,
-  "height": 1000,
-  "has_alpha": true,
-  "most_frequent_hex": "#ffffff",
-  "theme": "white",
-  "total_unique_colors": 271,
-  "complex": false,
-  "tags": ["hardware"]
-},
-{
-  "url": "https://services.google.com/fh/files/emails/gf_0925_9-24_upgrades_dsktp_v2.png",
-  "width": 1040,
-  "height": 552,
-  "has_alpha": true,
-  "most_frequent_hex": "#ffffff",
-  "theme": "white",
-  "total_unique_colors": 274,
-  "complex": false,
-  "tags": ["hardware"]
-},
-{
-  "url": "https://services.google.com/fh/files/emails/gf_0925_9-23_router.png",
-  "width": 660,
-  "height": 1008,
-  "has_alpha": true,
-  "most_frequent_hex": "#efefef",
-  "theme": "white",
-  "total_unique_colors": 242,
-  "complex": false,
-  "tags": ["hardware"]
-},
-{
-  "url": "https://services.google.com/fh/files/emails/gf_1124_11-24-24_goggles_mbl.png",
-  "width": 720,
-  "height": 560,
-  "has_alpha": true,
-  "most_frequent_hex": "#ffffff",
-  "theme": "white",
-  "total_unique_colors": 13698,
-  "complex": false,
-  "tags": ["hardware"]
-},
-{
-  "url": "https://services.google.com/fh/files/emails/gf_game_dsktp.png",
-  "width": 480,
-  "height": 352,
-  "has_alpha": true,
-  "most_frequent_hex": "#ffffff",
-  "theme": "white",
-  "total_unique_colors": 6690,
-  "complex": false,
-  "tags": ["hardware"]
-},
-{
-  "url": "https://services.google.com/fh/files/emails/gf_game_mobile.jpg",
-  "width": 640,
-  "height": 400,
-  "has_alpha": false,
-  "most_frequent_hex": "#ffffff",
-  "theme": "white",
-  "total_unique_colors": 5064,
-  "complex": false,
-  "tags": ["hardware"]
-},
-{
-  "url": "https://services.google.com/fh/files/emails/gf_home_3.jpg",
-  "width": 1200,
-  "height": 480,
-  "has_alpha": false,
-  "most_frequent_hex": "#ffffff",
-  "theme": "white",
-  "total_unique_colors": 6672,
-  "complex": false,
-  "tags": ["hardware"]
-},
-{
-  "url": "https://services.google.com/fh/files/emails/gf_stream_mobile.jpg",
-  "width": 640,
-  "height": 400,
-  "has_alpha": false,
-  "most_frequent_hex": "#ffffff",
-  "theme": "white",
-  "total_unique_colors": 322,
-  "complex": false,
-  "tags": ["hardware"]
-},
-{
-  "url": "https://services.google.com/fh/files/emails/gf_pucks_white.png",
-  "width": 800,
-  "height": 575,
-  "has_alpha": true,
-  "most_frequent_hex": "#ffffff",
-  "theme": "white",
-  "total_unique_colors": 5717,
-  "complex": false,
-  "tags": ["hardware"]
-},
-{
-  "url": "https://services.google.com/fh/files/emails/gf_one-puck_white2.png",
-  "width": 960,
-  "height": 600,
-  "has_alpha": true,
-  "most_frequent_hex": "#ffffff",
-  "theme": "white",
-  "total_unique_colors": 5894,
-  "complex": false,
-  "tags": ["hardware"]
-},
-{
-  "url": "https://services.google.com/fh/files/emails/gf_nest_single_shadow.png",
-  "width": 900,
-  "height": 939,
-  "has_alpha": true,
-  "most_frequent_hex": "#f3f3f3",
-  "theme": "white",
-  "total_unique_colors": 1045,
-  "complex": false,
-  "tags": ["hardware"]
-},
-{
-  "url": "https://services.google.com/fh/files/emails/gf_nest_dec2023_single.png",
-  "width": 900,
-  "height": 870,
-  "has_alpha": true,
-  "most_frequent_hex": "#f3f3f3",
-  "theme": "white",
-  "total_unique_colors": 1010,
-  "complex": false,
-  "tags": ["hardware"]
-},
-{
-  "url": "https://services.google.com/fh/files/emails/gf_nest_dec2023.png",
-  "width": 1200,
-  "height": 840,
-  "has_alpha": true,
-  "most_frequent_hex": "#f3f3f3",
-  "theme": "white",
-  "total_unique_colors": 1607,
-  "complex": false,
-  "tags": ["hardware"]
-},
-{
-  "url": "https://services.google.com/fh/files/emails/pucks.png",
-  "width": 452,
-  "height": 268,
-  "has_alpha": true,
-  "most_frequent_hex": "#efefef",
-  "theme": "white",
-  "total_unique_colors": 59,
-  "complex": false,
-  "tags": ["hardware"]
-},
+  {
+    "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/1400f06f-1d51-4dac-822b-d2e448063313.png",
+    "width": 900,
+    "height": 939,
+    "has_alpha": true,
+    "most_frequent_hex": "#f3f3f3",
+    "theme": "white",
+    "total_unique_colors": 1045,
+    "complex": false
+  },
+  {
+    "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/1a502bec-2b00-4b53-ba3a-efcf6bb5a761.png",
+    "width": 720,
+    "height": 440,
+    "has_alpha": true,
+    "most_frequent_hex": "#aecbfa",
+    "theme": "blue",
+    "total_unique_colors": 1484,
+    "complex": false
+  },
+  {
+    "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/585b5f3b-0e76-487b-86d6-f6adac07f533.png",
+    "width": 720,
+    "height": 440,
+    "has_alpha": true,
+    "most_frequent_hex": "#aecbfa",
+    "theme": "blue",
+    "total_unique_colors": 4070,
+    "complex": false
+  },
+  {
+    "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/8d4ac263-723f-4d1c-b1c1-53125754eb94.png",
+    "width": 1200,
+    "height": 752,
+    "has_alpha": true,
+    "most_frequent_hex": "#aecbfa",
+    "theme": "blue",
+    "total_unique_colors": 3990,
+    "complex": false
+  },
+  {
+    "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/d9fa0738-43d5-4948-96c0-0712421a9fac.png",
+    "width": 720,
+    "height": 480,
+    "has_alpha": true,
+    "most_frequent_hex": "#b7a895",
+    "theme": "green",
+    "total_unique_colors": 31747,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/2023-04-26--product--2gigrouter--with-wedge_700.png",
+    "width": 400,
+    "height": 432,
+    "has_alpha": true,
+    "most_frequent_hex": "#0d652d",
+    "theme": "green",
+    "total_unique_colors": 179,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/3-device-collage-with-wedge.png",
+    "width": 540,
+    "height": 387,
+    "has_alpha": true,
+    "most_frequent_hex": "#1a73e8",
+    "theme": "blue",
+    "total_unique_colors": 151,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/double-pucks--transparent.png",
+    "width": 960,
+    "height": 684,
+    "has_alpha": true,
+    "most_frequent_hex": "#f0f0f0",
+    "theme": "white",
+    "total_unique_colors": 57,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf-2025-09-05--single-puck.png",
+    "width": 472,
+    "height": 456,
+    "has_alpha": true,
+    "most_frequent_hex": "#e8eff8",
+    "theme": "gray",
+    "total_unique_colors": 120,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf-0824-router-mobile.png",
+    "width": 632,
+    "height": 912,
+    "has_alpha": true,
+    "most_frequent_hex": "#ffffff",
+    "theme": "white",
+    "total_unique_colors": 272,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf-0824-router-dsktp.png",
+    "width": 1080,
+    "height": 600,
+    "has_alpha": true,
+    "most_frequent_hex": "#ffffff",
+    "theme": "white",
+    "total_unique_colors": 271,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0125_router_shadow_800px.png",
+    "width": 800,
+    "height": 1200,
+    "has_alpha": true,
+    "most_frequent_hex": "#b7b4b6",
+    "theme": "gray",
+    "total_unique_colors": 14132,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf-6-2-wifi-6e.png",
+    "width": 870,
+    "height": 990,
+    "has_alpha": true,
+    "most_frequent_hex": "#dadada",
+    "theme": "white",
+    "total_unique_colors": 236,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0925_9-23_router.png",
+    "width": 660,
+    "height": 1008,
+    "has_alpha": true,
+    "most_frequent_hex": "#efefef",
+    "theme": "white",
+    "total_unique_colors": 242,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0925_9-23_nest-wire.png",
+    "width": 840,
+    "height": 840,
+    "has_alpha": true,
+    "most_frequent_hex": "#f9f9f8",
+    "theme": "gray",
+    "total_unique_colors": 605,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0924_exclamation-network-box.gif",
+    "width": 1000,
+    "height": 461,
+    "has_alpha": true,
+    "most_frequent_hex": "#5f6368",
+    "theme": "gray",
+    "total_unique_colors": 255,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0925_9-24_upgrades_mbl_v2.png",
+    "width": 632,
+    "height": 1000,
+    "has_alpha": true,
+    "most_frequent_hex": "#ffffff",
+    "theme": "white",
+    "total_unique_colors": 271,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0925_9-24_upgrades_dsktp_v2.png",
+    "width": 1040,
+    "height": 552,
+    "has_alpha": true,
+    "most_frequent_hex": "#ffffff",
+    "theme": "white",
+    "total_unique_colors": 274,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_0925_vr-glasses.png",
+    "width": 900,
+    "height": 600,
+    "has_alpha": true,
+    "most_frequent_hex": "#131013",
+    "theme": "black",
+    "total_unique_colors": 26051,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_1124_11-24-24_goggles_mbl.png",
+    "width": 720,
+    "height": 560,
+    "has_alpha": true,
+    "most_frequent_hex": "#ffffff",
+    "theme": "white",
+    "total_unique_colors": 13698,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_219_pucks_dsktp.png",
+    "width": 600,
+    "height": 796,
+    "has_alpha": true,
+    "most_frequent_hex": "#4285f4",
+    "theme": "blue",
+    "total_unique_colors": 5449,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_219_pucks_mbl.png",
+    "width": 780,
+    "height": 720,
+    "has_alpha": true,
+    "most_frequent_hex": "#4285f4",
+    "theme": "blue",
+    "total_unique_colors": 6292,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_4-16_puck_100_grey.png",
+    "width": 960,
+    "height": 588,
+    "has_alpha": true,
+    "most_frequent_hex": "#9aa0a6",
+    "theme": "gray",
+    "total_unique_colors": 5821,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_4-5_top_puck.png",
+    "width": 1080,
+    "height": 390,
+    "has_alpha": true,
+    "most_frequent_hex": "#4285f4",
+    "theme": "blue",
+    "total_unique_colors": 5036,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_4-5_top_puck_offer.png",
+    "width": 1080,
+    "height": 390,
+    "has_alpha": true,
+    "most_frequent_hex": "#4285f4",
+    "theme": "blue",
+    "total_unique_colors": 7223,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_nest_dec2023.png",
+    "width": 1200,
+    "height": 840,
+    "has_alpha": true,
+    "most_frequent_hex": "#f3f3f3",
+    "theme": "white",
+    "total_unique_colors": 1607,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_home_3.jpg",
+    "width": 1200,
+    "height": 480,
+    "has_alpha": false,
+    "most_frequent_hex": "#ffffff",
+    "theme": "white",
+    "total_unique_colors": 6672,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_pucks_wide.jpg",
+    "width": 600,
+    "height": 372,
+    "has_alpha": false,
+    "most_frequent_hex": "#b7e0c2",
+    "theme": "green",
+    "total_unique_colors": 3126,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_pucks_white.png",
+    "width": 800,
+    "height": 575,
+    "has_alpha": true,
+    "most_frequent_hex": "#ffffff",
+    "theme": "white",
+    "total_unique_colors": 5717,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_pucks_tall.jpg",
+    "width": 600,
+    "height": 800,
+    "has_alpha": false,
+    "most_frequent_hex": "#b7e0c2",
+    "theme": "green",
+    "total_unique_colors": 3132,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/pucks_green.png",
+    "width": 960,
+    "height": 684,
+    "has_alpha": false,
+    "most_frequent_hex": "#34a853",
+    "theme": "green",
+    "total_unique_colors": 5741,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/pucks.png",
+    "width": 452,
+    "height": 268,
+    "has_alpha": true,
+    "most_frequent_hex": "#efefef",
+    "theme": "white",
+    "total_unique_colors": 59,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_stream_mobile.jpg",
+    "width": 640,
+    "height": 400,
+    "has_alpha": false,
+    "most_frequent_hex": "#ffffff",
+    "theme": "white",
+    "total_unique_colors": 322,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_thermo_dsktp.png",
+    "width": 480,
+    "height": 400,
+    "has_alpha": true,
+    "most_frequent_hex": "#ffffff",
+    "theme": "white",
+    "total_unique_colors": 973,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_thermo_mobile.jpg",
+    "width": 640,
+    "height": 400,
+    "has_alpha": false,
+    "most_frequent_hex": "#ffffff",
+    "theme": "white",
+    "total_unique_colors": 470,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_stream_dsktp.png",
+    "width": 480,
+    "height": 436,
+    "has_alpha": true,
+    "most_frequent_hex": "#d0d3d7",
+    "theme": "gray",
+    "total_unique_colors": 4095,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_nest_single_shadow.png",
+    "width": 900,
+    "height": 939,
+    "has_alpha": true,
+    "most_frequent_hex": "#f3f3f3",
+    "theme": "white",
+    "total_unique_colors": 1045,
+    "complex": false
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_nest_dec2023_single.png",
+    "width": 900,
+    "height": 870,
+    "has_alpha": true,
+    "most_frequent_hex": "#f3f3f3",
+    "theme": "white",
+    "total_unique_colors": 1010,
+    "complex": false
+  },
+  {
+    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gf_nest_dec2023_single.png",
+    "width": 900,
+    "height": 870,
+    "has_alpha": true,
+    "most_frequent_hex": "#f3f3f3",
+    "theme": "white",
+    "total_unique_colors": 1010,
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
+  },
+  {
+    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gf_nest_single_shadow.png",
+    "width": 900,
+    "height": 939,
+    "has_alpha": true,
+    "most_frequent_hex": "#f3f3f3",
+    "theme": "white",
+    "total_unique_colors": 1045,
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_game_dsktp.png",
+    "width": 480,
+    "height": 352,
+    "has_alpha": true,
+    "most_frequent_hex": "#ffffff",
+    "theme": "white",
+    "total_unique_colors": 6690,
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_game_mobile.jpg",
+    "width": 640,
+    "height": 400,
+    "has_alpha": false,
+    "most_frequent_hex": "#ffffff",
+    "theme": "white",
+    "total_unique_colors": 5064,
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
+  },
+  {
+    "url": "https://services.google.com/fh/files/emails/gf_one-puck_white2.png",
+    "width": 960,
+    "height": 600,
+    "has_alpha": true,
+    "most_frequent_hex": "#ffffff",
+    "theme": "white",
+    "total_unique_colors": 5894,
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
+  },
   {
     "url": "https://services.google.com/fh/files/emails/gf_1025_jd-power_pc-mag_hsi_ookla_dsktp_v2.gif",
     "width": 1100,
@@ -308,26 +522,6 @@
     "most_frequent_hex": "#e8e8de",
     "theme": "gray",
     "total_unique_colors": 681,
-    "complex": false
-  },
-  {
-    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gf_nest_dec2023_single.png",
-    "width": 900,
-    "height": 870,
-    "has_alpha": true,
-    "most_frequent_hex": "#f3f3f3",
-    "theme": "white",
-    "total_unique_colors": 1010,
-    "complex": false
-  },
-  {
-    "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gf_nest_single_shadow.png",
-    "width": 900,
-    "height": 939,
-    "has_alpha": true,
-    "most_frequent_hex": "#f3f3f3",
-    "theme": "white",
-    "total_unique_colors": 1045,
     "complex": false
   },
   {
@@ -488,16 +682,6 @@
     "most_frequent_hex": "#202124",
     "theme": "gray",
     "total_unique_colors": 246,
-    "complex": false
-  },
-  {
-    "url": "https://image.go.gfiber.com/lib/fe2d11747364047a761479/m/1/1400f06f-1d51-4dac-822b-d2e448063313.png",
-    "width": 900,
-    "height": 939,
-    "has_alpha": true,
-    "most_frequent_hex": "#f3f3f3",
-    "theme": "white",
-    "total_unique_colors": 1045,
     "complex": false
   },
   {
@@ -861,16 +1045,6 @@
     "complex": false
   },
   {
-    "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/1a502bec-2b00-4b53-ba3a-efcf6bb5a761.png",
-    "width": 720,
-    "height": 440,
-    "has_alpha": true,
-    "most_frequent_hex": "#aecbfa",
-    "theme": "blue",
-    "total_unique_colors": 1484,
-    "complex": false
-  },
-  {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/1d7ca476-24d8-4b56-9ae4-ed6174093351.png",
     "width": 270,
     "height": 480,
@@ -1001,16 +1175,6 @@
     "complex": false
   },
   {
-    "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/585b5f3b-0e76-487b-86d6-f6adac07f533.png",
-    "width": 720,
-    "height": 440,
-    "has_alpha": true,
-    "most_frequent_hex": "#aecbfa",
-    "theme": "blue",
-    "total_unique_colors": 4070,
-    "complex": false
-  },
-  {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/63ef5cf5-f9bf-4cb2-a146-c441b7ff31de.png",
     "width": 1020,
     "height": 720,
@@ -1088,16 +1252,6 @@
     "most_frequent_hex": "#5f6469",
     "theme": "gray",
     "total_unique_colors": 5,
-    "complex": false
-  },
-  {
-    "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/8d4ac263-723f-4d1c-b1c1-53125754eb94.png",
-    "width": 1200,
-    "height": 752,
-    "has_alpha": true,
-    "most_frequent_hex": "#aecbfa",
-    "theme": "blue",
-    "total_unique_colors": 3990,
     "complex": false
   },
   {
@@ -1198,16 +1352,6 @@
     "most_frequent_hex": "#174ea6",
     "theme": "blue",
     "total_unique_colors": 17,
-    "complex": false
-  },
-  {
-    "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/d9fa0738-43d5-4948-96c0-0712421a9fac.png",
-    "width": 720,
-    "height": 480,
-    "has_alpha": true,
-    "most_frequent_hex": "#b7a895",
-    "theme": "green",
-    "total_unique_colors": 31747,
     "complex": false
   },
   {
@@ -1531,16 +1675,6 @@
     "complex": true
   },
   {
-    "url": "https://services.google.com/fh/files/emails/2023-04-26--product--2gigrouter--with-wedge_700.png",
-    "width": 400,
-    "height": 432,
-    "has_alpha": true,
-    "most_frequent_hex": "#0d652d",
-    "theme": "green",
-    "total_unique_colors": 179,
-    "complex": false
-  },
-  {
     "url": "https://services.google.com/fh/files/emails/2023-05--zebra-1--desktop.png",
     "width": 419,
     "height": 559,
@@ -1718,16 +1852,6 @@
     "most_frequent_hex": "#ea4335",
     "theme": "red",
     "total_unique_colors": 193,
-    "complex": false
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/3-device-collage-with-wedge.png",
-    "width": 540,
-    "height": 387,
-    "has_alpha": true,
-    "most_frequent_hex": "#1a73e8",
-    "theme": "blue",
-    "total_unique_colors": 151,
     "complex": false
   },
   {
@@ -2271,16 +2395,6 @@
     "complex": true
   },
   {
-    "url": "https://services.google.com/fh/files/emails/double-pucks--transparent.png",
-    "width": 960,
-    "height": 684,
-    "has_alpha": true,
-    "most_frequent_hex": "#f0f0f0",
-    "theme": "white",
-    "total_unique_colors": 57,
-    "complex": false
-  },
-  {
     "url": "https://services.google.com/fh/files/emails/expansion--quotes.gif",
     "width": 960,
     "height": 293,
@@ -2361,26 +2475,6 @@
     "complex": false
   },
   {
-    "url": "https://services.google.com/fh/files/emails/gf-0824-router-dsktp.png",
-    "width": 1080,
-    "height": 600,
-    "has_alpha": true,
-    "most_frequent_hex": "#ffffff",
-    "theme": "white",
-    "total_unique_colors": 271,
-    "complex": false
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf-0824-router-mobile.png",
-    "width": 632,
-    "height": 912,
-    "has_alpha": true,
-    "most_frequent_hex": "#ffffff",
-    "theme": "white",
-    "total_unique_colors": 272,
-    "complex": false
-  },
-  {
     "url": "https://services.google.com/fh/files/emails/gf-10sec-image.png",
     "width": 490,
     "height": 490,
@@ -2401,16 +2495,6 @@
     "complex": false
   },
   {
-    "url": "https://services.google.com/fh/files/emails/gf-2025-09-05--single-puck.png",
-    "width": 472,
-    "height": 456,
-    "has_alpha": true,
-    "most_frequent_hex": "#e8eff8",
-    "theme": "gray",
-    "total_unique_colors": 120,
-    "complex": false
-  },
-  {
     "url": "https://services.google.com/fh/files/emails/gf-3x-image.png",
     "width": 490,
     "height": 490,
@@ -2418,16 +2502,6 @@
     "most_frequent_hex": "#1a73e8",
     "theme": "blue",
     "total_unique_colors": 1,
-    "complex": false
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf-6-2-wifi-6e.png",
-    "width": 870,
-    "height": 990,
-    "has_alpha": true,
-    "most_frequent_hex": "#dadada",
-    "theme": "white",
-    "total_unique_colors": 236,
     "complex": false
   },
   {
@@ -2498,16 +2572,6 @@
     "most_frequent_hex": "#34a853",
     "theme": "green",
     "total_unique_colors": 1,
-    "complex": false
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0125_router_shadow_800px.png",
-    "width": 800,
-    "height": 1200,
-    "has_alpha": true,
-    "most_frequent_hex": "#b7b4b6",
-    "theme": "gray",
-    "total_unique_colors": 14132,
     "complex": false
   },
   {
@@ -3391,16 +3455,6 @@
     "complex": false
   },
   {
-    "url": "https://services.google.com/fh/files/emails/gf_0924_exclamation-network-box.gif",
-    "width": 1000,
-    "height": 461,
-    "has_alpha": true,
-    "most_frequent_hex": "#5f6368",
-    "theme": "gray",
-    "total_unique_colors": 255,
-    "complex": false
-  },
-  {
     "url": "https://services.google.com/fh/files/emails/gf_0924_lower-bar_dsktp.png",
     "width": 1200,
     "height": 116,
@@ -3478,46 +3532,6 @@
     "most_frequent_hex": "#1a73e9",
     "theme": "blue",
     "total_unique_colors": 6368,
-    "complex": false
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0925_9-23_nest-wire.png",
-    "width": 840,
-    "height": 840,
-    "has_alpha": true,
-    "most_frequent_hex": "#f9f9f8",
-    "theme": "gray",
-    "total_unique_colors": 605,
-    "complex": false
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0925_9-23_router.png",
-    "width": 660,
-    "height": 1008,
-    "has_alpha": true,
-    "most_frequent_hex": "#efefef",
-    "theme": "white",
-    "total_unique_colors": 242,
-    "complex": false
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0925_9-24_upgrades_dsktp_v2.png",
-    "width": 1040,
-    "height": 552,
-    "has_alpha": true,
-    "most_frequent_hex": "#ffffff",
-    "theme": "white",
-    "total_unique_colors": 274,
-    "complex": false
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_0925_9-24_upgrades_mbl_v2.png",
-    "width": 632,
-    "height": 1000,
-    "has_alpha": true,
-    "most_frequent_hex": "#ffffff",
-    "theme": "white",
-    "total_unique_colors": 271,
     "complex": false
   },
   {
@@ -3701,16 +3715,6 @@
     "complex": false
   },
   {
-    "url": "https://services.google.com/fh/files/emails/gf_0925_vr-glasses.png",
-    "width": 900,
-    "height": 600,
-    "has_alpha": true,
-    "most_frequent_hex": "#131013",
-    "theme": "black",
-    "total_unique_colors": 26051,
-    "complex": false
-  },
-  {
     "url": "https://services.google.com/fh/files/emails/gf_1-8_hero.jpg",
     "width": 1200,
     "height": 600,
@@ -3839,16 +3843,6 @@
     "theme": "gray",
     "total_unique_colors": 140963,
     "complex": true
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_1124_11-24-24_goggles_mbl.png",
-    "width": 720,
-    "height": 560,
-    "has_alpha": true,
-    "most_frequent_hex": "#ffffff",
-    "theme": "white",
-    "total_unique_colors": 13698,
-    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_1124_address-bar_blue-dsktp.gif",
@@ -4191,26 +4185,6 @@
     "complex": true
   },
   {
-    "url": "https://services.google.com/fh/files/emails/gf_219_pucks_dsktp.png",
-    "width": 600,
-    "height": 796,
-    "has_alpha": true,
-    "most_frequent_hex": "#4285f4",
-    "theme": "blue",
-    "total_unique_colors": 5449,
-    "complex": false
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_219_pucks_mbl.png",
-    "width": 780,
-    "height": 720,
-    "has_alpha": true,
-    "most_frequent_hex": "#4285f4",
-    "theme": "blue",
-    "total_unique_colors": 6292,
-    "complex": false
-  },
-  {
     "url": "https://services.google.com/fh/files/emails/gf_3-15_laptop_dsktp.jpg",
     "width": 600,
     "height": 800,
@@ -4348,16 +4322,6 @@
     "most_frequent_hex": "#4285f4",
     "theme": "blue",
     "total_unique_colors": 17,
-    "complex": false
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_4-16_puck_100_grey.png",
-    "width": 960,
-    "height": 588,
-    "has_alpha": true,
-    "most_frequent_hex": "#9aa0a6",
-    "theme": "gray",
-    "total_unique_colors": 5821,
     "complex": false
   },
   {
@@ -4549,26 +4513,6 @@
     "theme": "gray",
     "total_unique_colors": 100626,
     "complex": true
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_4-5_top_puck.png",
-    "width": 1080,
-    "height": 390,
-    "has_alpha": true,
-    "most_frequent_hex": "#4285f4",
-    "theme": "blue",
-    "total_unique_colors": 5036,
-    "complex": false
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_4-5_top_puck_offer.png",
-    "width": 1080,
-    "height": 390,
-    "has_alpha": true,
-    "most_frequent_hex": "#4285f4",
-    "theme": "blue",
-    "total_unique_colors": 7223,
-    "complex": false
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_5-22_bkgrnd_curve.png",
@@ -5031,36 +4975,6 @@
     "complex": true
   },
   {
-    "url": "https://services.google.com/fh/files/emails/gf_game_dsktp.png",
-    "width": 480,
-    "height": 352,
-    "has_alpha": true,
-    "most_frequent_hex": "#ffffff",
-    "theme": "white",
-    "total_unique_colors": 6690,
-    "complex": false
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_game_mobile.jpg",
-    "width": 640,
-    "height": 400,
-    "has_alpha": false,
-    "most_frequent_hex": "#ffffff",
-    "theme": "white",
-    "total_unique_colors": 5064,
-    "complex": false
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_home_3.jpg",
-    "width": 1200,
-    "height": 480,
-    "has_alpha": false,
-    "most_frequent_hex": "#ffffff",
-    "theme": "white",
-    "total_unique_colors": 6672,
-    "complex": false
-  },
-  {
     "url": "https://services.google.com/fh/files/emails/gf_home_icon_white-with-border_70x62.png",
     "width": 248,
     "height": 280,
@@ -5291,36 +5205,6 @@
     "complex": true
   },
   {
-    "url": "https://services.google.com/fh/files/emails/gf_nest_dec2023.png",
-    "width": 1200,
-    "height": 840,
-    "has_alpha": true,
-    "most_frequent_hex": "#f3f3f3",
-    "theme": "white",
-    "total_unique_colors": 1607,
-    "complex": false
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_nest_dec2023_single.png",
-    "width": 900,
-    "height": 870,
-    "has_alpha": true,
-    "most_frequent_hex": "#f3f3f3",
-    "theme": "white",
-    "total_unique_colors": 1010,
-    "complex": false
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_nest_single_shadow.png",
-    "width": 900,
-    "height": 939,
-    "has_alpha": true,
-    "most_frequent_hex": "#f3f3f3",
-    "theme": "white",
-    "total_unique_colors": 1045,
-    "complex": false
-  },
-  {
     "url": "https://services.google.com/fh/files/emails/gf_network_icon_500blue.png",
     "width": 400,
     "height": 280,
@@ -5341,16 +5225,6 @@
     "complex": false
   },
   {
-    "url": "https://services.google.com/fh/files/emails/gf_one-puck_white2.png",
-    "width": 960,
-    "height": 600,
-    "has_alpha": true,
-    "most_frequent_hex": "#ffffff",
-    "theme": "white",
-    "total_unique_colors": 5894,
-    "complex": false
-  },
-  {
     "url": "https://services.google.com/fh/files/emails/gf_pending_icon.png",
     "width": 560,
     "height": 616,
@@ -5358,36 +5232,6 @@
     "most_frequent_hex": "#000000",
     "theme": "black",
     "total_unique_colors": 17,
-    "complex": false
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_pucks_tall.jpg",
-    "width": 600,
-    "height": 800,
-    "has_alpha": false,
-    "most_frequent_hex": "#b7e0c2",
-    "theme": "green",
-    "total_unique_colors": 3132,
-    "complex": false
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_pucks_white.png",
-    "width": 800,
-    "height": 575,
-    "has_alpha": true,
-    "most_frequent_hex": "#ffffff",
-    "theme": "white",
-    "total_unique_colors": 5717,
-    "complex": false
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_pucks_wide.jpg",
-    "width": 600,
-    "height": 372,
-    "has_alpha": false,
-    "most_frequent_hex": "#b7e0c2",
-    "theme": "green",
-    "total_unique_colors": 3126,
     "complex": false
   },
   {
@@ -5438,46 +5282,6 @@
     "most_frequent_hex": "#ffffff",
     "theme": "white",
     "total_unique_colors": 17,
-    "complex": false
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_stream_dsktp.png",
-    "width": 480,
-    "height": 436,
-    "has_alpha": true,
-    "most_frequent_hex": "#d0d3d7",
-    "theme": "gray",
-    "total_unique_colors": 4095,
-    "complex": false
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_stream_mobile.jpg",
-    "width": 640,
-    "height": 400,
-    "has_alpha": false,
-    "most_frequent_hex": "#ffffff",
-    "theme": "white",
-    "total_unique_colors": 322,
-    "complex": false
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_thermo_dsktp.png",
-    "width": 480,
-    "height": 400,
-    "has_alpha": true,
-    "most_frequent_hex": "#ffffff",
-    "theme": "white",
-    "total_unique_colors": 973,
-    "complex": false
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/gf_thermo_mobile.jpg",
-    "width": 640,
-    "height": 400,
-    "has_alpha": false,
-    "most_frequent_hex": "#ffffff",
-    "theme": "white",
-    "total_unique_colors": 470,
     "complex": false
   },
   {
@@ -6278,26 +6082,6 @@
     "most_frequent_hex": "#ffffff",
     "theme": "white",
     "total_unique_colors": 1,
-    "complex": false
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/pucks.png",
-    "width": 452,
-    "height": 268,
-    "has_alpha": true,
-    "most_frequent_hex": "#efefef",
-    "theme": "white",
-    "total_unique_colors": 59,
-    "complex": false
-  },
-  {
-    "url": "https://services.google.com/fh/files/emails/pucks_green.png",
-    "width": 960,
-    "height": 684,
-    "has_alpha": false,
-    "most_frequent_hex": "#34a853",
-    "theme": "green",
-    "total_unique_colors": 5741,
     "complex": false
   },
   {
