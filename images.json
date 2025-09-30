@@ -7,7 +7,10 @@
     "most_frequent_hex": "#f3f3f3",
     "theme": "white",
     "total_unique_colors": 1045,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/1a502bec-2b00-4b53-ba3a-efcf6bb5a761.png",
@@ -17,7 +20,10 @@
     "most_frequent_hex": "#aecbfa",
     "theme": "blue",
     "total_unique_colors": 1484,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/585b5f3b-0e76-487b-86d6-f6adac07f533.png",
@@ -27,7 +33,10 @@
     "most_frequent_hex": "#aecbfa",
     "theme": "blue",
     "total_unique_colors": 4070,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/8d4ac263-723f-4d1c-b1c1-53125754eb94.png",
@@ -37,7 +46,10 @@
     "most_frequent_hex": "#aecbfa",
     "theme": "blue",
     "total_unique_colors": 3990,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe3411747364047a761571/m/1/d9fa0738-43d5-4948-96c0-0712421a9fac.png",
@@ -47,7 +59,10 @@
     "most_frequent_hex": "#b7a895",
     "theme": "green",
     "total_unique_colors": 31747,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/2023-04-26--product--2gigrouter--with-wedge_700.png",
@@ -57,7 +72,10 @@
     "most_frequent_hex": "#0d652d",
     "theme": "green",
     "total_unique_colors": 179,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/3-device-collage-with-wedge.png",
@@ -67,7 +85,10 @@
     "most_frequent_hex": "#1a73e8",
     "theme": "blue",
     "total_unique_colors": 151,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/double-pucks--transparent.png",
@@ -77,7 +98,10 @@
     "most_frequent_hex": "#f0f0f0",
     "theme": "white",
     "total_unique_colors": 57,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf-2025-09-05--single-puck.png",
@@ -87,7 +111,10 @@
     "most_frequent_hex": "#e8eff8",
     "theme": "gray",
     "total_unique_colors": 120,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf-0824-router-mobile.png",
@@ -97,7 +124,10 @@
     "most_frequent_hex": "#ffffff",
     "theme": "white",
     "total_unique_colors": 272,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf-0824-router-dsktp.png",
@@ -107,7 +137,10 @@
     "most_frequent_hex": "#ffffff",
     "theme": "white",
     "total_unique_colors": 271,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0125_router_shadow_800px.png",
@@ -117,7 +150,10 @@
     "most_frequent_hex": "#b7b4b6",
     "theme": "gray",
     "total_unique_colors": 14132,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf-6-2-wifi-6e.png",
@@ -127,7 +163,10 @@
     "most_frequent_hex": "#dadada",
     "theme": "white",
     "total_unique_colors": 236,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_9-23_router.png",
@@ -137,7 +176,10 @@
     "most_frequent_hex": "#efefef",
     "theme": "white",
     "total_unique_colors": 242,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_9-23_nest-wire.png",
@@ -147,7 +189,10 @@
     "most_frequent_hex": "#f9f9f8",
     "theme": "gray",
     "total_unique_colors": 605,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0924_exclamation-network-box.gif",
@@ -157,7 +202,10 @@
     "most_frequent_hex": "#5f6368",
     "theme": "gray",
     "total_unique_colors": 255,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_9-24_upgrades_mbl_v2.png",
@@ -167,7 +215,10 @@
     "most_frequent_hex": "#ffffff",
     "theme": "white",
     "total_unique_colors": 271,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_9-24_upgrades_dsktp_v2.png",
@@ -177,7 +228,10 @@
     "most_frequent_hex": "#ffffff",
     "theme": "white",
     "total_unique_colors": 274,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_0925_vr-glasses.png",
@@ -187,7 +241,10 @@
     "most_frequent_hex": "#131013",
     "theme": "black",
     "total_unique_colors": 26051,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_1124_11-24-24_goggles_mbl.png",
@@ -197,7 +254,10 @@
     "most_frequent_hex": "#ffffff",
     "theme": "white",
     "total_unique_colors": 13698,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_219_pucks_dsktp.png",
@@ -207,7 +267,10 @@
     "most_frequent_hex": "#4285f4",
     "theme": "blue",
     "total_unique_colors": 5449,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_219_pucks_mbl.png",
@@ -217,7 +280,10 @@
     "most_frequent_hex": "#4285f4",
     "theme": "blue",
     "total_unique_colors": 6292,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-16_puck_100_grey.png",
@@ -227,7 +293,10 @@
     "most_frequent_hex": "#9aa0a6",
     "theme": "gray",
     "total_unique_colors": 5821,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-5_top_puck.png",
@@ -237,7 +306,10 @@
     "most_frequent_hex": "#4285f4",
     "theme": "blue",
     "total_unique_colors": 5036,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_4-5_top_puck_offer.png",
@@ -247,7 +319,10 @@
     "most_frequent_hex": "#4285f4",
     "theme": "blue",
     "total_unique_colors": 7223,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_nest_dec2023.png",
@@ -257,7 +332,10 @@
     "most_frequent_hex": "#f3f3f3",
     "theme": "white",
     "total_unique_colors": 1607,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_home_3.jpg",
@@ -267,7 +345,10 @@
     "most_frequent_hex": "#ffffff",
     "theme": "white",
     "total_unique_colors": 6672,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_pucks_wide.jpg",
@@ -277,7 +358,10 @@
     "most_frequent_hex": "#b7e0c2",
     "theme": "green",
     "total_unique_colors": 3126,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_pucks_white.png",
@@ -287,7 +371,10 @@
     "most_frequent_hex": "#ffffff",
     "theme": "white",
     "total_unique_colors": 5717,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_pucks_tall.jpg",
@@ -297,7 +384,10 @@
     "most_frequent_hex": "#b7e0c2",
     "theme": "green",
     "total_unique_colors": 3132,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/pucks_green.png",
@@ -307,7 +397,10 @@
     "most_frequent_hex": "#34a853",
     "theme": "green",
     "total_unique_colors": 5741,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/pucks.png",
@@ -317,7 +410,10 @@
     "most_frequent_hex": "#efefef",
     "theme": "white",
     "total_unique_colors": 59,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_stream_mobile.jpg",
@@ -327,7 +423,10 @@
     "most_frequent_hex": "#ffffff",
     "theme": "white",
     "total_unique_colors": 322,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_thermo_dsktp.png",
@@ -337,7 +436,10 @@
     "most_frequent_hex": "#ffffff",
     "theme": "white",
     "total_unique_colors": 973,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_thermo_mobile.jpg",
@@ -347,7 +449,10 @@
     "most_frequent_hex": "#ffffff",
     "theme": "white",
     "total_unique_colors": 470,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_stream_dsktp.png",
@@ -357,7 +462,10 @@
     "most_frequent_hex": "#d0d3d7",
     "theme": "gray",
     "total_unique_colors": 4095,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_nest_single_shadow.png",
@@ -367,7 +475,10 @@
     "most_frequent_hex": "#f3f3f3",
     "theme": "white",
     "total_unique_colors": 1045,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://services.google.com/fh/files/emails/gf_nest_dec2023_single.png",
@@ -377,7 +488,10 @@
     "most_frequent_hex": "#f3f3f3",
     "theme": "white",
     "total_unique_colors": 1010,
-    "complex": false
+    "complex": false,
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "url": "https://image.go.gfiber.com/lib/fe2811747364047a7c1272/m/1/gf_nest_dec2023_single.png",
