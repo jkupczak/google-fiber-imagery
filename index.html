@@ -30,6 +30,7 @@ body { font-family: Arial, sans-serif; padding: 20px; }
     <button class="filter-button" data-type="gif">GIF</button>
     <button class="filter-button" data-type="jpg">JPG</button>
     <button class="filter-button" data-type="png">PNG</button>
+     <button class="filter-button" id="hardwareFilter">Hardware</button>
   </div>
   <div>
     <button class="filter-button" data-alpha="true">Has Transparency</button>
@@ -77,6 +78,7 @@ let activeAlphaFilter = null;
 let activeThemeFilter = null;
 let activeComplexFilter = null;
 let sortOrder = "";
+let activeHardwareFilter = false;
 
 async function loadImages() {
   const res = await fetch("https://raw.githubusercontent.com/jkupczak/google-fiber-imagery/refs/heads/main/images.json");
@@ -148,6 +150,7 @@ function renderImages() {
         if (!["black","white"].includes(img.theme.toLowerCase())) return false;
       } else if (img.theme.toLowerCase() !== activeThemeFilter) return false;
     }
+    if (activeHardwareFilter && !(img.tags && img.tags.map(t => t.toLowerCase()).includes("hardware"))) return false; 
     return true;
   });
 
@@ -203,6 +206,13 @@ document.querySelectorAll(".filter-button[data-type]").forEach(btn=>{
 document.querySelector(".filter-button[data-alpha]").addEventListener("click",e=>{
   if(activeAlphaFilter){ activeAlphaFilter=null; e.target.classList.remove("active");}
   else{ activeAlphaFilter=true; e.target.classList.add("active");}
+  renderImages();
+});
+
+// Hardware filter
+document.getElementById("hardwareFilter").addEventListener("click", (e) => {
+  activeHardwareFilter = !activeHardwareFilter;
+  e.target.classList.toggle("active", activeHardwareFilter);
   renderImages();
 });
 
