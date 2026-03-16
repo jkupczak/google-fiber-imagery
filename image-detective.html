@@ -108,7 +108,7 @@
   <div id="versionInfo">v2 - 09/26/25 17:50:00</div>
 
   <script>
-    const CORS_PROXY = "http://localhost:8080/";
+    const CORS_PROXY = "http://localhost:8080/image?url=";
 
     const themeColors = {
       green: ["#CEEAD6", "#81C995", "#34A853", "#188038", "#137333", "#0D652D"],
@@ -232,7 +232,7 @@
           });
         };
         img.onerror = () => reject(new Error(`Failed to load image: ${url}`));
-        img.src = CORS_PROXY + url;
+        img.src = CORS_PROXY + encodeURIComponent(url);
       });
     }
 
