@@ -56,6 +56,10 @@ body { font-family: Arial, sans-serif; padding: 20px; }
   <button id="increase">+</button>
 </div>
 
+<div id="imageCount" style="margin-bottom:15px; font-weight:bold;">
+  Showing 0 out of 0 images
+</div>
+
 <div class="grid" id="imageGrid"></div>
 
 <div id="versionInfo">Version 9 | 09/26/25, 15:40:00</div>
@@ -157,6 +161,12 @@ function renderImages() {
   // Sorting
   if(sortOrder==="asc") filtered.sort((a,b)=>a.total_unique_colors - b.total_unique_colors);
   else if(sortOrder==="desc") filtered.sort((a,b)=>b.total_unique_colors - a.total_unique_colors);
+
+  // ✅ Update counter
+  const countEl = document.getElementById("imageCount");
+  if (countEl) {
+    countEl.textContent = `Showing ${filtered.length} out of ${allImages.length} images`;
+  }
 
   filtered.forEach(img => {
     const wrapper = document.createElement("div");
